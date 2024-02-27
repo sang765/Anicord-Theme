@@ -1,0 +1,696 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+/* CSS IMPORT */
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+@import url(https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css);
+@import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
+@import url(https://minidiscordthemes.github.io/SettingsIcons/main.min.css);
+@import url(https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/GuildBoost/import.css);
+@import url(https://raw.githubusercontent.com/nyakowint/theme-stuff/main/vencord_sc_icons.css);
+@import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
+@import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
+@import url(https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+@import url(https://dablulite.github.io/css-snippets/BetterAuthApps/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
+@import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
+
+
+/* MAIN THEME */
+:root {
+	--app-bg:url(https://cdn.discordapp.com/attachments/1003496457103495248/1196322083530080317/Screenshot_45.png?ex=65ee93c3&is=65dc1ec3&hm=4bf6a64a8650b301fe673f38b158389227c29d26a48c7c1a450acaf4811c226b&); /* background */
+	--app-blur: 0px;
+	--app-margin: 24px;
+	--app-radius: 23px; /*	-	*/
+	
+	--accent-hue: 264; /* Main Color */
+	--accent-saturation: 30.5%;
+	--accent-lightness: 30.1%;
+	--accent-opacity: 1;
+	--accent-text-color: #fff; /*	-	*/
+
+	--sidebar-color: rgba(0,0,0,0.4);
+	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+
+	--message-color: rgba(0,0,0,0.4);
+	--message-radius: 8px;
+	--message-padding-top: 8px;
+	--message-padding-side: 8px; /*	-	*/
+	
+	--reply-hue: 226;
+	--reply-saturation: 77.4%;
+	--reply-lightness: 61.8%;
+	--reply-opacity: 1; /*	-	*/
+  
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 22px;  /*	-	*/
+
+	--card-color: rgba(0,0,0,0.4);
+	--card-color-hover: rgba(0,0,0,0.5);
+	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+	
+	--button-height: 32px;
+	--button-padding: 0 16px;
+	--button-action-color: #000;
+	--button-radius: 16px; /*	-	*/
+
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #777; /*	-	*/
+
+	--background-modifier-hover: rgba(255,255,255,0.075);
+	--background-modifier-selected: rgba(255,255,255,0.125);
+}
+
+/* html custom font styles */
+html, 
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+/*some simple channel/settings/dms/member list hover animations*/
+.wrapper__7bcde .link__95dc0 /* channels */,
+.container__4f20e /* members */,
+.channel_c21703 /* dms */,
+.side_b4b3f6 .item__48dda /* settings */ {
+    transition: margin-left 0.2s ease;
+}
+.wrapper__7bcde:hover .link__95dc0,
+.side_b4b3f6 .item__48dda:hover {
+    margin-left: 10px;
+}
+.container__4f20e:hover,
+.channel_c21703:hover {
+    margin-left: 18px;
+}
+
+
+/*hide new messages bar until hovered*/
+.messagesWrapper_ea2b0b {
+    overflow: hidden;
+}
+.newMessagesBar__8b6d7 {
+    top: -48px;
+    height: 72px;
+    transition: top 0.2s ease;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.newMessagesBar__8b6d7::before {
+    content: '';
+    background: var(--accent-hue);
+    box-shadow: var(--elevation-low);
+    width: 100%;
+    position: absolute;
+    height: 32px;
+    border-radius: 12px;
+}
+.newMessagesBar__8b6d7:hover {
+    top: -12px;
+}
+
+
+/*some more silly hover animations*/
+button.button__4f306 /* make user panel buttons round */ {
+    border-radius: 50%;
+}
+.button__4f306:last-child /* settings button */, 
+.attachButton_b1db83 .attachButtonInner__3ce2b /* upload button */,
+.emojiButton__30ec7 .contents_fb6220 /* emoji button */,
+.closeButton__34341 /* settings exit button */ {
+    transition: transform 1s ease;
+}
+.button__4f306:last-child:hover,
+.attachButton_b1db83:hover .attachButtonInner__3ce2b,
+.emojiButton__30ec7:hover .contents_fb6220,
+.closeButton__34341:hover {
+    transform: rotate(360deg);
+}
+
+
+/**Modal settings window**/
+.standardSidebarView__1129a
+ { top: 0 !important; }
+.layer__2efaa + .layer__2efaa
+ { border-radius: 10px !important;
+   box-shadow: 5px 5px 25px black;
+   border: 1px solid var(--border-strong);
+   width: 1100px !important;
+   height: 80vh !important;
+   margin: auto !important;
+   padding: 0 !important; }
+#app-mount .baseLayer__8fda3 /*keep view under settings*/
+ { opacity: 1 !important;
+   transform: unset !important; }
+
+
+/* Username Background */
+.username_d30d99::before {
+	content: ''; 
+	width: calc(100% + 0px); 
+	height: 100%;
+	border-radius: 5px;
+	background-color: currentColor; 
+	opacity: 0.3; 
+	position: absolute; 
+	margin-top: 0px; 
+	z-index: -1;
+	margin-left: -3px;
+  }
+  .headerText_f47574 > span {
+	margin-left: 3px;
+  }
+
+
+/* Jump To Present Bar Revamp */
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #2e353b20;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+/* Prettier Input Bar */
+[class^=channelTextArea_] [class^=buttons_]::before,
+[class^=channelTextArea_] [class^=buttons_]::after /* Adds a new button to the text area */ {
+  content: "≡";
+  font-size: 2rem;
+  scale: 1;
+  color: var(--interactive-normal);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 100%;
+  height: 100%;
+  transition: scale 0.3s 0.1s ease-in-out;
+}
+[class^=channelTextArea_] [class^=buttons_]::after /* Makes the 'after' field invisible. There is an 'after' to prevent jitteriness. */ {
+  color: transparent;
+}
+[class^=channelTextArea_] [class^=buttons_] /* Hide all buttons except for the hover button */ {
+  transition: all ease-in-out 0.3s;
+  translate: calc(100% - 8px);
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+[class^=channelTextArea_] [class^=buttons_] [class^=button_] /* Adjust the width and visibility of the buttons for a smoother transition */ {
+  transition: all ease-in-out 0.3s;
+  width: 0;
+  opacity: 0;
+}
+[class^=channelTextArea_] [class^=buttons_]:hover /* Reveal all buttons on hover */ {
+  translate: 0%;
+  padding-left: 0px !important;
+}
+[class^=channelTextArea_] [class^=buttons_]:hover [class^=button_] /* Adjust the width and visibility of the buttons to make them actually visible */ {
+  transition: all ease-in-out 0.5s;
+  width: unset;
+  opacity: 1;
+}
+[class^=channelTextArea_] [class^=buttons_]:hover::before /* Hide the hover button on hover */ {
+  margin-right: 8px;
+  scale: 0 1;
+}
+
+
+/* Collapsed Toolbar buttons */
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::before,
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::after {
+  content: "";
+  font-size: unset;
+  scale: 1;
+}
+
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_] {
+  transition: unset;
+  translate: unset;
+  padding-bottom: unset;
+  padding-left: unset;
+}
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]:hover {
+  translate: unset;
+}
+
+[class^=upperContainer_] [class^=toolbar_]::before,
+[class^=upperContainer_] [class^=toolbar_]::after {
+  content: "≡";
+  font-size: 2rem;
+  scale: 1;
+  color: var(--interactive-normal);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 100%;
+  height: 100%;
+  transition: scale 0.3s 0.1s ease-in-out;
+}
+[class^=upperContainer_] [class^=toolbar_]::before::after,
+[class^=upperContainer_] [class^=toolbar_]::after::after {
+  color: transparent;
+}
+
+[class^=upperContainer_] [class^=toolbar_] {
+  transition: all ease-in-out 0.3s;
+  translate: calc(100% - 8px);
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+[class^=upperContainer_] [class^=toolbar_][class^=icon_] {
+  transition: all ease-in-out 0.3s;
+  width: 0;
+  opacity: 0;
+}
+[class^=upperContainer_] [class^=toolbar_]:hover {
+  translate: 0%;
+  padding-left: 0px !important;
+}
+[class^=upperContainer_] [class^=toolbar_]:hover[class^=icon_] {
+  transition: all ease-in-out 0.5s;
+  width: unset;
+  opacity: 1;
+}
+[class^=upperContainer_] [class^=toolbar_]:hover::before {
+  margin-right: 8px;
+  scale: 0 1;
+}
+
+
+/*Small Member list*/
+.container_b2ce9c {
+  transition: 0.3s ease-in-out;
+  margin-right: -180px;
+}
+.container_b2ce9c .membersGroup__85843 {
+  transition: 0.3s ease-in-out;
+  height: 0px!important;
+  margin-top: -25px;
+}
+.container_b2ce9c:hover .membersGroup__85843 {
+  height: unset!important;
+  margin-top: unset!important;
+}
+.container_b2ce9c:hover{
+  margin-right: unset!important;
+}
+
+
+/* Prettier Search bar */
+.iconContainer__8fa9c, .icon_f50f05 { /* Make the Search icon match the styling of the other icons.*/
+  width: 21px;
+  height: 21px;
+  color: var(--interactive-normal);
+  transition: ease-in-out .3s;
+}
+
+.searchBar_e0c60b { /*Fully Hide the search bar*/
+  width: 21px;
+  height: 24px;
+  padding: 0;
+  background: none;
+  transition: ease-in-out 0.3s!important;
+}
+
+.searchBar_e0c60b:hover .iconContainer__8fa9c,
+.searchBar_e0c60b:hover .icon_f50f05,
+.focused_ddee54 .icon_f50f05,
+.focused_ddee54 .iconContainer__8fa9c { /*Hide Search Icon on hover*/
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.searchBar_e0c60b:hover,
+.focused_ddee54 .searchBar_e0c60b, .open_d3ab4e .searchBar_e0c60b  { /*Reveal Search Bar on Hover*/
+  width: 175px;
+  background: var(--background-tertiary);
+  border: 1px solid var(--button-outline-primary-border-hover);
+}
+
+
+/* Rounded User Panel */
+[class^="sidebar_"] [class^="panels_"] {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 1px solid var(--background-modifier-accent);
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+[class^="sidebar_"] [class^="panels_"] [class^="container_"],
+[class^="sidebar_"] [class^="panels_"] [class^="panel_"] {
+  background-color: transparent !important;
+}
+
+[class^="sidebar_"] [class^="panels_"] [class^="container_"] [class^="avatarWrapper_"] + [class^="flex_"] {
+  margin-left: -10px;
+}
+
+#vc-spotify-player {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Emoji Auto-Fill Animation */
+.base__76a71 {
+  transition: all 0.5s;
+}
+.base__76a71:hover {
+  transition: all 0s;
+  transform: scale(1.01);
+}
+
+/*guild pills glow*/
+.theme-dark .item_f9d377 {
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+/*flickering user setting icons*/
+.sidebar__9e3e2 .item__48dda:hover:before {
+  transition: all 0.2s;
+  transform: rotateY(180deg);
+}
+.sidebar__9e3e2 .item__48dda:before {
+  transition: all 0.2s;
+}
+
+/* colored links */
+/* YouTube */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+  color: #c4302b !important;
+}
+/* Twitch */
+[href*="twitch.tv"] {
+  color: #b700ff !important;
+}
+/* Discord */
+[href*="discord.com/channels/"] {
+  color: #7289da !important;
+}
+[href*="discord.com/channels/"]::before {
+  color: #603cff;
+}
+[href*="betterdiscord.app/"],
+[href*="discord.gg/"],
+[href*="dsc.gg/"],
+[href*="discord.com/"],
+[href*="media.discordapp.net/"],
+[href*="cdn.discordapp.com/"] {
+  color: #7289da !important;
+}
+/* Twitter */
+[href*="twitter.com/"] {
+  color: #00acee !important;
+}
+/* GitHub */
+[href*="github.com"] {
+  color: #b4b4b4 !important;
+}
+/* Imgur */
+[href*="i.imgur.com"] {
+  color: #89c623 !important;
+}
+/* Steam */
+[href*="store.steampowered.com"],
+[href*="https://s.team"],
+[href*="steamcommunity.com/"] {
+  color: #1b2838 !important;
+}
+/* Spotify */
+[href*="spotify.com"],
+[href*="open.spotify.com"] {
+  color: #13b94a !important;
+}
+/* SoundCloud */
+[href*="soundcloud.com"] {
+  color: #ff5500 !important;
+}
+/* Top.gg */
+[href*="top.gg"] {
+  color: #ff3366 !important;
+}
+/* Telegram */
+[href*="web.telegram.org"],
+[href*="telegram.org"],
+[href*="t.me"] {
+  color: #31a6e1 !important;
+}
+/* Instagram */
+[href*="instagram.com"] {
+  color: #125688!important;
+}
+/* Reddit */
+[href*="reddit.com"] {
+  color: #ff4500!important;
+}
+/* Patreon */
+[href*="patreon.com"] {
+  color: #ff6600!important;
+}
+/* Facebook */
+[href*="facebook.com"] {
+  color: #3b5998!important;
+}
+/* Danbooru */
+[href*="danbooru.donmai.us"] {
+  color: #e6b18e!important;
+}
+/* DevaviantArt */
+[href*="deviantart.com"] {
+  color: #00e59b!important;
+}
+
+/*user popout animation*/
+.theme-dark #app-mount [class*="userPopout"][aria-modal="true"] {
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/*default avatar*/
+[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
+  content: url(https://i.imgur.com/tYEPmPZ.png);
+}
+[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
+  content: url(https://i.imgur.com/tYEPmPZ.png);
+}
+[src="/assets/7c8f476123d28d103efe381543274c25.png"] {
+  content: url(https://i.imgur.com/tYEPmPZ.png);
+}
+[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+  content: url(https://i.imgur.com/tYEPmPZ.png);
+}
+[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
+  content: url(https://i.imgur.com/tYEPmPZ.png);
+}
+
+/*channel hover effect*/
+.theme-dark .mainContent-20q_Hp {
+  transition: all 0.3s;
+  position: relative;
+}
+.theme-dark .mainContent-20q_Hp {
+  transition: all 0.3s;
+}
+.theme-dark .mainContent-20q_Hp::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.733);
+  border-bottom-color: rgba(255, 255, 255, 0.733);
+  transform: scale(0.1, 1);
+}
+.theme-dark .mainContent-20q_Hp:hover {
+  letter-spacing: 1px;
+}
+.theme-dark .mainContent-20q_Hp:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.theme-dark .mainContent-20q_Hp::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0);
+}
+.theme-dark .mainContent-20q_Hp:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+.theme-dark .wrapper__7bcde:hover {
+  animation: wave-text 1s ease-in-out infinite;
+}
+.theme-dark .logo.is-animetion {
+  span:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  span:nth-of-type(2) {
+    animation-delay: 0.1s;
+  }
+  span:nth-of-type(3) {
+    animation-delay: 0.2s;
+  }
+  span:nth-of-type(4) {
+    animation-delay: 0.3s;
+  }
+  span:nth-of-type(5) {
+    animation-delay: 0.4s;
+  }
+}
+@keyframes wave-text {
+  00% {
+    transform: translateY(0em);
+  }
+  60% {
+    transform: translateY(-0.2em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}
+
+/*Role color background in memberlist*/
+.member_aa4760 span.username_d272d6::after {
+  content: "";
+  border-radius: 22px;
+  background: currentColor;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.11;
+  left: 0;
+  top: 0;
+}
+
+/*Remove the Avatar Decorations Banner in user profile popups*/
+.containerWrapper-1kh54c{display:none}
+
+/* Category Bubble */
+:root {
+  --global-1: hsl(266, 37%, 53%); /* Label */
+  --global-2: white; /* Font */
+}
+.containerDefault__23a29 {
+  color: var(--global-2) !important;
+  background-color: var(--global-1);
+  border-radius: 25px;
+  padding: 0px;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+.addButtonIcon_b776b3 { /* + Button */
+  color: white;
+  margin-left: 18px;
+}
+:root .icon_ef4486 { /* Collapse Arrow */
+  display: initial;
+  color: white;
+  margin-left: 5px;
+  transform: scale(1.5);
+}
+:root .collapsed__8fe3c .icon_ef4486 { /* Collapsed Arrow */
+  transform: rotate(-90deg) scale(1.5);
+}
+:root .name__590d6 { /* Category Name */
+  text-align: center;
+}
+
+/* Custom Window Title */
+.wordmarkWindows__05c46 svg {
+  display:none;
+}
+.wordmarkWindows__05c46::after {
+  content:'AniCord Theme';
+  color: #603cff;
+  text-shadow: 0px 0px 10px white;
+  line-height:20px;
+  font-size:19px;
+  font-weight:600;
+}
+/* Center Window Title */
+.wordmarkWindows__05c46 {
+  position:absolute;
+  left:0;
+  right:0;
+  width:max-content;
+  margin:auto;
+}
+
+/* Hide Server Menu Border */
+[class="separator__18122"] {
+  display:none;
+}
+/* Hide Channel List Border */
+[class="sectionDivider__68d2a"] {
+  display:none;
+}
+/* Hide Settings Border */
+[class="separator_fdbcfd"] {
+  display:none;
+}
