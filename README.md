@@ -27,3 +27,18 @@ User Profile Preview:
 Settings Preview:
 
 <img src="https://media.discordapp.net/attachments/1003496457103495248/1211934521780469790/Discord_PL7P2gr6Ti.jpg?ex=65f000fa&is=65dd8bfa&hm=90a7f69239ee5dde300ee9ea7b0f72e9ef04d6198265a37877497f42f2820373&=&format=webp&width=1248&height=701" alt="Settings Preview">
+
+
+
+## CREDITS:
+- Translucence Theme: https://betterdiscord.app/theme?id=156
+
+<a href="https://betterdiscord.app/theme?id=156"><img src="https://images-ext-2.discordapp.net/external/QDSBRxPptJ9sGP_tp_zl_-P5PCy8T4To3qewzI_kf_k/https/betterdiscord.app/image/339?" alt="Translucence"></a>
+
+- Chillax Theme: https://betterdiscord.app/theme?id=736
+
+<a href="https://betterdiscord.app/theme?id=736"><img src="https://images-ext-2.discordapp.net/external/q2ARW13l3EG6jb0QG14VynEwVvenrLEcflM6ReyLQT0/https/betterdiscord.app/Image/1393?" alt="Chillax"></a>
+
+- CSS Snippet from [Better Discord Server](https://discord.gg/0Tmfo5ZbORCRqbAd) and [Vencord Discord Server](https://discord.gg/vencord)
+
+<a href="https://discord.gg/0Tmfo5ZbORCRqbAd"><img src="https://cdn.discordapp.com/attachments/1003496457103495248/1211957014792638484/image.png?ex=65f015ed&is=65dda0ed&hm=c5101807ce3c30b299c3d53707bc386da5d534e7e470e6ad3863b6832e6f9f1d&" alt="BD Server"></a> <a href="https://discord.gg/vencord"><img src="https://cdn.discordapp.com/attachments/1003496457103495248/1211956852330598430/image.png?ex=65f015c6&is=65dda0c6&hm=3b19889ea9c6f7263497811ce2f11f2852c51cdda1ff994be3f7c927ed6ce29c&" alt="Vencord Server"></a>
