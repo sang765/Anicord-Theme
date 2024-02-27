@@ -709,3 +709,8 @@ button.button__4f306 /* make user panel buttons round */ {
 	text-shadow: 0px 0px 10px currentColor, 0px 0px 20px currentColor, 0px 0px 30px currentColor;
  }
 }
+
+/* Audio Control Border Fix */
+.audioControls__9fbe9 {
+  border-radius: 22px
+}
