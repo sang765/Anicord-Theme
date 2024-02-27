@@ -697,7 +697,8 @@ button.button__4f306 /* make user panel buttons round */ {
 .username_d272d6,
 .username_d30d99,
 .nickname__3d1d7,
-.text-lg-semibold__18f10 {
+.text-lg-semibold__18f10,
+.mention {
   text-shadow: 0px 0px 10px currentColor;
   animation: glow 1s ease-in-out infinite alternate;
 }
