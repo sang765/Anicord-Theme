@@ -703,9 +703,9 @@ button.button__4f306 /* make user panel buttons round */ {
 }
 @keyframes glow {
  form {
-	text-shadow: 0px 0px 10px currentColor, 0px 0px 20px currentColor, 0px 0px 30px currentColor;
+	text-shadow: 0px 0px 0px currentColor, 0px 0px 10px currentColor, 0px 0px 20px currentColor;
  }
  to {
-	text-shadow: 0px 0px 20px currentColor, 0px 0px 30px currentColor, 0px 0px 40px currentColor;
+	text-shadow: 0px 0px 10px currentColor, 0px 0px 20px currentColor, 0px 0px 30px currentColor;
  }
 }
