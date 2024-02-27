@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <a style="pointer-events: none;" href="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+  <a href="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" style="pointer-events: none; cursor: default;">
     <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
   </a>
 </p>
