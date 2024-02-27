@@ -694,3 +694,7 @@ button.button__4f306 /* make user panel buttons round */ {
 [class="separator_fdbcfd"] {
   display:none;
 }
+/* Add Channel Button Fix */
+[class="addButtonIcon_b776b3"] {
+  margin: auto;
+}
