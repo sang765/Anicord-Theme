@@ -682,17 +682,11 @@ button.button__4f306 /* make user panel buttons round */ {
   margin:auto;
 }
 
-/* Hide Server Menu Border */
-[class="separator__18122"] {
-  display:none;
-}
-/* Hide Channel List Border */
-[class="sectionDivider__68d2a"] {
-  display:none;
-}
-/* Hide Settings Border */
-[class="separator_fdbcfd"] {
-  display:none;
+/* Hide Border */
+.separator__18122,
+.sectionDivider__68d2a,
+.separator_fdbcfd {
+  display: none;
 }
 /* Add Channel Button Fix */
 [class="addButtonIcon_b776b3"] {
