@@ -408,8 +408,10 @@ button.button__4f306 /* make user panel buttons round */ {
 }
 
 /*guild pills glow*/
-.theme-dark .item_f9d377 {
-  box-shadow: 0 0 5px rgb(255, 255, 255);
+.theme-dark,
+.item_f9d377,
+.unread__48cf4 {
+  box-shadow: 0 0 5px white;
 }
 
 /*flickering user setting icons*/
