@@ -715,3 +715,12 @@ button.button__4f306 /* make user panel buttons round */ {
 .audioControls__9fbe9 {
   border-radius: 22px
 }
+/* No Light Mode Text */
+.defaultColor_d757c2,
+.defaultColor__37d78,
+.title__28a65,
+.info__40462,
+.lineClamp1__0ec05,
+.messageContent__21e69 {
+  color: white;
+}
