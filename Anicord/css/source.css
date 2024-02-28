@@ -407,10 +407,8 @@ button.button__4f306 /* make user panel buttons round */ {
   transform: scale(1.01);
 }
 
-/*guild pills glow*/
-.theme-dark,
-.item_f9d377,
-.unread__48cf4 {
+/* guild pills glow*/
+.theme-dark .item_f9d377 {
   box-shadow: 0 0 5px white;
 }
 
