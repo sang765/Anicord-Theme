@@ -697,3 +697,14 @@ button.button__4f306 /* make user panel buttons round */ {
   color: white;
   text-shadow: 0px 0px 5px black;
 }
+
+/* Channel Unread Text Glow */
+.name__8d1ec,
+.overflow__87fe8 {
+  text-shadow: 0px 0px 3px currentColor;
+}
+
+/* Channel Icon Glow */
+.icon_eff5d4 {
+  filter: drop-shadow(0px 0px 3px currentColor);
+}
