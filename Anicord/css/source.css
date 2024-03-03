@@ -1,3 +1,12 @@
+/**
+ * @name AniCord
+ * @version 1.0
+ * @description A Fancy Discord theme
+ * @author sangsisreal
+ * @source https://github.com/sang765/AniCord-Theme
+ * @website https://sang765.github.io/AniCord-Theme
+ */
+
 /* FONT IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 /* CSS IMPORT */
@@ -15,17 +24,16 @@
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css);
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
 @import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
-
 /* MAIN THEME */
 :root {
-	--app-bg:url(https://media.discordapp.net/attachments/1003496457103495248/1196322085006483537/Screenshot_44.png?ex=65ee93c3&is=65dc1ec3&hm=8b84d5f7ae4762d69337f770784cb22ada05498fedad69420611cd2fc3e3c440&=&format=webp&quality=lossless); /* background */
+	--app-bg:url(https://cdn.discordapp.com/attachments/1003496457103495248/1213732839044943912/e1KOrscXoR.jpg?ex=65f68bca&is=65e416ca&hm=356166cf83225d096140795df207b1e9d46b6949d41301327f1129bd75b129c7&); /* background */
 	--app-blur: 0px;
 	--app-margin: 24px;
 	--app-radius: 23px; /*	-	*/
 	
-	--accent-hue: 264; /* Main Color */
-	--accent-saturation: 30.5%;
-	--accent-lightness: 30.1%;
+	--accent-hue: 201; /* Main Color */
+	--accent-saturation: 50%;
+	--accent-lightness: 50.1%;
 	--accent-opacity: 1;
 	--accent-text-color: #fff; /*	-	*/
 
@@ -65,13 +73,11 @@
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
 }
-
 /* html custom font styles */
 html, 
 body {
   font-family: "Cabin", sans-serif;
 }
-
 /*some simple channel/settings/dms/member list hover animations*/
 .wrapper__7bcde .link__95dc0 /* channels */,
 .container__4f20e /* members */,
@@ -87,8 +93,6 @@ body {
 .channel_c21703:hover {
     margin-left: 18px;
 }
-
-
 /*hide new messages bar until hovered*/
 .messagesWrapper_ea2b0b {
     overflow: hidden;
@@ -113,8 +117,6 @@ body {
 .newMessagesBar__8b6d7:hover {
     top: -12px;
 }
-
-
 /*some more silly hover animations*/
 button.button__4f306 /* make user panel buttons round */ {
     border-radius: 50%;
@@ -131,8 +133,6 @@ button.button__4f306 /* make user panel buttons round */ {
 .closeButton__34341:hover {
     transform: rotate(360deg);
 }
-
-
 /**Modal settings window**/
 .standardSidebarView__1129a
  { top: 0 !important; }
@@ -147,8 +147,6 @@ button.button__4f306 /* make user panel buttons round */ {
 #app-mount .baseLayer__8fda3 /*keep view under settings*/
  { opacity: 1 !important;
    transform: unset !important; }
-
-
 /* Username Background */
 .username_d30d99::before {
 	content: ''; 
@@ -165,8 +163,6 @@ button.button__4f306 /* make user panel buttons round */ {
   .headerText_f47574 > span {
 	margin-left: 3px;
   }
-
-
 /* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
     display: contents;
@@ -215,7 +211,6 @@ button.button__4f306 /* make user panel buttons round */ {
     margin-right: 2px;
     margin-left: -6px;
 }
-
 /* Prettier Input Bar */
 [class^=channelTextArea_] [class^=buttons_]::before,
 [class^=channelTextArea_] [class^=buttons_]::after /* Adds a new button to the text area */ {
@@ -257,8 +252,6 @@ button.button__4f306 /* make user panel buttons round */ {
   margin-right: 8px;
   scale: 0 1;
 }
-
-
 /* Collapsed Toolbar buttons */
 .callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::before,
 .callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::after {
@@ -319,8 +312,6 @@ button.button__4f306 /* make user panel buttons round */ {
   margin-right: 8px;
   scale: 0 1;
 }
-
-
 /*Small Member list*/
 .container_b2ce9c {
   transition: 0.3s ease-in-out;
@@ -514,23 +505,6 @@ button.button__4f306 /* make user panel buttons round */ {
   animation: fadeIn 0.5s ease forwards;
 }
 
-/*default avatar*/
-[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
-  content: url(https://i.imgur.com/tYEPmPZ.png);
-}
-[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
-  content: url(https://i.imgur.com/tYEPmPZ.png);
-}
-[src="/assets/7c8f476123d28d103efe381543274c25.png"] {
-  content: url(https://i.imgur.com/tYEPmPZ.png);
-}
-[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
-  content: url(https://i.imgur.com/tYEPmPZ.png);
-}
-[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
-  content: url(https://i.imgur.com/tYEPmPZ.png);
-}
-
 /*channel hover effect*/
 .theme-dark .mainContent-20q_Hp {
   transition: all 0.3s;
@@ -629,13 +603,14 @@ button.button__4f306 /* make user panel buttons round */ {
 
 /* Category Bubble */
 :root {
-  --global-1: hsl(266, 37%, 53%); /* Label */
+  --global-1: #4093bf; /* Label */
   --global-2: white; /* Font */
 }
 .containerDefault__23a29 {
   color: var(--global-2) !important;
   background-color: var(--global-1);
   border-radius: 25px;
+  box-shadow: 0px 0px 10px black;
   padding: 0px;
   margin-top: 7px;
   margin-bottom: 3px;
@@ -666,8 +641,9 @@ button.button__4f306 /* make user panel buttons round */ {
 }
 .wordmarkWindows__05c46::after {
   content:'AniCord Theme';
-  color: #603cff;
-  text-shadow: 0px 0px 10px black;
+  color: #4093bf;
+  -webkit-text-stroke: 0.2px #000;
+  text-shadow: 0px 0px 10px #fff;
   line-height:20px;
   font-size:19px;
   font-weight:600;
@@ -687,11 +663,13 @@ button.button__4f306 /* make user panel buttons round */ {
 .separator_fdbcfd {
   display: none;
 }
+
 /* Add Channel Button Fix */
-[class="addButtonIcon_b776b3"] {
+.addButtonIcon_b776b3 {
   margin: auto;
 }
-/* Username and Nickname Glow */
+
+/* Username, Role in Memberlist and Nickname Glow */
 .username_d272d6,
 .username_d30d99,
 .nickname__3d1d7,
@@ -702,17 +680,18 @@ button.button__4f306 /* make user panel buttons round */ {
 }
 @keyframes glow {
  form {
-	text-shadow: 0px 0px 0px currentColor, 0px 0px 10px currentColor, 0px 0px 20px currentColor;
+	text-shadow: 0px 0px 0px currentColor, 0px 0px 5px currentColor, 0px 0px 10px currentColor;
  }
  to {
-	text-shadow: 0px 0px 10px currentColor, 0px 0px 20px currentColor, 0px 0px 30px currentColor;
+	text-shadow: 0px 0px 5px currentColor, 0px 0px 10px currentColor, 0px 0px 15px currentColor;
  }
 }
 
-/* Audio Control Border Fix */
+/* Border Radius Something */
 .audioControls__9fbe9 {
   border-radius: 22px
 }
+
 /* Model Settings White Text */
 .eyebrow_f53856 {
   color: white;
