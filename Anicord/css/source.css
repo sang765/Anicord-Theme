@@ -714,3 +714,32 @@ button.button__4f306 /* make user panel buttons round */ {
 .userTagUsernameBase__75fb1:hover {
   text-shadow: 0px 0px 5px currentColor;
 }
+
+/* Member List Show Animation */
+.membersWrap__90226 {
+  animation: fadeInWrap 1s 1;
+}
+.members__9f47b {
+  animation: fadeInList 1s 1;
+}
+
+@keyframes fadeInWrap {
+  from {
+      opacity: 0;
+      margin: -50px;
+  }
+  to {
+      opacity: 1;
+      margin: unset;
+  }
+}
+@keyframes fadeInlist {
+  from {
+      opacity: 0;
+      translatey: 50px;
+  }
+  to {
+      opacity: 1;
+      translatey: 0;
+  }
+}
