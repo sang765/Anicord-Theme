@@ -1,12 +1,3 @@
-/**
- * @name AniCord
- * @version 1.0
- * @description A Fancy Discord theme
- * @author sangsisreal
- * @source https://github.com/sang765/AniCord-Theme
- * @website https://sang765.github.io/AniCord-Theme
- */
-
 /* FONT IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 /* CSS IMPORT */
@@ -643,7 +634,7 @@ button.button__4f306 /* make user panel buttons round */ {
 .wordmarkWindows__05c46::after {
   content:'AniCord Theme';
   color: #4093bf;
-  -webkit-text-stroke: 0.2px #000;
+  -webkit-text-stroke: 0.3px #000;
   text-shadow: 0px 0px 10px #fff;
   line-height:20px;
   font-size:19px;
@@ -699,15 +690,19 @@ button.button__4f306 /* make user panel buttons round */ {
   text-shadow: 0px 0px 5px black;
 }
 
-/* Channel Unread Text Glow */
-.name__8d1ec,
+/* Channel Text Glow */
 .overflow__87fe8 {
-  text-shadow: 0px 0px 3px currentColor;
+  text-shadow: none;
+  transition: 0.5s;
+}
+
+.overflow__87fe8:hover {
+  text-shadow: 0px 0px 5px currentColor;
 }
 
 /* Channel Icon Glow */
 .icon_eff5d4 {
-  filter: drop-shadow(0px 0px 3px currentColor);
+  filter: drop-shadow(0px 0px 5px currentColor);
 }
 
 /*username glow hovered */
