@@ -709,3 +709,13 @@ button.button__4f306 /* make user panel buttons round */ {
 .icon_eff5d4 {
   filter: drop-shadow(0px 0px 3px currentColor);
 }
+
+/*username glow hovered */
+.userTagUsernameBase__75fb1 {
+  text-shadow: none;
+  transition: text-shadow 0.5s;
+}
+
+.userTagUsernameBase__75fb1:hover {
+  text-shadow: 0px 0px 5px currentColor;
+}
