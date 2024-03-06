@@ -25,9 +25,9 @@
   --sidebar-opacity: 0.4;
   --main-content-color: rgba(var(--main-rgb), var(--main-content-opacity));
   --sidebar-color: rgba(var(--main-rgb), var(--sidebar-opacity));
-  --accent-hue: 201;
-  --accent-saturation: 50%;
-  --accent-lightness: 50.1%;
+  --accent-hue: 226;
+  --accent-saturation: 77.4%;
+  --accent-lightness: 61.8%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --accent-opacity: 1;
   --accent-text-color: #fff;
