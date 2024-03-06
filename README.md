@@ -35,6 +35,25 @@ Settings Preview:
 
 
 
+## Install Theme
+### Online Import (Vencord)
+```
+https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css
+```
+
+### Quick CSS Import
+```css
+@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css");
+```
+
+### Download Theme
+- Goto [release](https://github.com/sang765/AniCord-Theme/releases) page.
+- Download **Anicord.theme.css**
+- Open your theme folder and put file **Anicord.theme.css** to theme folder
+- Enable it and enjoy.
+
+
+
 ## CREDITS:
 - Translucence Theme: https://betterdiscord.app/theme?id=156
 
