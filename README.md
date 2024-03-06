@@ -15,7 +15,7 @@
 
 ## Screenshots:
 >[!WARNING]
-> Background has been changed.
+> The background has been replaced so when the theme is turned on, it will have a completely different background than the original.
 
 Main Screen:
 
