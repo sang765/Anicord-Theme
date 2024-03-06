@@ -6203,3 +6203,13 @@ button.button__4f306 /* make user panel buttons round */ {
       translatey: 0;
   }
 }
+
+/* Stream Opacity */
+.pictureInPictureVideo_f1081d {
+  opacity: 0.1;
+  transition: opacity 0.5s;
+}
+
+.pictureInPictureVideo_f1081d:hover {
+  opacity: 1;
+}
