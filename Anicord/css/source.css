@@ -6213,3 +6213,6 @@ button.button__4f306 /* make user panel buttons round */ {
 .pictureInPictureVideo_f1081d:hover {
   opacity: 1;
 }
+
+/* Fix Mosaic Zoom */
+[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
