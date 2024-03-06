@@ -16,7 +16,7 @@
 @import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
 /* MAIN THEME */
 :root {
-  --app-bg: url(https://cdn.discordapp.com/attachments/1003496457103495248/1213732839044943912/e1KOrscXoR.jpg?);
+  --app-bg: url(https://media.discordapp.net/attachments/1003496457103495248/1213732839044943912/e1KOrscXoR.jpg?ex=65f68bca&is=65e416ca&hm=356166cf83225d096140795df207b1e9d46b6949d41301327f1129bd75b129c7&=&format=webp);
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -25,9 +25,9 @@
   --sidebar-opacity: 0.4;
   --main-content-color: rgba(var(--main-rgb), var(--main-content-opacity));
   --sidebar-color: rgba(var(--main-rgb), var(--sidebar-opacity));
-  --accent-hue: 156;
-  --accent-saturation: 77.5%;
-  --accent-lightness: 47.1%;
+  --accent-hue: 201;
+  --accent-saturation: 50%;
+  --accent-lightness: 50.1%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --accent-opacity: 1;
   --accent-text-color: #000;
