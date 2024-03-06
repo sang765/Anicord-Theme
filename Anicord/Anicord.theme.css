@@ -12,12 +12,12 @@
 
 /* CSS You Can Custom */
 :root {
-	--app-bg:url(https://cdn.discordapp.com/attachments/1003496457103495248/1213732839044943912/e1KOrscXoR.jpg?ex=65f68bca&is=65e416ca&hm=356166cf83225d096140795df207b1e9d46b6949d41301327f1129bd75b129c7&); /* background */
+	--app-bg:url(https://cdn.discordapp.com/attachments/1003496457103495248/1213732839044943912/e1KOrscXoR.jpg?); /* background */
 	/* 📄 NOTE: If you want the background to be transparent then you can remove the `url(imageurl)` and then change the attribute to `transparent`
            Requirements: Need to install Mica For Everyone and enable Transparent Window */
 	--app-blur: 0px;
 	--app-margin: 24px;
-	--app-radius: 23px; /*	-	*/
+	--app-radius: 10px; /*	-	*/
 	
 	--accent-hue: 201; /* Main Color */
 	--accent-saturation: 70%;
