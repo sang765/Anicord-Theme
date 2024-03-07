@@ -6216,3 +6216,17 @@ button.button__4f306 /* make user panel buttons round */ {
 
 /* Fix Mosaic Zoom */
 [class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
+
+/* Settings Creatory Bubble */
+[class^="eyebrow_f53856 headerText__94c22"] {
+  color: var(--global-2) !important;
+  background-color: var(--global-1);
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px black;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
