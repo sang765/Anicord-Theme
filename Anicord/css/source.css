@@ -15,6 +15,7 @@
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
 @import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
 @import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
+@import url(https://dablulite.github.io/css-snippets/MacosTitlebar/import.css);
 /* MAIN THEME */
 :root {
   --app-bg: url(https://media.discordapp.net/attachments/1003496457103495248/1213732839044943912/e1KOrscXoR.jpg?ex=65f68bca&is=65e416ca&hm=356166cf83225d096140795df207b1e9d46b6949d41301327f1129bd75b129c7&=&format=webp);
@@ -112,6 +113,18 @@
   --scrollbar-opacity: 0.2;
   --scrollbar-opacity-hover: 0.3;
   --scrollbar-width: 10px;
+  --mactitlebar-left-margin: 30px;
+  --mactitlebar-top-margin: 15px;
+  --mactitlebar-button-width: 20px;
+  --mactitlebar-button-height: 20px;
+  --mactitlebar-button-border-radius: 50px;
+  --mactitlebar-close-btn-back: #f25056;
+  --mactitlebar-min-btn-back: #fac536;
+  --mactitlebar-max-btn-back: #39ea49;
+  --macbuttons-serverlist-inner-top-margin: 32px;
+  /*guilds inner ul element*/
+  --macbuttons-serverlist-outer-top-margin: 0;
+  --macbuttons-serverlist-outer-height: 100%;
 }
 
 .theme-dark,
@@ -6240,4 +6253,14 @@ button.button__4f306 /* make user panel buttons round */ {
 .usernameSection__53868, .u1370__discriminator {
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Jump Fix */
+.ChatBar__barButtonAlt {
+  border: white 1px solid;
+  transition: all 0.5s;
+}
+
+.ChatBar__barButtonAlt:hover {
+  border: white 5px solid;
 }
