@@ -6231,3 +6231,13 @@ button.button__4f306 /* make user panel buttons round */ {
   margin-right: auto;
   text-align: center;
 }
+
+/* Center Profile */
+[class^="UserProfile_"] {
+  text-align: center;
+}
+
+.usernameSection__53868, .u1370__discriminator {
+  margin-left: auto;
+  margin-right: auto;
+}
