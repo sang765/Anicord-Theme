@@ -6262,3 +6262,8 @@ button.button__4f306 /* make user panel buttons round */ {
 .ChatBar__barButtonAlt:hover {
   border: white 5px solid;
 }
+
+/* Center Channel Fix */
+div.u.u695.u695__container.container_b03b4b {
+  align-items: center;
+}
