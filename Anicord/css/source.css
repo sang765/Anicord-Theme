@@ -17,7 +17,7 @@
 @import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
 /* MAIN THEME */
 :root {
-  --app-bg: url(https://media.discordapp.net/attachments/1003496457103495248/1213732839044943912/e1KOrscXoR.jpg?ex=65f68bca&is=65e416ca&hm=356166cf83225d096140795df207b1e9d46b6949d41301327f1129bd75b129c7&=&format=webp);
+  --app-bg: url(https://i.imgur.com/w1zs8N7.png);
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -6248,6 +6248,12 @@ button.button__4f306 /* make user panel buttons round */ {
 }
 #profile-customization-tab > div:nth-child(6) > div > div > div.u.u1219.u1219__customizationSection.customizationSection__16fec.u.u1220.u1220__preview.preview__0c5fe > div > div > div.UserProfile__userPopoutOverlayBackground.userPopoutOverlayBackground_d8afa4.UserProfile__overlayBackground.overlayBackground__86b78.u.u1218.u1218__body.body_aa2c19 > div.UserProfileSection__section.section__6f61e.u.u336.u336__container.container__22d2b > div {
   margin: auto;
+}
+[class^="UserProfileSection_"] {
+  margin: auto;
+}
+.u293.u293.u293.u293 {
+  margin: revert;
 }
 
 /* Jump Fix */
