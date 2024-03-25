@@ -6255,6 +6255,14 @@ button.button__4f306 /* make user panel buttons round */ {
 .u293.u293.u293.u293 {
   margin: revert;
 }
+.UserProfileSection__section.section__6f61e > div {
+  justify-content: center;
+}
+.eyebrow_f53856 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Jump Fix */
 .ChatBar__barButtonAlt {
