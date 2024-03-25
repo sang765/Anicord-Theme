@@ -6278,6 +6278,6 @@ div.u.u695.u695__container.container_b03b4b {
 }
 
 /* Hide Download Apps Button For Vesktop */
-#app-mount > div.App__appAsidePanelWrapper.appAsidePanelWrapper__714a6 > div.App__notAppAsidePanel.notAppAsidePanel__9d124 > div.App__app.app_b1f720 > div > div.BaseLayer__layers.layers__1c917.AppLayers__layers.layers_a23c37 > div > div > nav > ul > div.GuildsSidebar__scroller.scroller__3d071.Scroller__none.none__3919e.Scroller__scrollerBase.scrollerBase__2b744 > div:nth-child(9) > div.u.u963.u963__listItemWrapper.listItemWrapper__1f93b > div > svg > foreignObject > div {
+#app-mount > div.App__appAsidePanelWrapper.appAsidePanelWrapper__714a6 > div.App__notAppAsidePanel.notAppAsidePanel__9d124 > div.App__app.app_b1f720 > div > div.BaseLayer__layers.layers__1c917.AppLayers__layers.layers_a23c37 > div > div > nav > ul > div.GuildsSidebar__scroller.scroller__3d071.Scroller__none.none__3919e.Scroller__scrollerBase.scrollerBase__2b744 > div:nth-child(9) {
   display: none;
 }
