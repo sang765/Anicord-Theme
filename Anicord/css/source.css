@@ -6270,3 +6270,14 @@ button.button__4f306 /* make user panel buttons round */ {
 div.u.u695.u695__container.container_b03b4b {
   align-items: center;
 }
+
+/* Add @ to username */
+.userTagUsernameBase__75fb1::before {
+  content: "@";
+  color: "you can custom color the @ in here";
+}
+
+/* Hide Download Apps Button For Vesktop */
+#app-mount > div.App__appAsidePanelWrapper.appAsidePanelWrapper__714a6 > div.App__notAppAsidePanel.notAppAsidePanel__9d124 > div.App__app.app_b1f720 > div > div.BaseLayer__layers.layers__1c917.AppLayers__layers.layers_a23c37 > div > div > nav > ul > div.GuildsSidebar__scroller.scroller__3d071.Scroller__none.none__3919e.Scroller__scrollerBase.scrollerBase__2b744 > div:nth-child(9) > div.u.u963.u963__listItemWrapper.listItemWrapper__1f93b > div > svg > foreignObject > div {
+  display: none;
+}
