@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" style="pointer-events: none; cursor: default;">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg" alt="CSS">
-    <img src="<img src="https://m3-markdown-badges.vercel.app/stars/7/3/sang765/AniCord-Theme" alt="Star">
+    <img src="https://m3-markdown-badges.vercel.app/stars/7/3/sang765/AniCord-Theme" alt="Star">
   </a>
 </p>
 
