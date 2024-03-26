@@ -6272,6 +6272,17 @@ button.button__4f306 /* make user panel buttons round */ {
   margin-bottom: 10px;
 }
 
+/* Add drop shadow to user profile */
+.profileBadges__7a7cb.profileBadges__7a7cb {
+  box-shadow: 0px 0px 10px var(--profile-gradient-button-color);
+}
+.overlayBackground__86b78 {
+  box-shadow: 0px 0px 10px var(--profile-gradient-button-color);
+}
+.badgeList_c193e3 {
+  box-shadow: 0px 0px 10px var(--profile-gradient-button-color)
+}
+
 /* Jump Fix */
 .ChatBar__barButtonAlt {
   border: white 1px solid;
