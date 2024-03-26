@@ -6315,3 +6315,8 @@ div.u.u1260.u1260__userInfo.userInfo__8f826 > div:nth-child(2) {
   align-items: center;
   margin: auto;
 }
+
+/* Hide Border Profile Avatar */
+svg.BannerSVGWrapper__bannerSVGWrapper.bannerSVGWrapper__3e7b0 > mask {
+  display: none;
+}
