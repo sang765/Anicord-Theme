@@ -6263,6 +6263,14 @@ button.button__4f306 /* make user panel buttons round */ {
   justify-content: center;
   align-items: center;
 }
+.TextProps__defaultColor.defaultColor__37d78.TextStyle__text-sm\/normal.text-sm-normal_e612c7.u.u1349.u1349__userInfoText.userInfoText__5f822[data-text-variant="text-sm/normal"] {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
 
 /* Jump Fix */
 .ChatBar__barButtonAlt {
@@ -6284,8 +6292,26 @@ div.u.u695.u695__container.container_b03b4b {
   content: "@";
   color: "you can custom color the @ in here";
 }
+span.u.u1352.u1352__discriminator.discriminator_a801dd::before {
+  content: "@";
+}
 
 /* Hide Download Apps Button For Vesktop */
 #app-mount > div.App__appAsidePanelWrapper.appAsidePanelWrapper__714a6 > div.App__notAppAsidePanel.notAppAsidePanel__9d124 > div.App__app.app_b1f720 > div > div.BaseLayer__layers.layers__1c917.AppLayers__layers.layers_a23c37 > div > div > nav > ul > div.GuildsSidebar__scroller.scroller__3d071.Scroller__none.none__3919e.Scroller__scrollerBase.scrollerBase__2b744 > div:nth-child(9) {
   display: none;
+}
+
+/* My Account Setting Remake */
+div.u.u1260.u1260__userInfo.userInfo__8f826 > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.u.u1260.u1260__constrainedRow.constrainedRow_b9e8cf > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
