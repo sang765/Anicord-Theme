@@ -6275,6 +6275,12 @@ button.button__4f306 /* make user panel buttons round */ {
   justify-content: center;
   flex-direction: row;
 }
+.note_ba0c31 .textarea_c5a7a3 {
+  text-align: center;
+}
+.note__7a4f4 textarea {
+  text-align: center;
+}
 
 /* Add drop shadow to user profile */
 .profileBadges__7a7cb.profileBadges__7a7cb {
