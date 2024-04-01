@@ -16,13 +16,6 @@
 @import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
 @import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
-/* Acrylic popups by _kokussz_ */
-@import url('https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-popups.css');
-:root{
-  --blur: 20px;   /*Popup blur size*/
-  --opacity: 0.5; /*Popup background opacity*/  
-  --radius: 8px;  /*Popup border radius*/
-}
 /* MAIN THEME */
 :root {
   --app-bg: rgba(0, 0, 0, 0.404);
@@ -6048,9 +6041,9 @@ button.button_ae40a4 /* make user panel buttons round */ {
 }
 
 /*Role color background in memberlist*/
-.member_aa4760 span.username_d272d6::after {
+.member_aa4760 span.username__4a6f7::after {
   content: "";
-  border-radius: 22px;
+  border-radius: 10px;
   background: currentColor;
   width: 100%;
   height: 100%;
