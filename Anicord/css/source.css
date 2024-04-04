@@ -6241,7 +6241,8 @@ button.button_ae40a4 /* make user panel buttons round */ {
 .title__392bc,
 .container__1c2eb,
 div.UserProfileSection__section.section__62b44 > div,
-.tabBar__35f81 {
+.tabBar__35f81,
+.connectedAccountChildren_abff48 {
   justify-content: center;
 }
 .userInfoText_b87307 {
