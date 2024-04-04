@@ -3,7 +3,6 @@
 /* CSS IMPORT */
 @import url(https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css);
 @import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
-@import url(https://minidiscordthemes.github.io/SettingsIcons/main.min.css);
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css);
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/GuildBoost/import.css);
 @import url(https://raw.githubusercontent.com/nyakowint/theme-stuff/main/vencord_sc_icons.css);
@@ -6308,7 +6307,6 @@ div.UserProfileSection__section.section__62b44 > div {
   width: 300px;
 }
 
-
 /* Jump Fix */
 .ChatBar__barButtonAlt {
   border: white 1px solid;
@@ -6322,4 +6320,9 @@ div.UserProfileSection__section.section__62b44 > div {
 /* Center Channel Fix */
 div.u.u695.u695__container.container_cd7d9c {
   align-items: center;
+}
+
+/* Hide Emoji Nitro Popup */
+.upsellContainer__15a05 {
+  display: none;
 }
