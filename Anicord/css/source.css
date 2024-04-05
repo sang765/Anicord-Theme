@@ -6263,6 +6263,10 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 .textarea__0461c {
   text-align: center;
 }
+/* Hide Copy Username Button */
+.clickTarget__90fb4 > div > div:nth-child(2) {
+  display: none;
+}
 
 /* Jump Fix */
 .ChatBar__barButtonAlt {
