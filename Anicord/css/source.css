@@ -6237,35 +6237,35 @@ button.button_ae40a4 /* make user panel buttons round */ {
 [class^="UserProfile_"] {
   text-align: center;
 }
-.nameTagSmall__6459e,
-.title__392bc,
-.container__1c2eb,
-div.UserProfileSection__section.section__62b44 > div,
-.tabBar__35f81,
-.guildNick_d76c11,
-.connectedAccountNameTextContainer_e6ac0d,
-.connectedAccountChildren_abff48 {
+[class*="nameTagSmall_"],
+[class*="title_"],
+[class*="container_"],
+[class*="UserProfileSection_"] > div,
+[class*="tabBar_"],
+[class*="guildNick_"],
+[class*="connectedAccountNameTextContainer_"],
+[class*="connectedAccountChildren_"] {
   justify-content: center;
 }
 div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.text-lg-semibold__9539a {
   margin-right: 0px !important;
 }
-.userInfoText_b87307,
-.profileMutuals__95dc2,
-.mainContainer_c5e1e2 {
+[class*="userInfoText_"],
+[class*="profileMutuals_"],
+[class*="mainContainer_"] {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   margin-bottom: 10px;
 }
-.note__7a4f4 textarea,
-.textarea__0461c {
+[class*="note_"] textarea,
+[class*="textarea_"] {
   text-align: center;
 }
 /* Hide Copy Username Button */
-.clickTarget__90fb4 > div > div:nth-child(2) {
-  display: none;
+[class*="clickTarget_"] > div > div:nth-child(2) {
+    display: none;
 }
 
 /* Jump Fix */
