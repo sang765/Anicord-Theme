@@ -6259,6 +6259,9 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
   margin: auto;
   margin-bottom: 10px;
 }
+[class*="textLeft_"] {
+  display: flex;
+}
 [class*="note_"] textarea,
 [class*="textarea_"] {
   text-align: center;
