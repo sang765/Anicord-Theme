@@ -6296,3 +6296,8 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 .upsellContainer__15a05 {
   display: none;
 }
+
+/* Setting Icon Color */
+[class*="SettingsSidebar_"]::before {
+    color: hsla(var(--accent-hsl), 1);
+}
