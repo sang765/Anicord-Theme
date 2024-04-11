@@ -14,7 +14,7 @@
 
 <!-- BODY -->
 
-## Screenshots:
+## 🖼️ Screenshots:
 >[!WARNING]
 > The background has been replaced so when the theme is turned on, it will have a completely different background than the original.
 
@@ -40,7 +40,7 @@ Settings Preview:
 <img src="https://i.imgur.com/9vqwQYc.png" alt="Settings Preview">
 
 
-## Install Theme
+## ⚙️ Install Theme
 ### Online Import (Vencord)
 ```
 https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css
@@ -59,7 +59,7 @@ https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.
 
 
 
-## CREDITS:
+## 🖋️ CREDITS:
 - Translucence Theme: https://betterdiscord.app/theme?id=156
 
 <a href="https://betterdiscord.app/theme?id=156"><img src="https://images-ext-2.discordapp.net/external/QDSBRxPptJ9sGP_tp_zl_-P5PCy8T4To3qewzI_kf_k/https/betterdiscord.app/image/339?" alt="Translucence"></a>
