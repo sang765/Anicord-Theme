@@ -6091,7 +6091,7 @@ button.button_ae40a4 /* make user panel buttons round */ {
 }
 .wordmarkWindows_ffbc5e::after {
   content:'AniCord Theme';
-  color: #4093bf;
+  color: hsla(var(--accent-hsl), 1);
   -webkit-text-stroke: 0.3px #000;
   text-shadow: 0px 0px 10px #fff;
   line-height:20px;
