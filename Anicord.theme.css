@@ -60,4 +60,7 @@
 
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
+
+	--windows-title: 'Anicord Theme';
+    --windows-title-style: auto; /* "left" or "auto (center)" */
 }
