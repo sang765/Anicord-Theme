@@ -6056,13 +6056,9 @@ button.button_ae40a4 /* make user panel buttons round */ {
 .containerWrapper_b1818f{display:none}
 
 /* Category Bubble */
-:root {
-  --global-1: #4093bf; /* Label */
-  --global-2: white; /* Font */
-}
 .containerDefault_e3b32b {
-  color: var(--global-2) !important;
-  background-color: var(--global-1);
+  color: var(--accent-text-color) !important;
+  background-color: hsla(var(--accent-hsl), 1);
   border-radius: 25px;
   box-shadow: 0px 0px 10px black;
   padding: 0px;
@@ -6221,8 +6217,8 @@ button.button_ae40a4 /* make user panel buttons round */ {
 
 /* Settings Creatory Bubble */
 [class^="SettingsSidebar__header header__71a82"] {
-  color: var(--global-2) !important;
-  background-color: var(--global-1);
+  color: var(--accent-text-color) !important;
+  background-color: hsla(var(--accent-hsl), 1);
   border-radius: 25px;
   box-shadow: 0px 0px 5px black;
   padding: 0px;
