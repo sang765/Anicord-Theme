@@ -31,7 +31,8 @@ User Profile Preview:
 <img src="https://i.imgur.com/Zakan5s.png" alt="User Profile">
 
 Settings Preview:
-> 📃 NOTE
+> 📃 NOTE:
+>
 > Setting icon only applies to Vencord & Vesktop users. If you still see the setting icon as ? then enable this plugin.
 > ![image](https://github.com/sang765/AniCord-Theme/assets/80249864/6dc21805-733c-4eb2-bd60-c5f2137b15e6)
 
