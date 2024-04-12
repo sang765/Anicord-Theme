@@ -6264,6 +6264,10 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 [class*="textarea_"] {
   text-align: center;
 }
+[class*="overlayBackground_"],
+[class*="profileBadges_"] {
+  box-shadow: 0px 0px 10px var(--profile-gradient-button-color);
+}
 /* Hide Copy Username Button */
 [class*="clickTarget_"] > div > div:nth-child(2) {
     display: none;
