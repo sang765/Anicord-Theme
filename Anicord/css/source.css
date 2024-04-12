@@ -6311,8 +6311,9 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 .container__3b71d,
 .Members__container.container_f79ab4,
 h3.TextStyle__h5.h5__28baa.TextStyle__eyebrow.eyebrow__4e5bb.u.u1287.u1287__isEnabled.isEnabled_a6d539.Margin__marginBottom20.marginBottom20__9fcf3,
-.u.u1254.u1254__title.title__7a155, 
+.title__7a155, 
 .u.u39.u39__colorStandard.colorStandard__3d599.u.u40.u40__size14.size14_b2af01.u.u42.u42__description.description_b0e07c.u.u42.u42__formText.formText__20efd.Margin__marginBottom20.marginBottom20__9fcf3.u.u42.u42__modeDefault.modeDefault__2e882,
-.u.u387.u387__title.title_bf107a {
-  justify-items: left !important;
+.u.u387.u387__title.title_bf107a,
+.Margin__marginBottom20.marginBottom20__9fcf3 {
+  justify-content: left !important;
 }
