@@ -31,51 +31,27 @@ User Profile Preview:
 <img src="https://i.imgur.com/Zakan5s.png" alt="User Profile">
 
 Settings Preview:
-> 📃 **NOTE:**
->
-> Setting icon only applies to **Vencord & Vesktop** users. If you still see the setting icon as ? then enable this plugin.
-> ![image](https://github.com/sang765/AniCord-Theme/assets/80249864/6dc21805-733c-4eb2-bd60-c5f2137b15e6)
->
-> Settings icon will also be disabled by default. If you use Vencord or Vesktop, you can remove `"/*"` at the beginning and `"*/"` at the end to display the setting icon.
-> ![image](https://github.com/sang765/AniCord-Theme/assets/80249864/4a00268f-ded7-4a0f-9934-1eb7fb44bed8)
-
-
 
 <img src="https://i.imgur.com/9vqwQYc.png" alt="Settings Preview">
 
 
 ## ⚙️ Install Theme
 ### Online Import (Vencord)
-> No settings icon
 
 ```
-https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/nosettingsicon.css
-```
-
-> With settings icon
-
-```
-https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/settingsicon.css
+https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css
 ```
 
 ### Quick CSS Import
-> No settings icon
 
 ```css
-@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/nosettingsicon.css");
-```
-
-> With settings icon
-
-```css
-@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/settingsicon.css");
+@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css");
 ```
 
 ### Download Theme
 - Goto [release](https://github.com/sang765/AniCord-Theme/releases) page.
 - Download **Anicord.theme.css**
 - Open your theme folder and put file **Anicord.theme.css** to theme folder
-- Edit theme file if you want use **settings icon**
 - Enable it and enjoy.
 
 
