@@ -15,7 +15,7 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 /* MAIN THEME */
 :root {
-  --app-bg: rgba(0, 0, 0, 0.404);
+  --app-bg:url(https://i.imgur.com/w1zs8N7.png);
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
