@@ -46,19 +46,36 @@ Settings Preview:
 
 ## ⚙️ Install Theme
 ### Online Import (Vencord)
+> No settings icon
+
 ```
-https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css
+https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/nosettingsicon.css
+```
+
+> With settings icon
+
+```
+https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/settingsicon.css
 ```
 
 ### Quick CSS Import
+> No settings icon
+
 ```css
-@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css");
+@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/nosettingsicon.css");
+```
+
+> With settings icon
+
+```css
+@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/settingsicon.css");
 ```
 
 ### Download Theme
 - Goto [release](https://github.com/sang765/AniCord-Theme/releases) page.
 - Download **Anicord.theme.css**
 - Open your theme folder and put file **Anicord.theme.css** to theme folder
+- Edit theme file if you want use **settings icon**
 - Enable it and enjoy.
 
 
