@@ -6317,3 +6317,33 @@ h3.TextStyle__h5.h5__28baa.TextStyle__eyebrow.eyebrow__4e5bb.u.u1287.u1287__isEn
 .Margin__marginBottom20.marginBottom20__9fcf3 {
   justify-content: left !important;
 }
+
+/* Discover Remake */
+.TextStyle__text-sm\/normal.text-sm-normal__95a78.u.u911.u911__description.description__36a9a {
+  text-align: center;
+}
+.u.u911.u911__memberInfo.memberInfo__4d246 {
+  justify-content: center;
+}
+img.u.u911.u911__splashImage.splashImage__9b574.u.u911.u911__splashImageHeight.splashImageHeight__19534,
+.u.u911.u911__iconMask.iconMask__4092e {
+  scale: 1;
+  box-shadow: 0px 0px 0px white;
+  transition: all 0.5s;
+}
+img.u.u911.u911__splashImage.splashImage__9b574.u.u911.u911__splashImageHeight.splashImageHeight__19534:hover,
+.u.u911.u911__iconMask.iconMask__4092e:hover {
+  scale: 1.18;
+  box-shadow: 0px 0px 10px white
+}
+.u.u925.u925__headerContentWrapper.headerContentWrapper__41d6a {
+  box-shadow: 0px 0px 10px white
+}
+.categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b,
+.iconContainer__6b1cc {
+  background-color: hsla(var(--accent-hsl), 1)
+}
+/* Vesktop Download Button Remake */
+h3.TextProps__defaultColor.defaultColor__30336.TextStyle__heading-lg\/semibold.heading-lg-semibold__58a54.u.u23.u23__defaultColor.defaultColor__8610e.u.u540.u540__platformName.platformName_c008f9 {
+  color: #fff;
+}
