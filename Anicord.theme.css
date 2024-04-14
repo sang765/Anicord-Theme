@@ -8,7 +8,10 @@
  */
 
 /* Theme Import */
-@import url(https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css);
+/* ❌ - No settings icon. For BetterDiscord and others client. */ 
+@import url(https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/nosettingsicon.css);
+/* ✔️ - Settings icon. For Vencord & Vesktop client. */ 
+/* @import url(https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/settingsicon.css); */
 
 /* CSS You Can Custom */
 :root {
