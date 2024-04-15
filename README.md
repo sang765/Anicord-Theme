@@ -1,6 +1,6 @@
 <!-- HEAD PAGE -->
 <div align="center">
-  <img src="https://i.imgur.com/smsdwib.png" alt="Anicord" width="100">
+  <img src="assets/logo.png" alt="Anicord" width="100">
   <h1><strong>Anicord</strong></h1>
   <h3>A <strong>anime</strong> theme for Discord mod client.</h3>
   <h6>This theme is a remake of the <strong>Translucent</strong> theme but I have added a little CSS from <strong>Chillax</strong> theme, Vencord, BetterDiscord server and a little of my own CSS. All CSS sources I have used will be credited at the end of the reading file.</h6>
@@ -21,32 +21,32 @@
 
 Main Screen:
 
-<img src="https://i.imgur.com/taKt6Im.png" alt="Main Screen">
+<img src="assets/main.png" alt="Main Screen">
 
 Member Server Preview:
 
-<img src="https://i.imgur.com/UvAb58T.png" alt="Member Server Preview">
+<img src="assets/member.png" alt="Member Server Preview">
 
 User Profile Preview:
 
-<img src="https://i.imgur.com/Zakan5s.png" alt="User Profile">
+<img src="assets/userprofile.png" alt="User Profile">
 
 Settings Preview:
 
-<img src="https://i.imgur.com/9vqwQYc.png" alt="Settings Preview">
+<img src="assets/settings.png" alt="Settings Preview">
 
 
 ## ⚙️ Install Theme
 ### Online Import (Vencord)
 
 ```
-https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css
+https://raw.githubusercontent.com/sang765/AniCord-Theme/main/source.css
 ```
 
 ### Quick CSS Import
 
 ```css
-@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/Anicord/css/source.css");
+@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/source.css");
 ```
 
 ### Download Theme

@@ -1,3 +1,12 @@
+/**
+ * @name AniCord
+ * @version 1.0
+ * @description A Anime Discord theme
+ * @author HaTienSang
+ * @source https://github.com/sang765/AniCord-Theme
+ * @website https://github.com/sang765
+ */
+
 /* FONT IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 /* CSS IMPORT */
@@ -10,8 +19,9 @@
 @import url(https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 @import url(https://dablulite.github.io/css-snippets/BetterAuthApps/import.css);
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
+@import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
 @import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
-@import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 /* MAIN THEME */
 :root {
@@ -6230,49 +6240,56 @@ button.button_ae40a4 /* make user panel buttons round */ {
 }
 
 /* Center Profile */
-[class^="UserProfile_"] {
-  text-align: center;
+/* User Preview */
+.section__62b44.container__1c2eb.usernameSection_dd6196,
+.section__62b44.customStatusSection_c9f9ba,
+h3.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.title__392bc,
+.headerContainer_b7a30f,
+.memberSinceContainer__16630,
+h2.defaultColor__30336.eyebrow_b3f8ba,
+ul.popularApplicationCommandsList__0eb68,
+.defaultColor__30336.text-sm-semibold_d260b0.nameWrap_b61c4b.textRow_c835f1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-[class*="nameTagSmall_"],
-[class*="title_"],
-[class*="container_"],
-[class*="UserProfileSection_"] > div,
-[class*="tabBar_"],
-[class*="guildNick_"],
-[class*="connectedAccountNameTextContainer_"],
-[class*="connectedAccountChildren_"] {
-  justify-content: center;
+.section__62b44 > div {
+    justify-content: center;
 }
-div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.text-lg-semibold__9539a {
-  margin-right: 0px !important;
+.defaultColor__30336.lineClamp2Plus_ccc883.text-sm-normal__95a78,
+textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline__00100.scrollbar_b61b2b {
+    text-align: center;
 }
-[class*="userInfoText_"],
-[class*="profileMutuals_"],
-[class*="mainContainer_"] {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-bottom: 10px;
+/* User Profile Popup */
+.container__9f51c {
+    align-self: center;
 }
-[class*="textLeft_"] {
-  display: flex;
+.defaultColor__30336.text-lg-semibold__9539a {
+    margin-right: 0px !important;
+    text-align: center;
 }
-[class*="note_"] textarea,
-[class*="textarea_"] {
-  text-align: center;
+.info__40462.nameTag_fdddf8.nameTagSmall__6459e {
+    justify-content: center;
 }
-[class*="overlayBackground_"],
-[class*="profileBadges_"] {
-  box-shadow: 0px 0px 10px var(--profile-gradient-button-color);
+.defaultColor__30336.text-sm-normal__95a78.pronouns__3d468.nameTagSmall__6459e,
+.tabBar__35f81.top_fae1fa,
+h1.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.userInfoSectionHeader_c9f1d3 {
+    display: flex;
+    justify-content: center;
+}
+h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
+.compactItemContainer__55b3e {
+    align-self: center;
+}
+/* Profile In DM */
+.section__62b44.container__1c2eb,
+.customStatus__6a31a {
+    justify-content: center;
+    text-align: center;
 }
 /* Hide Copy Username Button */
 [class*="clickTarget_"] > div > div:nth-child(2) {
-    display: none;
-}
-/* Fix Welcome New Member Message To Center*/
-[class*="ThreadStarterMessage_"] {
-  justify-content: left !important;
+  display: none;
 }
 
 /* Jump Fix */
@@ -6300,8 +6317,9 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 }
 
 /* Setting Icon Color */
-[class*="SettingsSidebar_"]::before {
-    color: hsla(var(--accent-hsl), 1);
+[class*="SettingsSidebar_"]::before,
+.item__48dda.themed_b957e8::before {
+  color: hsla(var(--accent-hsl), 1);
 }
 
 /* Center Profile Fix */
@@ -6317,20 +6335,27 @@ h3.TextStyle__h5.h5__28baa.TextStyle__eyebrow.eyebrow__4e5bb.u.u1287.u1287__isEn
 }
 
 /* Discover Remake */
-.TextStyle__text-sm\/normal.text-sm-normal__95a78.u.u911.u911__description.description__36a9a {
+.TextStyle__text-sm\/normal.text-sm-normal__95a78.u.u911.u911__description.description__36a9a,
+.text-sm-normal__95a78.description__36a9a {
   text-align: center;
 }
-.u.u911.u911__memberInfo.memberInfo__4d246 {
+.u.u911.u911__memberInfo.memberInfo__4d246,
+.title_cb8320,
+.memberInfo__4d246 {
   justify-content: center;
 }
 img.u.u911.u911__splashImage.splashImage__9b574.u.u911.u911__splashImageHeight.splashImageHeight__19534,
-.u.u911.u911__iconMask.iconMask__4092e {
+.u.u911.u911__iconMask.iconMask__4092e,
+img.splashImage__9b574.splashImageHeight__19534,
+svg.svg_bb7847 {
   scale: 1;
   box-shadow: 0px 0px 0px white;
   transition: all 0.5s;
 }
 img.u.u911.u911__splashImage.splashImage__9b574.u.u911.u911__splashImageHeight.splashImageHeight__19534:hover,
-.u.u911.u911__iconMask.iconMask__4092e:hover {
+.u.u911.u911__iconMask.iconMask__4092e:hover,
+img.splashImage__9b574.splashImageHeight__19534:hover,
+svg.svg_bb7847:hover {
   scale: 1.18;
   box-shadow: 0px 0px 10px white
 }
