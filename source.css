@@ -6389,6 +6389,12 @@ h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
   display: none;
 }
 
+/* Box Shadow Profile */
+.UserProfile__overlayBackground.overlayBackground__345c9,
+.container_ed2af4 {
+  box-shadow: 0px 0px 10px var(--profile-gradient-button-color);
+}
+
 /* Jump Fix */
 .ChatBar__barButtonAlt {
   border: white 1px solid;
