@@ -122,7 +122,6 @@
   --scrollbar-opacity-hover: 0.3;
   --scrollbar-width: 10px;
   --windows-title: 'Anicord Theme';
-  --windows-title-style: auto; /* "left" or "auto (center)" */
 }
 
 .theme-dark {
