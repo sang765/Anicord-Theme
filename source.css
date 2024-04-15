@@ -6260,6 +6260,9 @@ ul.popularApplicationCommandsList__0eb68,
 textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline__00100.scrollbar_b61b2b {
     text-align: center;
 }
+.u.u345.u345__root.root_a99273.u.u346.u346__roles.roles__74a2b {
+  justify-content: center;
+}
 /* User Profile Popup */
 .container__9f51c {
     align-self: center;
@@ -6369,4 +6372,7 @@ svg.svg_bb7847:hover {
 /* Vesktop Download Button Remake */
 h3.TextProps__defaultColor.defaultColor__30336.TextStyle__heading-lg\/semibold.heading-lg-semibold__58a54.u.u23.u23__defaultColor.defaultColor__8610e.u.u540.u540__platformName.platformName_c008f9 {
   color: #fff;
+}
+path.ContextMenu__checkbox.checkbox__378d3 {
+  color: hsla(var(--accent-hsl), 1);
 }
