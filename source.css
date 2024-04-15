@@ -6459,10 +6459,20 @@ svg.svg_bb7847:hover {
 .iconContainer__6b1cc {
   background-color: hsla(var(--accent-hsl), 1)
 }
+
 /* Vesktop Download Button Remake */
 h3.TextProps__defaultColor.defaultColor__30336.TextStyle__heading-lg\/semibold.heading-lg-semibold__58a54.u.u23.u23__defaultColor.defaultColor__8610e.u.u540.u540__platformName.platformName_c008f9 {
   color: #fff;
 }
 path.ContextMenu__checkbox.checkbox__378d3 {
   color: hsla(var(--accent-hsl), 1);
+}
+
+/* Media Process Bar */
+.mediaBarInteraction_e21234:hover
+.mediaBarGrabber__1d527,
+.mediaBarProgress_a3b7f1::before,
+.mediaBarProgress_a3b7f1,
+.mediaBarProgress_a3b7f1::after {
+    background-color: hsla(var(--accent-hsl), 1);
 }
