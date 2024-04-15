@@ -6116,9 +6116,9 @@ button.button_ae40a4 /* make user panel buttons round */ {
   color: hsla(var(--accent-hsl), 1);
   background: var(--card-color);
   backdrop-filter: blur(var(--app-blur));
-  border-radius: 5px;
+  border-radius: var(--app-radius);
   padding: 7px 11px 7px 7px;
-  margin-left: 20px;
+  margin-left: 14px;
   margin-top: 1px;
   pointer-events: all;
   transition: 0.5s ease-in-out;
