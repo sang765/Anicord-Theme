@@ -6611,3 +6611,8 @@ svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button > path {
   border-radius: 8px;
   box-shadow: 0 0 15px;
 }
+
+/* Process Bar */
+.u.u58.u58__progressBar.progressBar__00a1a.u.u58.u58__small.small__10721.u.u58.u58__animating.animating__93426 {
+  background: linear-gradient(to right, hsla(var(--accent-hsl)), hsla(var(--accent-hsl))) !important;
+}
