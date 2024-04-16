@@ -121,7 +121,7 @@
   --scrollbar-opacity: 0.2;
   --scrollbar-opacity-hover: 0.3;
   --scrollbar-width: 10px;
-  --windows-title: 'Anicord Theme';
+  --windows-title: 'Anicord';
 }
 
 .theme-dark {
@@ -145,6 +145,74 @@
 html, 
 body {
   font-family: "Tilt Neon";
+}
+
+body:before {
+  content: "Thanks for using " var(--windows-title)"!";
+  z-index: 1000000000000000000000000;
+  color: hsl(var(--accent-hsl));
+  background: var(--message-color);
+  top: 0px;
+  left: 50%;
+  position: absolute;
+  border-radius: var(--app-radius);
+  padding: 7px 15px;
+  -webkit-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
+  -webkit-animation: version 3s ease;
+  animation: version 3s ease;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+body,
+span:not(.spinner-item) {
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes version {
+  from {
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
+  }
+
+  20% {
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
+  }
+
+  80% {
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
+  }
+
+  to {
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
+  }
+}
+
+@keyframes version {
+  from {
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
+  }
+
+  20% {
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
+  }
+
+  80% {
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
+  }
+
+  to {
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
+  }
 }
 
 /*
