@@ -1,6 +1,6 @@
 <!-- HEAD PAGE -->
 <div align="center">
-  <img src="assets/logo.png" alt="Anicord" width="100">
+  <img src="assets/projectbanner.png" alt="Anicord" width="550">
   <h1><strong>Anicord</strong></h1>
   <h3>A <strong>anime</strong> theme for Discord mod client.</h3>
   <h6>This theme is a remake of the <strong>Translucent</strong> theme but I have added a little CSS from <strong>Chillax</strong> theme, Vencord, BetterDiscord server and a little of my own CSS. All CSS sources I have used will be credited at the end of the reading file.</h6>
