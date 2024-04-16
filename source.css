@@ -6571,6 +6571,9 @@ svg.ContextMenu__icon.icon__0bfbf > [d="M5.06 7a1 1 0 0 0-1 1.06l.76 12.13a3 3 0
 div#guild-header-popout-report-raid > div.ContextMenu__iconContainer.iconContainer__5d61c > svg > [d="M4.27 5.22A2.66 2.66 0 0 0 3 7.5v2.3c0 5.6 3.3 10.68 8.42 12.95.37.17.79.17 1.16 0A14.18 14.18 0 0 0 21 9.78V7.5c0-.93-.48-1.78-1.27-2.27l-6.17-3.76a3 3 0 0 0-3.12 0L4.27 5.22ZM6 7.68l6-3.66V12H6.22C6.08 11.28 6 10.54 6 9.78v-2.1Zm6 12.01V12h5.78A11.19 11.19 0 0 1 12 19.7Z"] {
   color: var(--status-danger);
 }
+svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button > path {
+  color: var(--green-360);
+}
 /* Button Background */
 .u.u655.u655__hoverButtonGroup.hoverButtonGroup__745e4 {
   background-color: var(--message-color-hover);
@@ -6595,4 +6598,16 @@ div#guild-header-popout-report-raid > div.ContextMenu__iconContainer.iconContain
   color: rgba(255, 255, 255, 0.404);
   font-size: 15px;
   visibility: visible !important;
+}
+
+/* Remove slowmode message */
+.cooldownWrapper__193b2 {
+  font-size: 0px;
+}
+
+/*server banner design*/
+.animatedContainer__0e828 {
+  transform: scale(0.9) !important;
+  border-radius: 8px;
+  box-shadow: 0 0 15px;
 }
