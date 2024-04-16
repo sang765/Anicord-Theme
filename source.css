@@ -6585,3 +6585,14 @@ div#guild-header-popout-report-raid > div.ContextMenu__iconContainer.iconContain
 .wrapper__53064:hover {
   background-color: hsla(var(--accent-hsl), 0.45);
 }
+
+/*Textbox Text*/
+.placeholder_dec8c7 {
+  visibility: hidden !important;
+}
+.placeholder_dec8c7::before {
+  content: "No chat? Don't worry, just drink a coffee cup and chill.";
+  color: rgba(255, 255, 255, 0.404);
+  font-size: 15px;
+  visibility: visible !important;
+}
