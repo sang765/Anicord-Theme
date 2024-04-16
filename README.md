@@ -7,9 +7,9 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/sang765/AniCord-Theme" style="pointer-events: none; cursor: default;">
+  <a href="https://github.com/sang765/Anicord-Theme" style="pointer-events: none; cursor: default;">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg" alt="CSS">
-    <img src="https://m3-markdown-badges.vercel.app/stars/7/3/sang765/AniCord-Theme" alt="Star">
+    <img src="https://m3-markdown-badges.vercel.app/stars/7/3/sang765/Anicord-Theme" alt="Star">
   </a>
 </p>
 
@@ -40,17 +40,17 @@ Settings Preview:
 ### Online Import (Vencord)
 
 ```
-https://raw.githubusercontent.com/sang765/AniCord-Theme/main/source.css
+https://raw.githubusercontent.com/sang765/Anicord-Theme/main/source.css
 ```
 
 ### Quick CSS Import
 
 ```css
-@import url("https://raw.githubusercontent.com/sang765/AniCord-Theme/main/source.css");
+@import url("https://raw.githubusercontent.com/sang765/Anicord-Theme/main/source.css");
 ```
 
 ### Download Theme
-- Goto [release](https://github.com/sang765/AniCord-Theme/releases) page.
+- Goto [release](https://github.com/sang765/Anicord-Theme/releases) page.
 - Download **Anicord.theme.css**
 - Open your theme folder and put file **Anicord.theme.css** to theme folder
 - Enable it and enjoy.
