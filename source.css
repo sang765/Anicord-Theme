@@ -6578,10 +6578,10 @@ div#guild-header-popout-report-raid > div.ContextMenu__iconContainer.iconContain
 
 /* Mention Recolor */
 .wrapper__53064 {
-  color: hsla(var(--accent-hsl), 1);
-  background-color: hsla(var(--accent-hsl), 0.15);
-  transition: background-color 0.25s;
+  color: hsla(var(--accent-hsl));
+  background-color: hsla(var(--accent-hsl), 0.25);
+  transition: background-color 0.45s;
 }
 .wrapper__53064:hover {
-  background-color: hsla(var(--accent-hsl), 0.55);
+  background-color: hsla(var(--accent-hsl), 0.45);
 }
