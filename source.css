@@ -6575,3 +6575,13 @@ div#guild-header-popout-report-raid > div.ContextMenu__iconContainer.iconContain
 .u.u655.u655__hoverButtonGroup.hoverButtonGroup__745e4 {
   background-color: var(--message-color-hover);
 }
+
+/* Mention Recolor */
+.wrapper__53064 {
+  color: hsla(var(--accent-hsl), 1);
+  background-color: hsla(var(--accent-hsl), 0.15);
+  transition: background-color 0.25s;
+}
+.wrapper__53064:hover {
+  background-color: hsla(var(--accent-hsl), 0.55);
+}
