@@ -1,6 +1,6 @@
 /**
  * @name AniCord
- * @version 1.0
+ * @version 1.5.7
  * @description A Anime Discord theme
  * @author HaTienSang
  * @source https://github.com/sang765/AniCord-Theme
@@ -6111,7 +6111,7 @@ button.button_ae40a4 /* make user panel buttons round */ {
 .wordmark__5b8c9::before {
   content: var(--windows-title);
   font-size: 15px;
-  font-family: "Dancing Script", cursive !important;
+  font-family: "Dancing Script", cursive;
   position: fixed;
   color: hsla(var(--accent-hsl), 1);
   background: var(--card-color);
@@ -6126,7 +6126,8 @@ button.button_ae40a4 /* make user panel buttons round */ {
 }
 
 .wordmark__5b8c9:hover:before {
-  content: var(--windows-title);
+  content: "Version: 1.5.7 - None DEV";
+  font-family: "Tilt Neon";
   letter-spacing: 4px;
   color: white;
 }
