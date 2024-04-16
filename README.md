@@ -1,9 +1,9 @@
 <!-- HEAD PAGE -->
 <div align="center">
-  <img src="assets/projectbanner.png" alt="Anicord" width="550">
-  <h1><strong>Anicord</strong></h1>
+  <img src="assets/projectbanner.png" alt="Anicord Banner" width="550">
+
+  <a href="https://github.com/sang765/Anicord-Theme"><img src="assets/textdesign.png" alt="Anicord Logo" width="250"></a>
   <h3>A <strong>anime</strong> theme for Discord mod client.</h3>
-  <p align="center">
   <a href="https://betterdiscord.app"><img src="assets/BetterDiscord.png" alt="BetterDiscord" width="50"></a>
   <a href="https://replugged.dev/"><img src="assets/Replugged.png" alt="Replugged" width="50"></a>
   <a href="https://vencord.dev"><img src="assets/Vencord.png" alt="Vencord" width="50"></a>
