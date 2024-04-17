@@ -6560,7 +6560,8 @@ svg.icon__5c8c7 > path,
 .buttonsInner_a9dfff.wrapper__4e6b6 > div > svg,
 svg.downloadHoverButtonIcon_c189c0,
 [class*="checkbox_"],
-.closeButton__8177f {
+.closeButton__8177f,
+.children__563f2 > div > svg {
   color: hsla(var(--accent-hsl)) !important;
 }
 .colorDanger__08c25 > div > svg,
