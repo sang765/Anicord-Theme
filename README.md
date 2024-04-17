@@ -40,7 +40,7 @@ Member Server Preview:
 
 User Profile Preview:
 
-<img src="assets/userprofile.jpg" alt="User Profile">
+<img src="assets/userprofile.png" alt="User Profile">
 
 Settings Preview:
 
