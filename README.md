@@ -22,6 +22,10 @@
 
 <!-- BODY -->
 
+## ⚠️ Before use the theme:
+>[!WARNING]
+> If you experience crashes while using the theme (Yes, I do) then I recommend you use **[Vesktop](https://github.com/Vencord/Vesktop)** because it is well optimized and crashes are rare (unless you use devtools for too long).
+
 ## 🖼️ Screenshots:
 >[!WARNING]
 > The background has been replaced so when the theme is turned on, it will have a completely different background than the original.
