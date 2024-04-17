@@ -6643,3 +6643,8 @@ background-color: hsla(var(--accent-hsl), 0.25);
 path[fill="var(--brand-500)"] {
   fill: hsl(var(--accent-hsl)) !important;
 }
+
+/* Text fix */
+h3.name__27f04.container__43554 {
+  filter: brightness(2);
+}
