@@ -6575,7 +6575,9 @@ svg.launchIcon__1a9a6 > path,
 .contents__322f4.buttonContents__85ccf > div > svg {
   color: var(--alert-action-color) !important;
 }
-
+.bar__004d9.mentionsBar__7d867 {
+  background-color: hsla(var(--accent-hsl)) !important;
+}
 /* Button Background */
 .hoverButtonGroup__745e4 {
   background-color: var(--message-color-hover);
