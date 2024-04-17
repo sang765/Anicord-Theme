@@ -6629,3 +6629,25 @@ svg.launchIcon__1a9a6 > path,
 .imageWrapper__178ee.imageZoom__9528e.clickable__2869d.lazyImgContainer_b0a5df:hover {
   scale: 1.05;
 }
+
+/* Poll Theme */
+/* badge icon */
+div[class^=pollBadgeDefault] svg path {
+  fill: hsla(var(--accent-hsl)) !important;
+}
+/* badge text */
+div[class^="pollBadgeDefault"] div[class^="text"] {
+color: hsla(var(--accent-hsl)) !important;
+}
+/* background */
+div[class*="pollContainer"] {
+background-color: hsla(var(--accent-hsl), 0.45) !important;
+}
+/* answer bubble */
+div[class*="pollContainer"]  div[class^="answer"] {
+background-color: hsla(var(--accent-hsl), 0.25);
+}
+/* tick awnser */
+path[fill="var(--brand-500)"] {
+  fill: hsl(var(--accent-hsl)) !important;
+}
