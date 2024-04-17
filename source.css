@@ -6570,6 +6570,9 @@ svg.downloadHoverButtonIcon_c189c0,
 svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button > path {
   color: var(--green-360) !important;
 }
+svg.launchIcon__1a9a6 > path {
+  color: var(--alert-action-color);
+}
 
 /* Button Background */
 .hoverButtonGroup__745e4 {
