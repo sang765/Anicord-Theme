@@ -6459,7 +6459,8 @@ h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
 }
 
 /* Box Shadow Profile */
-.UserProfile__overlayBackground.overlayBackground__345c9,
+.userPopoutOverlayBackground__3e7e6,
+.userProfileModalOverlayBackground_a5b043,
 .container_ed2af4 {
   box-shadow: 0px 0px 10px var(--profile-gradient-button-color);
 }
@@ -6547,7 +6548,6 @@ path.ContextMenu__checkbox.checkbox__378d3 {
 }
 
 /* Icon Color */
-/* Icon Color */
 .toolbar__62fb5 > div > svg > path,
 .iconWrapper_de6cd1.clickable_ce0925 > svg > foreignObject > svg > path,
 svg.icon_ae0b42 > path,
@@ -6558,18 +6558,19 @@ svg.icon__5c8c7 > path,
 .iconContainer__5d61c > svg,
 .buttonsInner_a9dfff.wrapper__4e6b6 > div > svg,
 svg.downloadHoverButtonIcon_c189c0,
-div#guild-header-popout-opt-in > div > svg > [d="M5.37499 3H18.625C19.9197 3 21.0056 4.08803 21 5.375V18.625C21 19.936 19.9359 21 18.625 21H5.37499C4.06518 21 3 19.936 3 18.625V5.375C3 4.06519 4.06518 3 5.37499 3Z"] {
-  color: hsla(var(--accent-hsl));
+[class*="checkbox_"] {
+  color: hsla(var(--accent-hsl)) !important;
 }
 .colorDanger__08c25 > div > svg,
 .button_d4bf9b.dangerous__8fbad > svg > path {
-  color: var(--status-danger);
+  color: var(--status-danger) !important;
 }
 svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button > path {
-  color: var(--green-360);
+  color: var(--green-360) !important;
 }
+
 /* Button Background */
-.u.u655.u655__hoverButtonGroup.hoverButtonGroup__745e4 {
+.hoverButtonGroup__745e4 {
   background-color: var(--message-color-hover);
 }
 
