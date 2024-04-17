@@ -6561,7 +6561,8 @@ svg.icon__5c8c7 > path,
 svg.downloadHoverButtonIcon_c189c0,
 [class*="checkbox_"],
 .closeButton__8177f,
-.children__563f2 > div > svg {
+.children__563f2 > div > svg,
+.radioForeground_e46974 {
   color: hsla(var(--accent-hsl)) !important;
 }
 .colorDanger__08c25 > div > svg,
@@ -6622,11 +6623,11 @@ svg.launchIcon__1a9a6 > path,
 }
 
 /* Image Zoom Hover Effect */
-.imageWrapper__178ee.imageZoom__9528e.clickable__2869d.lazyImgContainer_b0a5df {
+.imageWrapper__178ee.imageZoom__9528e.clickable__2869d {
   scale: 1;
   transition: all 0.5s;
 }
-.imageWrapper__178ee.imageZoom__9528e.clickable__2869d.lazyImgContainer_b0a5df:hover {
+.imageWrapper__178ee.imageZoom__9528e.clickable__2869d:hover {
   scale: 1.05;
 }
 
