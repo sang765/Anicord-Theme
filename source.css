@@ -6620,3 +6620,12 @@ svg.launchIcon__1a9a6 > path,
 .u.u58.u58__progressBar.progressBar__00a1a.u.u58.u58__small.small__10721.u.u58.u58__animating.animating__93426 {
   background: linear-gradient(to right, hsla(var(--accent-hsl)), hsla(var(--accent-hsl))) !important;
 }
+
+/* Image Zoom Hover Effect */
+.imageWrapper__178ee.imageZoom__9528e.clickable__2869d.lazyImgContainer_b0a5df {
+  scale: 1;
+  transition: all 0.5s;
+}
+.imageWrapper__178ee.imageZoom__9528e.clickable__2869d.lazyImgContainer_b0a5df:hover {
+  scale: 1.05;
+}
