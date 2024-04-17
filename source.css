@@ -6622,15 +6622,6 @@ svg.launchIcon__1a9a6 > path,
   background: linear-gradient(to right, hsla(var(--accent-hsl)), hsla(var(--accent-hsl))) !important;
 }
 
-/* Image Zoom Hover Effect */
-.imageWrapper__178ee.imageZoom__9528e.clickable__2869d {
-  scale: 1;
-  transition: all 0.5s;
-}
-.imageWrapper__178ee.imageZoom__9528e.clickable__2869d:hover {
-  scale: 1.05;
-}
-
 /* Poll Theme */
 /* badge icon */
 div[class^=pollBadgeDefault] svg path {
