@@ -6585,11 +6585,13 @@ svg.launchIcon__1a9a6 > path,
 }
 
 /* Mention Recolor */
+.executedCommand__4fb1a .appLauncherOnboardingCommandName_bf880c,
 .wrapper__53064 {
   color: hsla(var(--accent-hsl));
   background-color: hsla(var(--accent-hsl), 0.25);
   transition: background-color 0.45s;
 }
+.executedCommand__4fb1a .appLauncherOnboardingCommandName_bf880c:hover,
 .wrapper__53064:hover {
   background-color: hsla(var(--accent-hsl), 0.45);
 }
