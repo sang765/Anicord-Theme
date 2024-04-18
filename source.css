@@ -6621,7 +6621,7 @@ svg.launchIcon__1a9a6 > path,
 
 /* Process Bar */
 .vc-notification-progressbar {
-  background-color: hsl(var(--accent-hsl));
+  background-color: hsl(var(--accent-hsl)) !important;
 }
 .u.u58.u58__progressBar.progressBar__00a1a.u.u58.u58__small.small__10721.u.u58.u58__animating.animating__93426 {
   background: linear-gradient(to right, hsla(var(--accent-hsl)), hsla(var(--accent-hsl))) !important;
