@@ -6562,7 +6562,8 @@ svg.downloadHoverButtonIcon_c189c0,
 [class*="checkbox_"],
 .closeButton__8177f,
 .children__563f2 > div > svg,
-.radioForeground_e46974 {
+.radioForeground_e46974,
+button.vc-notification-close-btn > svg {
   color: hsla(var(--accent-hsl)) !important;
 }
 .colorDanger__08c25 > div > svg,
