@@ -1782,6 +1782,7 @@ body {
 .notice__5fd4c.colorInfo__680aa, .notice__5fd4c.notice-2olXi7, .notice__5fd4c.colorBrand1-2u_MN9 {
   background-color: hsla(var(--accent-hsl), var(--accent-opacity));
   color: var(--accent-text-color);
+  margin-top: 10px;
 }
 .notice__5fd4c.colorInfo__680aa .closeButton__90904, .notice__5fd4c.notice-2olXi7 .closeButton__90904, .notice__5fd4c.colorBrand1-2u_MN9 .closeButton__90904 {
   opacity: 0.75;
@@ -6563,7 +6564,9 @@ svg.downloadHoverButtonIcon_c189c0,
 .closeButton__8177f,
 .children__563f2 > div > svg,
 .radioForeground_e46974,
-button.vc-notification-close-btn > svg {
+button.vc-notification-close-btn > svg,
+svg.statIcon_o40EX1 > path,
+.name_OSUjF9:hover {
   color: hsla(var(--accent-hsl)) !important;
 }
 .colorDanger__08c25 > div > svg,
@@ -6577,9 +6580,17 @@ svg.launchIcon__1a9a6 > path,
 .contents__322f4.buttonContents__85ccf > div > svg {
   color: var(--alert-action-color) !important;
 }
-.bar__004d9.mentionsBar__7d867 {
+.bar__004d9.mentionsBar__7d867,
+.bd-button-filled.bd-button-color-brand,
+button.button_coQXfM,
+.tag_PbPfwP.textBadge_f05120.base__5ed84.eyebrow_c15ff6.baseShapeRound_c1de89:hover,
+.bd-filled-checkmark {
   background-color: hsla(var(--accent-hsl)) !important;
 }
+button.button_coQXfM[style="background-color: var(--status-danger);"] {
+  background-color: var(--status-danger) !important;
+}
+
 /* Button Background */
 .hoverButtonGroup__745e4 {
   background-color: var(--message-color-hover);
@@ -6653,4 +6664,9 @@ path[fill="var(--brand-500)"] {
 /* Text fix */
 h3.name__27f04.container__43554 {
   filter: brightness(2);
+}
+
+/* BD Update Page */
+.bd-empty-updates svg {
+  fill: hsla(var(--accent-hsl)) !important;
 }
