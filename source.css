@@ -6566,8 +6566,10 @@ svg.downloadHoverButtonIcon_c189c0,
 .radioForeground_e46974,
 button.vc-notification-close-btn > svg,
 svg.statIcon_o40EX1 > path,
-.name_OSUjF9:hover {
+.name_OSUjF9:hover,
+.buttonWrapper_bd4bd7.button__493d9 > svg > path {
   color: hsla(var(--accent-hsl)) !important;
+  fill: hsla(var(--accent-hsl)) !important;
 }
 .colorDanger__08c25 > div > svg,
 .button_d4bf9b.dangerous__8fbad > svg > path {
