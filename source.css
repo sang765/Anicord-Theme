@@ -6672,3 +6672,8 @@ h3.name__27f04.container__43554 {
 .bd-empty-updates svg {
   fill: hsla(var(--accent-hsl)) !important;
 }
+
+/* Smooth Message Actions */
+.container__2f489{
+  transition: ease-in-out 0.3s;
+}
