@@ -122,6 +122,7 @@
   --scrollbar-opacity-hover: 0.3;
   --scrollbar-width: 10px;
   --windows-title: 'Anicord';
+  --edited-message: 'EDITED ✎'
 }
 
 .theme-dark {
@@ -6569,8 +6570,8 @@ button.vc-notification-close-btn > svg,
 svg.statIcon_o40EX1 > path,
 .name_OSUjF9:hover,
 .buttonWrapper_bd4bd7.button__493d9 > svg > path {
-  color: hsla(var(--accent-hsl)) !important;
-  fill: hsla(var(--accent-hsl)) !important;
+  color: hsla(var(--accent-hsl));
+  fill: hsla(var(--accent-hsl));
 }
 .colorDanger__08c25 > div > svg,
 .button_d4bf9b.dangerous__8fbad > svg > path {
@@ -6592,6 +6593,9 @@ button.button_coQXfM,
 }
 button.button_coQXfM[style="background-color: var(--status-danger);"] {
   background-color: var(--status-danger) !important;
+}
+.theme-dark .applicationInstallButtonContent__4b859 > svg {
+  color: #fff !important;
 }
 
 /* Button Background */
@@ -6677,4 +6681,82 @@ h3.name__27f04.container__43554 {
 /* Smooth Message Actions */
 .container__2f489{
   transition: ease-in-out 0.3s;
+}
+
+/* user typing... but its edited*/
+.dots-1BwzZQ {
+  margin-right: 5px;
+}
+
+.base__06abc .text_eb454c {
+  display: flex;
+  align-items: center;
+}
+
+.typing__6fd1d {
+  font-size: 0;
+}
+
+.typing__6fd1d strong {
+  font-size: 12px;
+}
+
+.typing__6fd1d strong:after {
+  content: ',';
+  margin-right: 4px;
+}
+
+.typing__6fd1d strong:nth-last-child(2)::after {
+  content: 'and';
+  margin: 0 4px;
+  color: var(--textarea-color);
+  font-weight: 400;
+  margin-top: -5px;
+}
+
+.typing__6fd1d strong:last-child::after {
+  content: 'is wanna tell something';
+  color: var(--textarea-color);
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 4px;
+}
+
+.typing__6fd1d strong:nth-last-child()::after {
+  content: 'are telling something';
+  color: var(--textarea-color);
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 4px;
+}
+
+/*custom new unreads*/
+.bar__004d9 {
+  padding: 14px 50px;
+  margin-bottom: 85px;
+}
+
+.unreadIcon__1e53f {
+  display: none;
+}
+
+.text-xs-medium-2LRpEj {
+  margin-left: 5px !important;
+}
+
+.text-xs-medium-2LRpEj:before {
+  content: "▸ ";
+}
+
+.text-xs-medium-2LRpEj:after {
+  content: " ◂";
+}
+
+/*Render the original edited text invisible*/
+.edited_b20dd9::before {
+  content: "(" var(--edited-message) ")"; /*Put the edited icon before the original edited text.*/
+  color: var(--text-muted); /*Give it the same muted color at the edited text.*/
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1;
 }
