@@ -6568,7 +6568,9 @@ svg.downloadHoverButtonIcon_c189c0,
 button.vc-notification-close-btn > svg,
 svg.statIcon_o40EX1 > path,
 .name_OSUjF9:hover,
-.buttonWrapper_bd4bd7.button__493d9 > svg > path {
+.buttonWrapper_bd4bd7.button__493d9 > svg > path,
+.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path="url(#__lottie_element_5299)"],
+.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path="url(#__lottie_element_5351)"] {
   color: hsla(var(--accent-hsl));
   fill: hsla(var(--accent-hsl));
 }
@@ -6580,7 +6582,8 @@ svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button > path {
   color: var(--green-360) !important;
 }
 svg.launchIcon__1a9a6 > path,
-.contents__322f4.buttonContents__85ccf > div > svg {
+.contents__322f4.buttonContents__85ccf > div > svg,
+.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg {
   color: var(--alert-action-color) !important;
 }
 .bar__004d9.mentionsBar__7d867,
