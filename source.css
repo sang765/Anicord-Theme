@@ -122,7 +122,6 @@
   --scrollbar-opacity-hover: 0.3;
   --scrollbar-width: 10px;
   --windows-title: 'Anicord';
-  --edited-message: 'EDITED ✎'
 }
 
 .theme-dark {
@@ -6750,13 +6749,4 @@ h3.name__27f04.container__43554 {
 
 .text-xs-medium-2LRpEj:after {
   content: " ◂";
-}
-
-/*Render the original edited text invisible*/
-.edited_b20dd9::before {
-  content: "(" var(--edited-message) ")"; /*Put the edited icon before the original edited text.*/
-  color: var(--text-muted); /*Give it the same muted color at the edited text.*/
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 1;
 }
