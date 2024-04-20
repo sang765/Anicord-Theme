@@ -8,8 +8,8 @@
  */
 
 /* FONT IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf');
+@import url('fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
 /* CSS IMPORT */
 @import url("https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css");
 @import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
