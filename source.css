@@ -1589,8 +1589,8 @@ body {
   --button-text-color: var(--alert-text-color);
 }
 .colorable__4f530.white_ce1c7b {
-  --button-background: #fff;
-  --button-text-color: #060607;
+    --button-background: hsla(var(--accent-hsl));
+    --button-text-color: #060607;
 }
 .colorable__4f530.primaryLight_be4e00 {
   --button-text-color: #060607;
@@ -6569,8 +6569,7 @@ button.vc-notification-close-btn > svg,
 svg.statIcon_o40EX1 > path,
 .name_OSUjF9:hover,
 .buttonWrapper_bd4bd7.button__493d9 > svg > path,
-.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path="url(#__lottie_element_5299)"],
-.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path="url(#__lottie_element_5351)"] {
+.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path*="url(#__lottie_element"] {
   color: hsla(var(--accent-hsl));
   fill: hsla(var(--accent-hsl));
 }
