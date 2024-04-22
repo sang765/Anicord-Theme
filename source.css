@@ -6694,6 +6694,6 @@ span.guildNameText__2c549.guildNameTextLimitedSize__11117 {
 }
 
 /* Anti Image Like Video */
-div[class^="iconWrapper_"] {
+div[class="iconWrapper__7b0c6"] {
   background-color: hsla(var(--accent-hsl), 0.45);
 }
