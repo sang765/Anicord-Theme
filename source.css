@@ -6627,11 +6627,6 @@ button.button_coQXfM[style="background-color: var(--status-danger);"] {
   visibility: visible !important;
 }
 
-/* Remove slowmode message */
-.cooldownWrapper__193b2 {
-  font-size: 0px;
-}
-
 /*server banner design*/
 .animatedContainer__0e828 {
   transform: scale(0.9) !important;
