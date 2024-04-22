@@ -6683,3 +6683,11 @@ h3.name__27f04.container__43554 {
 .container__2f489{
   transition: ease-in-out 0.3s;
 }
+
+/* Server Popup Editor */ 
+.row_f694ee.rowGuildName__6b00c {
+  text-align: center;
+}
+.vc-membercount-widget {
+  justify-content: center;
+}
