@@ -6684,10 +6684,16 @@ h3.name__27f04.container__43554 {
   transition: ease-in-out 0.3s;
 }
 
-/* Server Popup Editor */ 
+/* Server Tooltip Editor */ 
 .row_f694ee.rowGuildName__6b00c {
   text-align: center;
 }
 .vc-membercount-widget {
   justify-content: center;
+}
+.text-xs-normal__46d75.muteText__8f07b {
+  text-align: center;
+}
+span.guildNameText__2c549.guildNameTextLimitedSize__11117 {
+  margin: auto;
 }
