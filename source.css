@@ -6692,3 +6692,8 @@ h3.name__27f04.container__43554 {
 span.guildNameText__2c549.guildNameTextLimitedSize__11117 {
   margin: auto;
 }
+
+/* Anti Image Like Video */
+div[class^="iconWrapper_"] {
+  background-color: hsla(var(--accent-hsl), 0.45);
+}
