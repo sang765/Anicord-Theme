@@ -10,6 +10,7 @@
 /* FONT IMPORT */
 @import url('fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf');
 @import url('fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+@import url('fonts/Monaspace/MonaspaceXenonVarVF[wght\,wdth\,slnt].ttf');
 /* CSS IMPORT */
 @import url("https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css");
 @import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
@@ -145,6 +146,10 @@
 html, 
 body {
   font-family: "Tilt Neon";
+}
+code {
+  font-family: 'Monaspace';
+  font-size: 13px;
 }
 
 body:before {
