@@ -10,6 +10,7 @@
 /* FONT IMPORT */
 @import url('fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf');
 @import url('fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 /* CSS IMPORT */
 @import url("https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css");
 @import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
@@ -142,9 +143,11 @@
 }
 
 /* html custom font styles */
-html, 
 body {
   font-family: "Tilt Neon";
+}
+code {
+  font-family: 'Lexend Deca';
 }
 
 body:before {
