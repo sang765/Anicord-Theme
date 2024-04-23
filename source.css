@@ -6412,20 +6412,20 @@ h3.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.title__392bc,
 .memberSinceContainer__16630,
 h2.defaultColor__30336.eyebrow_b3f8ba,
 ul.popularApplicationCommandsList__0eb68,
-.defaultColor__30336.text-sm-semibold_d260b0.nameWrap_b61c4b.textRow_c835f1 {
+.defaultColor__30336.text-sm-semibold_d260b0.nameWrap_b61c4b.textRow_c835f1,
+.body__323bb {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.section__62b44 > div {
+.section__62b44 > div,
+.u.u345.u345__root.root_a99273.u.u346.u346__roles.roles__74a2b,
+.memberSinceWrapper__03059 {
     justify-content: center;
 }
 .defaultColor__30336.lineClamp2Plus_ccc883.text-sm-normal__95a78,
 textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline__00100.scrollbar_b61b2b {
     text-align: center;
-}
-.u.u345.u345__root.root_a99273.u.u346.u346__roles.roles__74a2b {
-  justify-content: center;
 }
 /* User Profile Popup */
 .container__9f51c {
