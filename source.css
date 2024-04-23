@@ -6432,7 +6432,8 @@ textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline
     align-self: center;
 }
 .defaultColor__30336.text-lg-semibold__9539a,
-h1.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.header__9af10 {
+h1.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.header__9af10,
+.userInfoText_b87307 {
     margin-right: 0px !important;
     text-align: center;
 }
@@ -6569,7 +6570,8 @@ button.vc-notification-close-btn > svg,
 svg.statIcon_o40EX1 > path,
 .name_OSUjF9:hover,
 .buttonWrapper_bd4bd7.button__493d9 > svg > path,
-.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path*="url(#__lottie_element"] {
+.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path*="url(#__lottie_element"],
+.contents__322f4 > svg > path {
   color: hsla(var(--accent-hsl));
   fill: hsla(var(--accent-hsl));
 }
