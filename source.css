@@ -6576,7 +6576,8 @@ svg.statIcon_o40EX1 > path,
 .name_OSUjF9:hover,
 .buttonWrapper_bd4bd7.button__493d9 > svg > path,
 .lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 > svg > g[clip-path*="url(#__lottie_element"],
-.contents__322f4 > svg > path {
+.contents__322f4 > svg > path,
+[class^="downloadButton_"] {
   color: hsla(var(--accent-hsl));
   fill: hsla(var(--accent-hsl));
 }
