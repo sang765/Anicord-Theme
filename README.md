@@ -32,11 +32,11 @@
 
 Main Screen:
 
-<img src="assets/main.jpg" alt="Main Screen">
+<img src="assets/main.png" alt="Main Screen">
 
 Member Server Preview:
 
-<img src="assets/member.jpg" alt="Member Server Preview">
+<img src="assets/member.png" alt="Member Server Preview">
 
 User Profile Preview:
 
@@ -44,7 +44,7 @@ User Profile Preview:
 
 Settings Preview:
 
-<img src="assets/settings.jpg" alt="Settings Preview">
+<img src="assets/settings.png" alt="Settings Preview">
 
 
 ## ⚙️ Install Theme
