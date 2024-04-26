@@ -6515,6 +6515,12 @@ button.button_coQXfM[style="background-color: var(--status-danger);"] {
   background-color: var(--message-color-hover);
 }
 
+/* Equicord serverlist indicator */
+#vc-serverlist-indicators,
+#vc-serverlist-indicators:hover {
+  background-color: hsla(var(--accent-hsl));
+}
+
 /* Mention Recolor */
 .executedCommand__4fb1a .appLauncherOnboardingCommandName_bf880c,
 .wrapper__53064 {
@@ -6549,7 +6555,7 @@ button.button_coQXfM[style="background-color: var(--status-danger);"] {
 .vc-notification-progressbar {
   background-color: hsl(var(--accent-hsl)) !important;
 }
-.u.u58.u58__progressBar.progressBar__00a1a.u.u58.u58__small.small__10721.u.u58.u58__animating.animating__93426 {
+.progressBar__00a1a {
   background: linear-gradient(to right, hsla(var(--accent-hsl)), hsla(var(--accent-hsl))) !important;
 }
 
