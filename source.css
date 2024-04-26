@@ -5778,7 +5778,7 @@ button.button_ae40a4 /* make user panel buttons round */ {
 .iconContainer__9f124, .icon__5c8c7 { /* Make the Search icon match the styling of the other icons.*/
   width: 21px;
   height: 21px;
-  color: var(--interactive-normal);
+  color: hsl(var(--accent-hsl));
   transition: ease-in-out .3s;
 }
 
@@ -5801,7 +5801,7 @@ button.button_ae40a4 /* make user panel buttons round */ {
 .searchBar__5a20a:hover,
 .focused__037a4 .searchBar__5a20a, .open_d3ab4e .searchBar__5a20a  { /*Reveal Search Bar on Hover*/
   width: 175px;
-  background: var(--background-tertiary);
+  background: var(--textarea-block-color);
   border: 1px solid var(--button-outline-primary-border-hover);
 }
 
