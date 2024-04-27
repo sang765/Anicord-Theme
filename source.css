@@ -5741,7 +5741,7 @@ body {
 }
 
 .userProfileOuterUnthemed__9741c .buttonColor_fd4fe8 {
-  background-color: hsla(var(--accent-hue))
+  background-color: hsl(var(--accent-hsl))
 }
 
 .theme-dark [style*=transform].root_a28985:has(.userProfileModalOuter__90b4a) {
@@ -5792,6 +5792,155 @@ body {
 .tabBarContainer_b283be {
   padding: 0 20px;
   border-color: rgba(255, 255, 255, .04)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda {
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0 10px;
+  color: rgba(255, 255, 255, .5) !important;
+  transition: color .15s ease-in-out;
+  z-index: 1
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, transparent, hsla(0deg, 0%, 100%, 0.07) 50%);
+  border-radius: 3px 3px 0 0;
+  opacity: 0;
+  transition: all .15s ease-in-out, bottom .2s ease-in-out;
+  z-index: -1
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .25);
+  border-radius: 3px 3px 0 0;
+  transition: all .2s ease-in-out;
+  z-index: -1
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda:hover:before,
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 [style*="color: rgb(255, 255, 255)"].item__48dda:before {
+  opacity: 1
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda.selected_a523ff:after {
+  top: 0;
+  animation: cv-slide-top .2s ease-in-out
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda.selected_a523ff:before {
+  bottom: 100%;
+  animation: cv-slide-bottom .2s ease-in-out reverse
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda:hover {
+  border-bottom-color: var(--hover-color)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .tabBar__35f81 .item__48dda.selected_a523ff {
+  border-bottom-color: var(--main-color)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .userInfoSection_e816c1+.userInfoSection_e816c1 {
+  border-color: rgba(255, 255, 255, .04)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .userInfoSection_e816c1>.userInfoSectionHeader_c9f1d3 {
+  color: rgba(255, 255, 255, .7)
+}
+
+.connectedAccounts__7a8e6 .connectedAccountContainer__5972d {
+  position: relative;
+  background: rgba(255, 255, 255, .04);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  transition: all .15s ease-in-out
+}
+
+.connectedAccounts__7a8e6 .connectedAccountContainer__5972d:hover {
+  background: rgba(255, 255, 255, .07)
+}
+
+.connectedAccounts__7a8e6 .connectedAccountContainer__5972d:hover .connectedAccountOpenIcon__23b1a {
+  opacity: .7
+}
+
+.connectedAccounts__7a8e6 .connectedAccountContainer__5972d:active {
+  transform: scale(0.95)
+}
+
+.connectedAccountVerifiedIcon__103a6 {
+  background: url(https://clearvision.github.io/icons/verified.svg) center/18px no-repeat;
+  opacity: .5;
+  z-index: 1
+}
+
+.connectedAccountVerifiedIcon__103a6 .flowerStar_fa5ad8 {
+  opacity: 0
+}
+
+.connectedAccountVerifiedIcon__103a6 .childContainer__3a40c {
+  display: none
+}
+
+.connectedAccountOpenIcon__23b1a {
+  background: url(https://clearvision.github.io/icons/popout.svg) center/18px no-repeat;
+  opacity: .3;
+  transition: all .15s ease-in-out;
+  transform: none
+}
+
+.connectedAccountOpenIcon__23b1a>polygon {
+  display: none
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .listScroller__18a19 .listRow__50619 {
+  position: relative;
+  color: rgba(255, 255, 255, .5);
+  transition: all .15s ease-in-out;
+  z-index: 1
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .listScroller__18a19 .listRow__50619:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, transparent, hsla(0deg, 0%, 100%, 0.04) 10%, hsla(0deg, 0%, 100%, 0.04) 90%, transparent);
+  opacity: 0;
+  transition: inherit;
+  z-index: -1
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .listScroller__18a19 .listRow__50619:hover {
+  background: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, .7)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .listScroller__18a19 .listRow__50619:hover:after {
+  opacity: 1
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .listScroller__18a19 .listRow__50619:active {
+  transform: scale(0.97)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .actionColor_db400e {
+  background-color: hsl(var(--accent-hsl))
 }
 
 /*some simple channel/settings/dms/member list hover animations*/
