@@ -6687,6 +6687,10 @@ button.button_coQXfM[style="background-color: var(--status-danger);"] {
   fill: #fff !important;
 }
 
+div[class^="actionButtons_"] > button > div > div {
+  filter: brightness(2) saturate(0);
+}
+
 /* Button Background */
 .hoverButtonGroup__745e4 {
   background-color: var(--message-color-hover);
