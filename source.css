@@ -5960,27 +5960,30 @@ body {
 }
 /*hide new messages bar until hovered*/
 .messagesWrapper_add28b {
-    overflow: hidden;
+  overflow: hidden;
 }
-.newMessagesBar__8b272 {
-    top: -48px;
-    height: 72px;
-    transition: top 0.2s ease;
-    background: none;
-    box-shadow: none;
-    border-radius: 0;
+.newMessagesBar__8b272,
+.newTopicsBarContainer__8c1e3 {
+  top: -48px;
+  height: 72px;
+  transition: top 0.2s ease;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
 }
-.newMessagesBar__8b272::before {
-    content: '';
-    background: hsla(var(--accent-hsl), 1);
-    box-shadow: var(--elevation-low);
-    width: 100%;
-    position: absolute;
-    height: 32px;
-    border-radius: 12px;
+.newMessagesBar__8b272::before,
+.newTopicsBarContainer__8c1e3::before {
+  content: '';
+  background: hsla(var(--accent-hsl), 1);
+  box-shadow: var(--elevation-low);
+  width: 100%;
+  position: absolute;
+  height: 32px;
+  border-radius: 12px;
 }
-.newMessagesBar__8b272:hover {
-    top: -12px;
+.newMessagesBar__8b272:hover,
+.newTopicsBarContainer__8c1e3:hover {
+  top: -5px;
 }
 /*some more silly hover animations*/
 button.button_ae40a4 /* make user panel buttons round */ {
