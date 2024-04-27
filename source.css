@@ -6825,7 +6825,7 @@ svg.launchIcon__1a9a6 > path,
 button.button_coQXfM,
 .tag_PbPfwP.textBadge_f05120.base__5ed84.eyebrow_c15ff6.baseShapeRound_c1de89:hover,
 .bd-filled-checkmark,
-.contents__322f4 > div > div:nth-child(2) {
+.contents__322f4 > div > .sprite__294b3.spriteGreyscale__750f4.active__6a892 {
   background-color: hsla(var(--accent-hsl)) !important;
 }
 button.button_coQXfM[style="background-color: var(--status-danger);"] {
