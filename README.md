@@ -10,7 +10,7 @@
   <a href="https://openasar.dev/"><img src="assets/OpenAsar.png" alt="OpenAsar" width="50"></a>
   <a href="https://spikehd.github.io/projects/dorion/"><img src="assets/Dorion.png" alt="Dorion" width="50"></a>
 </p>
-<h6>This theme is a remake of the <strong>Translucent</strong> theme but I have added a little CSS from <strong>Chillax</strong> theme, Vencord, BetterDiscord server and a little of my own CSS. All CSS sources I have used will be credited at the end of the reading file.</h6>
+<h6>This theme is a remake of the <strong>Translucent</strong> theme but I have added a little CSS from <strong>Chillax, ClearVersion</strong> theme, Vencord, BetterDiscord server and a little of my own CSS. All CSS sources I have used will be credited at the end of the reading file.</h6>
 </div>
 
 <p align="center">
@@ -76,6 +76,10 @@ https://raw.githubusercontent.com/sang765/Anicord-Theme/main/source.css
 - Chillax Theme: https://betterdiscord.app/theme?id=736
 
 <a href="https://betterdiscord.app/theme?id=736"><img src="https://images-ext-2.discordapp.net/external/q2ARW13l3EG6jb0QG14VynEwVvenrLEcflM6ReyLQT0/https/betterdiscord.app/Image/1393?" alt="Chillax"></a>
+
+- ClearVersion V6: https://betterdiscord.app/theme/ClearVision
+
+<a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/44ab5aedbf3ae7480f9399532db59dba35c01c4cda5201d1ac84e2de8151257e/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVersion"></a>
 
 - CSS Snippet from [Better Discord Server](https://discord.gg/0Tmfo5ZbORCRqbAd) and [Vencord Discord Server](https://discord.gg/vencord)
 

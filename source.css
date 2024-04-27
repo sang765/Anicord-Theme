@@ -27,6 +27,7 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 /* MAIN THEME */
 :root {
+/* Transluent tag */
   --app-bg: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/themeimage.png);
   --app-blur: 0px;
   --app-margin: 24px;
@@ -123,6 +124,60 @@
   --scrollbar-opacity-hover: 0.3;
   --scrollbar-width: 10px;
   --windows-title: 'Anicord';
+
+/* ClearVersion V6 Tag */
+  --background-shading: 100%;
+  --background-overlay: rgba(0, 0, 0, 0.6);
+  --background-image: var(--app-bg);
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-invert: 0%;
+  --background-grayscale: 0%;
+  --background-sepia: 0%;
+  --background-blur: 0px;
+  --backdrop-overlay: rgba(0, 0, 0, 0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --user-popout-image: var(--background-image);
+  --user-popout-position: var(--background-position);
+  --user-popout-size: var(--background-size);
+  --user-popout-repeat: var(--background-repeat);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-brightness: var(--background-brightness);
+  --user-popout-contrast: var(--background-contrast);
+  --user-popout-saturation: var(--background-saturation);
+  --user-popout-invert: var(--background-invert);
+  --user-popout-grayscale: var(--background-grayscale);
+  --user-popout-sepia: var(--background-sepia);
+  --user-popout-blur: calc(var(--background-blur) + 3px);
+  --user-popout-overlay: rgba(0, 0, 0, 0.65);
+  --user-modal-image: var(--background-image);
+  --user-modal-position: var(--background-position);
+  --user-modal-size: var(--background-size);
+  --user-modal-repeat: var(--background-repeat);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-brightness: var(--background-brightness);
+  --user-modal-contrast: var(--background-contrast);
+  --user-modal-saturation: var(--background-saturation);
+  --user-modal-invert: var(--background-invert);
+  --user-modal-grayscale: var(--background-grayscale);
+  --user-modal-sepia: var(--background-sepia);
+  --user-modal-blur: calc(var(--background-blur) + 3px);
 }
 
 .theme-dark {
@@ -5618,6 +5673,125 @@ body {
 
 .selectedBackground__4039b {
   display: none;
+}
+
+/*
+ *
+ *  CLEAR VERSION V6 USER PROFILE POPUP AND PROFILE
+ *
+ */
+ .userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c {
+  background: rgba(0, 0, 0, 0)
+}
+
+.userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c .userPopoutInner_ac0960 {
+  background: var(--user-popout-overlay)
+}
+
+.userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c .userPopoutOverlayBackground__3e7e6 {
+  background-color: rgba(0, 0, 0, .4)
+}
+
+.userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c:not(.profileCustomizationPreview_a1502f) .userPopoutInner_ac0960::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--user-popout-image) var(--user-popout-position)/var(--user-popout-size) var(--user-popout-repeat) var(--user-popout-attachment);
+  filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
+  width: 100%;
+  height: 100%;
+  z-index: -1
+}
+
+.animatorLeft_f985f4>.userPopoutOuter_d67f56 {
+  transform-origin: 100% 50%
+}
+
+.popoutBanner__3fbe8 {
+  -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
+  mask: linear-gradient(to bottom, #000, transparent 93%)
+}
+
+.popoutBannerPremium__84487 {
+  -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
+  mask: linear-gradient(to bottom, #000 50%, transparent)
+}
+
+.profileBadges__1f2ab {
+  background-color: rgba(0, 0, 0, .4)
+}
+
+.userPopoutOverlayBackground__3e7e6>.menu__088f7 {
+  background-color: rgba(0, 0, 0, 0);
+  animation: none
+}
+
+.userPopoutOverlayBackground__3e7e6 .popoutNoBannerPremium__587cf {
+  -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
+  mask: linear-gradient(to bottom, #000 50%, transparent)
+}
+
+.userPopoutOverlayBackground__3e7e6 #permissions-popout {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1
+}
+
+.userProfileOuterUnthemed__9741c .buttonColor_fd4fe8 {
+  background-color: hsla(var(--accent-hue))
+}
+
+.theme-dark [style*=transform].root_a28985:has(.userProfileModalOuter__90b4a) {
+  transform: none !important;
+  z-index: 0
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c {
+  background: rgba(0, 0, 0, 0)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .overlayBackground__345c9 {
+  background-color: rgba(0, 0, 0, .4)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .userProfileModalInner__84e47 {
+  background: rgba(0, 0, 0, .7)
+}
+
+.userProfileModalOuter__90b4a.userProfileOuterUnthemed__9741c .userProfileModalInner__84e47::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--user-modal-image) var(--user-modal-position)/var(--user-modal-size) var(--user-modal-repeat) var(--user-modal-attachment);
+  filter: grayscale(var(--user-modal-grayscale)) sepia(var(--user-modal-sepia)) invert(var(--user-modal-invert)) brightness(var(--user-modal-brightness)) contrast(var(--user-modal-contrast)) saturate(var(--user-modal-saturation)) blur(var(--user-modal-blur));
+  width: 100%;
+  height: 100%;
+  z-index: -1
+}
+
+.modalBanner_e4ade4 {
+  -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
+  mask: linear-gradient(to bottom, #000, transparent 93%)
+}
+
+.modalBannerPremium_d287e3 {
+  -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
+  mask: linear-gradient(to bottom, #000 50%, transparent)
+}
+
+.badgeList__126b0 {
+  background-color: rgba(0, 0, 0, .4)
+}
+
+.tabBarContainer_b283be {
+  padding: 0 20px;
+  border-color: rgba(255, 255, 255, .04)
 }
 
 /*some simple channel/settings/dms/member list hover animations*/
