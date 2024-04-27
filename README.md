@@ -46,6 +46,10 @@ Settings Preview:
 
 <img src="assets/settings.png" alt="Settings Preview">
 
+Transparency Background Support With Transparency Option:
+
+<img src="assets/transparency.png" alt="Transparency">
+<img src="assets/transparencypreview.png" alt="Transparency">
 
 ## ⚙️ Install Theme
 ### Online Import (Vencord)
@@ -82,4 +86,3 @@ https://raw.githubusercontent.com/sang765/Anicord-Theme/main/source.css
 <a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/44ab5aedbf3ae7480f9399532db59dba35c01c4cda5201d1ac84e2de8151257e/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVersion" width="500"></a>
 
 - CSS Snippet from **[Better Discord Server](https://discord.gg/0Tmfo5ZbORCRqbAd)** and **[Vencord Discord Server](https://discord.gg/vencord)**
-
