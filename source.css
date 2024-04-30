@@ -6547,12 +6547,6 @@ button.button_ae40a4 /* make user panel buttons round */ {
   border-radius: 22px
 }
 
-/* Model Settings White Text */
-.eyebrow_b3f8ba {
-  color: white;
-  text-shadow: 0px 0px 5px black;
-}
-
 /* Channel Text Glow */
 .overflow__993fa {
   text-shadow: none;
@@ -6619,20 +6613,6 @@ button.button_ae40a4 /* make user panel buttons round */ {
 
 /* Fix Mosaic Zoom */
 [class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
-
-/* Settings Creatory Bubble */
-[class^="SettingsSidebar__header header__71a82"] {
-  color: var(--accent-text-color) !important;
-  background-color: hsla(var(--accent-hsl), 1);
-  border-radius: 25px;
-  box-shadow: 0px 0px 5px black;
-  padding: 0px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 
 /* Center Profile */
 /* User Preview */
@@ -6954,4 +6934,15 @@ div[class="iconWrapper__7b0c6"] {
 .vc-addon-card,
 .vc-addon-note {
   border: 2px solid hsl(var(--accent-hsl));
+}
+
+/* Stroke Settings */
+.item__48dda.selected_a523ff.themed_b957e8,
+.standardSidebarView__12528 {
+  border: 2px solid hsl(var(--accent-hsl));
+}
+/* Center Settings */
+.side_b4b3f6 .header__71a82 {
+  display: flex;
+  justify-content: center;
 }
