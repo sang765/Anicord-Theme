@@ -6949,3 +6949,9 @@ span.guildNameText__2c549.guildNameTextLimitedSize__11117 {
 div[class="iconWrapper__7b0c6"] {
   background-color: hsla(var(--accent-hsl), 0.45);
 }
+
+/* .vc-addon-card */
+.vc-addon-card,
+.vc-addon-note {
+  border: 2px solid hsl(var(--accent-hsl));
+}
