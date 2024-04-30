@@ -6006,7 +6006,6 @@ button.button_ae40a4 /* make user panel buttons round */ {
  { top: 0 !important; }
 .layer_f7d46a + .layer_f7d46a
  { border-radius: 10px !important;
-   box-shadow: 5px 5px 25px white;
    background-color: rgba(0, 0, 0, 0.685);
    border: 1px solid var(--border-strong);
    width: 1100px !important;
