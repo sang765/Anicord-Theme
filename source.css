@@ -6721,24 +6721,6 @@ h3.TextStyle__h5.h5__28baa.TextStyle__eyebrow.eyebrow__4e5bb.u.u1287.u1287__isEn
 .memberInfo__4d246 {
   justify-content: center;
 }
-img.u.u911.u911__splashImage.splashImage__9b574.u.u911.u911__splashImageHeight.splashImageHeight__19534,
-.u.u911.u911__iconMask.iconMask__4092e,
-img.splashImage__9b574.splashImageHeight__19534,
-svg.svg_bb7847 {
-  scale: 1;
-  box-shadow: 0px 0px 0px white;
-  transition: all 0.5s;
-}
-img.u.u911.u911__splashImage.splashImage__9b574.u.u911.u911__splashImageHeight.splashImageHeight__19534:hover,
-.u.u911.u911__iconMask.iconMask__4092e:hover,
-img.splashImage__9b574.splashImageHeight__19534:hover,
-svg.svg_bb7847:hover {
-  scale: 1.18;
-  box-shadow: 0px 0px 10px white
-}
-.u.u925.u925__headerContentWrapper.headerContentWrapper__41d6a {
-  box-shadow: 0px 0px 10px white
-}
 .categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b,
 .iconContainer__6b1cc {
   background-color: hsla(var(--accent-hsl), 1)
@@ -6782,7 +6764,6 @@ svg.statIcon_o40EX1 > path,
 .buttonWrapper_bd4bd7.button__493d9 > svg > path,
 .contents__322f4 > svg > path,
 [class^="downloadButton_"],
-.lottieIcon_c7076c :not(defs *)[fill][fill-opacity],
 .contents__322f4.button__437ce.button__493d9 > div > svg > g > path,
 .iconWrapper_de6cd1.clickable_ce0925 > svg > g > path {
   color: hsla(var(--accent-hsl));
@@ -6817,10 +6798,6 @@ button.button_coQXfM[style="background-color: var(--status-danger);"] {
 [class^="innerWrapper_"] > button > div > svg > path {
   color: #fff !important;
   fill: #fff !important;
-}
-
-div[class^="actionButtons_"] > button > div > div {
-  filter: brightness(2) saturate(0);
 }
 
 /* Button Background */
