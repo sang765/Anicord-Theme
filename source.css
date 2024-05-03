@@ -6765,7 +6765,8 @@ svg.statIcon_o40EX1 > path,
 .contents__322f4 > svg > path,
 [class^="downloadButton_"],
 .contents__322f4.button__437ce.button__493d9 > div > svg > g > path,
-.iconWrapper_de6cd1.clickable_ce0925 > svg > g > path {
+.iconWrapper_de6cd1.clickable_ce0925 > svg > g > path,
+svg[class^="icon_"] > g > path {
   color: hsla(var(--accent-hsl));
   fill: hsla(var(--accent-hsl));
 }
