@@ -6923,3 +6923,8 @@ div[class="iconWrapper__7b0c6"] {
   display: flex;
   justify-content: center;
 }
+
+/* Textcolor */
+.modeSelected__473f1 .name__4eb92 {
+  color: hsl(var(--accent-hsl));
+}
