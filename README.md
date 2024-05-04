@@ -8,7 +8,7 @@
   <a href="https://replugged.dev/"><img src="assets/Replugged.png" alt="Replugged" width="50"></a>
   <a href="https://vencord.dev"><img src="assets/Vencord.png" alt="Vencord" width="50"></a>
   <a href="https://openasar.dev/"><img src="assets/OpenAsar.png" alt="OpenAsar" width="50"></a>
-  <a href="https://spikehd.github.io/projects/dorion/"><img src="assets/Dorion.png" alt="Dorion" width="50"></a>
+  <a href="https://github.com/aero-mod/aero"><img src="assets/areo.png" alt="Areo" width="50"></a>
 </p>
 <h6>This theme is a remake of the <strong>Translucent</strong> theme but I have added a little CSS from <strong>Chillax, ClearVersion</strong> theme, Vencord, BetterDiscord server and a little of my own CSS. All CSS sources I have used will be credited at the end of the reading file.</h6>
 </div>
