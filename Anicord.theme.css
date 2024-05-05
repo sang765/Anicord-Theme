@@ -2,7 +2,7 @@
 * @name Anicord
 * @author sang765
 * @description Another anime theme for Discord mod client - Transparency support - Custom background
-* @version 1.5.7
+* @version 1.5.8
 * @tags background, blue, dark, themes
 * @source https://github.com/sang765/Anicord-Theme
 **/
@@ -20,7 +20,7 @@
 */  
 
 /* Theme Import */
-@import url('');
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/ThemePart/Anicord.css');
 /* CSS You Can Custom */
 :root {
 	--app-bg: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/themeimage.png); /* background */
