@@ -20,7 +20,7 @@
 */  
 
 /* Theme Import */
-@import url(https://raw.githubusercontent.com/sang765/Anicord-Theme/main/source.css);
+@import url('');
 /* CSS You Can Custom */
 :root {
 	--app-bg: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/themeimage.png); /* background */
