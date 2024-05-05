@@ -55,13 +55,13 @@ Transparency Background Support With Transparency Option:
 ### Online Import (Vencord)
 
 ```
-https://raw.githubusercontent.com/sang765/Anicord-Theme/main/source.css
+https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.css
 ```
 
 ### Quick CSS Import
 
 ```css
-@import url("https://raw.githubusercontent.com/sang765/Anicord-Theme/main/source.css");
+@import url("https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.css");
 ```
 
 ### Download Theme
