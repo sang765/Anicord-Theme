@@ -6062,6 +6062,7 @@ button.button_ae40a4 /* make user panel buttons round */ {
   transition: 0.3s ease-in-out;
   height: 0px!important;
   margin-top: -25px;
+  text-align: center;
 }
 .container_f79ab4:hover .membersGroup_cad095 {
   height: unset!important;
