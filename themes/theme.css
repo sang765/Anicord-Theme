@@ -2831,6 +2831,9 @@ body {
   background-color: var(--card-color-hover);
   border: none;
 }
+.buttonColor_fd4fe8 {
+  background-color: var(--profile-gradient-button-color) !important;
+}
 /* USER PROFILE -> LISTS */
 .listRow__50619 {
   border-radius: var(--card-radius);
