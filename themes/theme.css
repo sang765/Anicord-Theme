@@ -2831,8 +2831,10 @@ body {
   background-color: var(--card-color-hover);
   border: none;
 }
-.buttonColor_fd4fe8 {
-  background-color: var(--profile-gradient-button-color) !important;
+.buttonColor_fd4fe8,
+.actionColor_db400e,
+.buttonColor__8c13f {
+    background-color: var(--profile-gradient-button-color) !important;
 }
 /* USER PROFILE -> LISTS */
 .listRow__50619 {
