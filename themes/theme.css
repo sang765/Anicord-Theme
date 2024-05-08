@@ -5793,7 +5793,7 @@ button.button_ae40a4
     text-shadow: 0px 0px 0px hsla(var(--accent-hsl));
 }
 .wordmark__5b8c9:hover:before {
-    content: var(--windows-title) " DEV Version";
+    content: var(--windows-title) " v1.5.8";
     text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
     font-family: "Tilt Neon";
     letter-spacing: 4px;
