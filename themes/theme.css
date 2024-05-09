@@ -6235,3 +6235,7 @@ div[class="iconWrapper__7b0c6"] {
 [class*="colorStreamerMode_"] {
     background-color: var(--textarea-block-color);
 }
+/* Bot Tag Sync */
+[class*="userProfileOuterThemed"] [class*="botTag_"] {
+  background-color: var(--profile-gradient-button-color);
+}

@@ -1,0 +1,74 @@
+/* Icon Color */
+.toolbar__62fb5 path,
+.iconWrapper_de6cd1.clickable_ce0925 path,
+svg.icon_ae0b42 path,
+svg.icon__5c8c7 path,
+.buttonWrapper_bd4bd7 svg,
+.iconContainer__6a580 path,
+.iconContainer__5d61c svg,
+.buttonsInner_a9dfff.wrapper__4e6b6 svg,
+svg.downloadHoverButtonIcon_c189c0,
+[class*="checkbox_"],
+.closeButton__8177f,
+.children__563f2 svg,
+.radioForeground_e46974,
+button.vc-notification-close-btn svg,
+svg.statIcon_o40EX1 path,
+.name_OSUjF9:hover,
+.buttonWrapper_bd4bd7.button__493d9 path,
+.contents__322f4 path,
+[class^="downloadButton_"],
+.contents__322f4.button__437ce.button__493d9 path,
+.iconWrapper_de6cd1.clickable_ce0925 path,
+.iconContainer__6a580 path,
+svg[class^="icon_"] path,
+.contents__322f4 svg {
+    color: hsla(var(--accent-hsl));
+}
+.contents__322f4 svg,
+.expression-picker-chat-input-button.buttonContainer_ff1010.vc-chatbar-button path,
+.expression-picker-chat-input-button.buttonContainer_ff1010.vc-chatbar-button path,
+button.button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4 path,
+div.flex_f18b02.horizontal__4848b.justifyStart__6f8c8.alignStretch__2d62d.noWrap__5c413 path {
+    fill: hsla(var(--accent-hsl));
+}
+.colorDanger__08c25 svg,
+.button_d4bf9b.dangerous__8fbad path {
+    color: var(--status-danger) !important;
+}
+svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button path {
+    fill: var(--green-360) !important;
+}
+svg.launchIcon__1a9a6 path,
+.contents__322f4.buttonContents__85ccf svg,
+.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23 svg {
+    color: var(--alert-action-color) !important;
+}
+.bar__004d9.mentionsBar__7d867,
+.bd-button-filled.bd-button-color-brand,
+button.button_coQXfM,
+.tag_PbPfwP.textBadge_f05120.base__5ed84.eyebrow_c15ff6.baseShapeRound_c1de89:hover,
+.bd-filled-checkmark,
+.contents__322f4 .sprite__294b3.spriteGreyscale__750f4.active__6a892 {
+    background-color: hsla(var(--accent-hsl)) !important;
+}
+button.button_coQXfM[style="background-color: var(--status-danger);"] {
+    background-color: var(--status-danger) !important;
+}
+.theme-dark .applicationInstallButtonContent__4b859>svg,
+.lottieIcon_c7076c.controlIcon__73723.centerIcon_e3df23>svg>g[clip-path*="url(#__lottie_element"],
+[d="M19.738 10H22v4h-2.261a7.952 7.952 0 01-1.174 2.564L20 18l-2 2-1.435-1.436A7.946 7.946 0 0114 19.738V22h-4v-2.262a7.94 7.94 0 01-2.564-1.174L6 20l-2-2 1.436-1.436A7.911 7.911 0 014.262 14H2v-4h2.262a7.9 7.9 0 011.174-2.564L4 6l2-2 1.436 1.436A7.9 7.9 0 0110 4.262V2h4v2.261a7.967 7.967 0 012.565 1.174L18 3.999l2 2-1.436 1.437A7.93 7.93 0 0119.738 10zM12 16a4 4 0 100-8 4 4 0 000 8z"],
+[class^="innerWrapper_"]>button>div>svg>path,
+[class^="applicationInstallButtonContent_"] path {
+    color: #fff !important;
+    fill: #fff !important;
+}
+button.button_b82d53.buttonColor__7bad9.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeSmall_da7d10.fullWidth_fdb23d.grow__4c8a4.button_b82d53 path,
+button.button__581d0.lookFilled__950dd.cta__69e2a.addCTA_b4a3b3.sizeMin__508da.grow__4c8a4 path {
+  fill: white;
+}
+button.staticButton_e090bc.centerButton__8316e.colorable__4f530.primaryDark_ec74a7.button__581d0.lookBlank_a5b4ca.colorBrand__27d57 path,
+button.button_b82d53.buttonColor__7bad9.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeSmall_da7d10.grow__4c8a4.button_b82d53 path,
+button.staticButton_e090bc.centerButton__8316e.colorable__4f530.white_ce1c7b.button__581d0.lookBlank_a5b4ca.colorBrand__27d57 path {
+  color: white;
+}
