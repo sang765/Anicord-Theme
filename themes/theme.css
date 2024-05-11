@@ -400,7 +400,7 @@ body {
   text-shadow: 0px 0px 0px hsla(var(--accent-hsl));
 }
 .wordmark__5b8c9:hover:before {
-  content: var(--windows-title) var(--version);
+  content: var(--version);
   text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
   font-family: "Tilt Neon";
   letter-spacing: 4px;
