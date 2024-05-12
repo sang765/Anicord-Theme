@@ -96,6 +96,7 @@
   --scrollbar-opacity: 0.2;
   --scrollbar-opacity-hover: 0.3;
   --scrollbar-width: 10px;
+  --embed-line-width: 300px;
   --windows-title: 'Anicord';
   --version: '1.5.8'
 /* ClearVersion V6 Tag */
@@ -2191,6 +2192,46 @@ body {
 }
 .playButtonContainer_bf2199 .playIcon__25e6e {
   color: var(--accent-text-color) !important;
+}
+/*CHILLAX EMBEDS*/
+.theme-dark .embed_cc6dae {
+  border-radius: var(--app-radius);
+  z-index: 2;
+}
+.theme-dark .embed_cc6dae code {
+  background: rgb(19, 18, 19);
+}
+.theme-dark .embedFull__14919 {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+.theme-dark .embedFull__14919 {
+  border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
+  background: rgb(19, 18, 19);
+  box-shadow: 2px 2px 8px rgb(10, 10, 10);
+}
+.theme-dark .grid__35551 {
+  margin-left: calc(-1 * var(--embed-line-width));
+  z-index: 1;
+}
+.theme-dark .embedFull__14919:after,
+.embedFull__14919:before {
+  content: "";
+  height: 100%;
+  width: var(--embed-line-width);
+  position: absolute;
+  top: 0;
+  left: calc(-1 * var(--embed-line-width));
+}
+.theme-dark .embedFull__14919:after {
+  background: linear-gradient(to right, transparent, rgb(19, 18, 19));
+  z-index: -3;
+}
+.theme-dark .embedFull__14919:before {
+  background: rgb(19, 18, 19);
+  opacity: 0.8;
+  z-index: -1;
 }
 /* ATTACHMENTS -> TEXT CONTAINER */
 .textContainer__65f57,
