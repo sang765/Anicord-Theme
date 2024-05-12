@@ -385,7 +385,7 @@ body {
 .wordmark__5b8c9::before {
   content: var(--windows-title);
   font-size: 15px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script";
   position: fixed;
   color: hsla(var(--accent-hsl), 1);
   background: var(--card-color);
