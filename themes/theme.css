@@ -1,4 +1,5 @@
-:root{
+/* MAIN THEME */
+:root {
 /* Transluent tag */
   --app-bg: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/themeimage.png);
   --app-blur: 0px;
@@ -160,6 +161,14 @@
   --text-brand: hsl(var(--accent-hsl));
   --text-link: hsl(var(--accent-hsl));
 }
+.theme-light {
+  --background-modifier-hover: rgba(0, 0, 0, 0.075);
+  --background-modifier-active: rgba(0, 0, 0, 0.1);
+  --background-modifier-selected: rgba(0, 0, 0, 0.125);
+  --background-modifier-accent: rgba(0, 0, 0, 0.175);
+  --text-brand: hsl(var(--accent-hsl));
+  --text-link: hsl(var(--accent-hsl));
+}
 /* html custom font styles */
 body {
   font-family: "Tilt Neon";
@@ -191,38 +200,38 @@ span:not(.spinner-item) {
 }
 @-webkit-keyframes version {
   from {
-  -webkit-transform: translate(-50%, -100%);
-  transform: translate(-50%, -100%);
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
   }
   20% {
-  -webkit-transform: translate(-50%, 20%);
-  transform: translate(-50%, 20%)
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
   }
   80% {
-  -webkit-transform: translate(-50%, 20%);
-  transform: translate(-50%, 20%)
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
   }
   to {
-  -webkit-transform: translate(-50%, -100%);
-  transform: translate(-50%, -100%);
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
   }
 }
 @keyframes version {
   from {
-  -webkit-transform: translate(-50%, -100%);
-  transform: translate(-50%, -100%);
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
   }
   20% {
-  -webkit-transform: translate(-50%, 20%);
-  transform: translate(-50%, 20%)
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
   }
   80% {
-  -webkit-transform: translate(-50%, 20%);
-  transform: translate(-50%, 20%)
+      -webkit-transform: translate(-50%, 20%);
+      transform: translate(-50%, 20%)
   }
   to {
-  -webkit-transform: translate(-50%, -100%);
-  transform: translate(-50%, -100%);
+      -webkit-transform: translate(-50%, -100%);
+      transform: translate(-50%, -100%);
   }
 }
 /* * *  APP ELEMENTS * */
@@ -392,7 +401,7 @@ body {
   text-shadow: 0px 0px 0px hsla(var(--accent-hsl));
 }
 .wordmark__5b8c9:hover:before {
-  content: var(--windows-title) " v." var(--version);
+  content: var(--windows-title) var(--version);
   text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
   font-family: "Tilt Neon";
   letter-spacing: 4px;
@@ -447,7 +456,7 @@ body {
 }
 .addButtonIcon_d9a52c {
   /* + Button */
-  color: hsl(var(--accent-hsl));
+  color: white;
   margin-left: 18px;
 }
 :root .icon__3aa8e {
@@ -2185,28 +2194,28 @@ body {
   color: var(--accent-text-color) !important;
 }
 /*CHILLAX EMBEDS*/
-.embed_cc6dae {
+.theme-dark .embed_cc6dae {
   border-radius: var(--app-radius);
   z-index: 2;
 }
-.embed_cc6dae code {
+.theme-dark .embed_cc6dae code {
   background: rgb(19, 18, 19);
 }
-.embedFull__14919 {
+.theme-dark .embedFull__14919 {
   border-top: none;
   border-right: none;
   border-bottom: none;
 }
-.embedFull__14919 {
+.theme-dark .embedFull__14919 {
   border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
   background: rgb(19, 18, 19);
   box-shadow: 2px 2px 8px rgb(10, 10, 10);
 }
-.grid__35551 {
+.theme-dark .grid__35551 {
   margin-left: calc(-1 * var(--embed-line-width));
   z-index: 1;
 }
-.embedFull__14919:after,
+.theme-dark .embedFull__14919:after,
 .embedFull__14919:before {
   content: "";
   height: 100%;
@@ -2215,11 +2224,11 @@ body {
   top: 0;
   left: calc(-1 * var(--embed-line-width));
 }
-.embedFull__14919:after {
+.theme-dark .embedFull__14919:after {
   background: linear-gradient(to right, transparent, rgb(19, 18, 19));
   z-index: -3;
 }
-.embedFull__14919:before {
+.theme-dark .embedFull__14919:before {
   background: rgb(19, 18, 19);
   opacity: 0.8;
   z-index: -1;
@@ -3896,7 +3905,7 @@ body {
 .userProfileOuterUnthemed__9741c .buttonColor_fd4fe8 {
   background-color: hsl(var(--accent-hsl))
 }
-[style*=transform].root_a28985:has(.userProfileModalOuter__90b4a) {
+.theme-dark [style*=transform].root_a28985:has(.userProfileModalOuter__90b4a) {
   transform: none !important;
   z-index: 0
 }
@@ -5458,22 +5467,22 @@ button.button_ae40a4
 }
 @keyframes fadeInWrap {
   from {
-  opacity: 0;
-  margin: -50px;
+      opacity: 0;
+      margin: -50px;
   }
   to {
-  opacity: 1;
-  margin: unset;
+      opacity: 1;
+      margin: unset;
   }
 }
 @keyframes fadeInlist {
   from {
-  opacity: 0;
-  translatey: 50px;
+      opacity: 0;
+      translatey: 50px;
   }
   to {
-  opacity: 1;
-  translatey: 0;
+      opacity: 1;
+      translatey: 0;
   }
 }
 /* Fix Mosaic Zoom */
