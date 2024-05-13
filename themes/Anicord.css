@@ -3,4 +3,7 @@
 /* ADDONS IMPORT */
 @import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/addons.css');
 /* THEME IMPORT */
-@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/theme.css');
+/*dark mode*/
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/dark.css');
+/*light mode*/
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/light.css');
