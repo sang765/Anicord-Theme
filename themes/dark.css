@@ -1,4 +1,4 @@
-.theme-dark {
+:root .theme-dark {
 /* Transluent tag */
   --app-bg: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/themeimage.png);
   --app-blur: 0px;
