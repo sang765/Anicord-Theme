@@ -1941,6 +1941,7 @@ body {
 .tooltip__7b090 .guildNameText__2c549,
 .tooltip__7b090 .clickCTA__86888 {
   color: var(--tooltip-text-color);
+  background-color: hsl(var(--accent-hsl));
   text-shadow: none;
 }
 .tooltip__7b090 .anchor-1MIwyf {
