@@ -73,12 +73,12 @@
   --spotify-color: 29,185,84;
   --server-folder-color: rgba(0, 0, 0, 0.1);
   --supporter-color: hsla(var(--accent-hsl),var(--accent-opacity));
-  --tooltip-color: hsla(var(--accent-hsl),var(--accent-opacity));
-  --tooltip-text-color: var(--accent-text-color);
-  --tooltip-font-size: 14px;
-  --tooltip-padding: 8px 12px;
-  --tooltip-radius: var(--app-radius);
-  --tooltip-shadow: var(--elevation-high);
+  --light-tooltip-color: hsla(var(--accent-hsl),var(--accent-opacity));
+  --light-tooltip-text-color: var(--accent-text-color);
+  --light-tooltip-font-size: 14px;
+  --light-tooltip-padding: 8px 12px;
+  --light-tooltip-radius: var(--app-radius);
+  --light-tooltip-shadow: var(--elevation-high);
   --interactive-normal: #535353;
   --interactive-hover: #000000;
   --interactive-active: #000000;
@@ -1931,25 +1931,24 @@ body {
 }
 /* * *  TOOLTIP * */
 .tooltip__7b090 {
-  background-color: var(--tooltip-color) !important;
-  border-radius: var(--tooltip-radius);
+  background-color: var(--light-tooltip-color) !important;
+  border-radius: var(--light-tooltip-radius);
 }
 .tooltip__7b090 .tooltipPointer_f7411c {
-  border-top-color: var(--tooltip-color) !important;
+  border-top-color: var(--light-tooltip-color) !important;
 }
 .tooltip__7b090 .tooltipContent_adb6d5,
 .tooltip__7b090 .guildNameText__2c549,
 .tooltip__7b090 .clickCTA__86888 {
-  color: var(--tooltip-text-color);
-  background-color: hsl(var(--accent-hsl));
+  color: var(--light-tooltip-text-color);
   text-shadow: none;
 }
 .tooltip__7b090 .anchor-1MIwyf {
-  color: var(--tooltip-text-color);
+  color: var(--light-tooltip-text-color);
   text-decoration: underline;
 }
 .tooltip__7b090 .activityIcon_c97a7c {
-  color: var(--tooltip-text-color) !important;
+  color: var(--light-tooltip-text-color) !important;
 }
 .tooltip__7b090 .muteText__8f07b {
   color: var(--accent-text-color) !important;
