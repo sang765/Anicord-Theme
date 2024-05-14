@@ -32,7 +32,7 @@ button.button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4 path,
 div.flex_f18b02.horizontal__4848b.justifyStart__6f8c8.alignStretch__2d62d.noWrap__5c413 path {
     fill: hsla(var(--accent-hsl));
 }
-.colorDanger__08c25 svg,
+[class*="colorDanger_"] svg,
 .button_d4bf9b.dangerous__8fbad path {
     color: var(--status-danger) !important;
 }
