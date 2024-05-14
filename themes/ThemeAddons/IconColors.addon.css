@@ -8,7 +8,6 @@ svg.icon__5c8c7 path,
 .iconContainer__5d61c svg,
 .buttonsInner_a9dfff.wrapper__4e6b6 svg,
 svg.downloadHoverButtonIcon_c189c0,
-[class*="checkbox_"],
 .closeButton__8177f,
 .children__563f2 svg,
 .radioForeground_e46974,
@@ -24,6 +23,9 @@ svg.statIcon_o40EX1 path,
 svg[class^="icon_"] path,
 .contents__322f4 svg {
     color: hsla(var(--accent-hsl));
+}
+[class*="checkbox_"] {
+    color: hsla(var(--accent-hsl)) !important;
 }
 .contents__322f4 svg,
 .expression-picker-chat-input-button.buttonContainer_ff1010.vc-chatbar-button path,
