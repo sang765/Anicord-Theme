@@ -4,4 +4,6 @@
 @import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/addons.css');
 /* THEME IMPORT */
 /*dark mode*/
-@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/theme.css');
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.dark.css');
+/*light mode*/
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.light.css');
