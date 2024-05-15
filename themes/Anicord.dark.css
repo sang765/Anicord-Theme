@@ -5588,3 +5588,10 @@ div[class="iconWrapper__7b0c6"] {
 .vc-addon-note {
   border: 2px solid hsl(var(--accent-hsl));
 }
+/* Timestamp bubble */
+[class^="timestamp_"] time {
+  background-color: var(--message-color);
+  border: hsl(var(--accent-hsl)) 2px solid;
+  border-radius: 10px;
+  font-family: 'Lexend Deca';
+}
