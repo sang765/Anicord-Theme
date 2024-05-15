@@ -5592,6 +5592,6 @@ div[class="iconWrapper__7b0c6"] {
 span.timestamp_c79dd2.timestampInline__430cf time  {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 2px solid;
-  border-radius: 10px;
+  border-radius: var(--app-radius);
   font-family: 'Lexend Deca';
 }
