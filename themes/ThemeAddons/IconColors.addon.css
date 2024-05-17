@@ -21,7 +21,8 @@ svg.statIcon_o40EX1 path,
 .iconWrapper_de6cd1.clickable_ce0925 path,
 .iconContainer__6a580 path,
 svg[class^="icon_"] path,
-.contents__322f4 svg {
+.contents__322f4 svg,
+.icon_ae0b42 {
     color: hsla(var(--accent-hsl));
 }
 [class*="checkbox_"] {
