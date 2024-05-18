@@ -577,11 +577,11 @@ body {
 .button_c7b3ea {
   color: hsl(var(--accent-hsl));
 }
-.role__9690d {
+.role_d81130 {
   background-color: var(--message-color);
   border-radius: 12px;
 }
-.role__9690d:hover {
+.role_d81130:hover {
   background-color: var(--message-color-hover);
 }
 .newMessagesBar__8b272,
