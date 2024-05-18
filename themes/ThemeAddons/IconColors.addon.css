@@ -74,3 +74,7 @@ button.button_b82d53.buttonColor__7bad9.button__581d0.lookFilled__950dd.colorBra
 button.staticButton_e090bc.centerButton__8316e.colorable__4f530.white_ce1c7b.button__581d0.lookBlank_a5b4ca.colorBrand__27d57 path {
   color: white;
 }
+.iconItem__56989.iconBase_bf11e7.iconNoChannelInfo__2e82b path,
+.iconWrapper_de6cd1.clickable_ce0925 path {
+  fill: hsl(var(--accent-hsl));
+}
