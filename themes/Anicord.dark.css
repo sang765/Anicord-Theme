@@ -5589,9 +5589,9 @@ div[class="iconWrapper__7b0c6"] {
   border: 2px solid hsl(var(--accent-hsl));
 }
 /* Timestamp bubble */
-span.timestamp_c79dd2.timestampInline__430cf time  {
+.wrapper_a62503 .timestamp_c79dd2 {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 2px solid;
-  border-radius: var(--app-radius);
+  border-radius: 7px;
   font-family: 'Lexend Deca';
 }
