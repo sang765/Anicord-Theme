@@ -27,6 +27,9 @@ svg[class^="icon_"] path,
 [class*="checkbox_"] {
     color: hsla(var(--accent-hsl)) !important;
 }
+svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button path {
+    fill: var(--green-360) !important;
+}
 .contents__322f4 svg,
 .expression-picker-chat-input-button.buttonContainer_ff1010.vc-chatbar-button path,
 .expression-picker-chat-input-button.buttonContainer_ff1010.vc-chatbar-button path,
@@ -37,9 +40,6 @@ div.flex_f18b02.horizontal__4848b.justifyStart__6f8c8.alignStretch__2d62d.noWrap
 .colorDanger__08c25.colorDefault_e361cf svg,
 .button_d4bf9b.dangerous__8fbad {
     color: var(--status-danger) !important;
-}
-svg.vc-trans-icon.vc-trans-auto-translate.vc-trans-chat-button path {
-    fill: var(--green-360) !important;
 }
 svg.launchIcon__1a9a6 path,
 .contents__322f4.buttonContents__85ccf svg,
