@@ -2411,7 +2411,10 @@ body {
 .repliedMessage__636d2 .replyAvatar__4ba85,
 .repliedMessage__636d2 .replyBadge__37a84,
 .repliedMessage__636d2 .executedCommandAvatar_cfc856 {
-  margin-left: 42px;
+  margin-left: 3px;
+}
+.repliedMessage__636d2 .timestamp_c79dd2 {
+  margin-left: 45px;
 }
 .popoutContainer__66068 {
   background-color: transparent;
