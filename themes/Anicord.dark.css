@@ -5592,9 +5592,12 @@ div[class="iconWrapper__7b0c6"] {
   border: 2px solid hsl(var(--accent-hsl));
 }
 /* Timestamp bubble */
-.header__6a14d .timestamp_c79dd2.timestampInline__430cf {
+.header__6a14d .timestamp_c79dd2.timestampInline__430cf,
+.repliedMessage__636d2 .c98-reply-timestamp.latin24CompactTimeStamp_f2f700.timestamp_c79dd2 {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 2px solid;
   border-radius: 7px;
   font-family: 'Lexend Deca';
+  font-size: 10px;
+  font-weight: bold;
 }
