@@ -490,6 +490,10 @@ body {
 .actionButton-2ae9DJ.actionButtonSelected-2a5GGr {
   background-color: var(--background-modifier-accent);
 }
+/* CHANNELS -> CHANNELS & ROLES */
+.optionButtonWrapper_c86844.selected__31118 {
+  background-color: var(--popout-color);
+}
 /* * *  PANELS * */
 .panels__58331 {
   background-color: transparent;
