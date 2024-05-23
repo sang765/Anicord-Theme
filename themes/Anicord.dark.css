@@ -1425,6 +1425,9 @@ body {
   background-color: var(--attachment-color) !important;
 }
 /* * *  BUTTONS * */
+.button__581d0 {
+  border-radius: var(--button-radius);
+}
 .button__581d0 * {
   text-shadow: none;
 }
@@ -2823,6 +2826,7 @@ body {
 .badgeList__126b0 {
   height: var(--button-height);
   padding: 0 4px;
+  border-radius: var(--button-radius);
 }
 .note__7a4f4 {
   margin: 0;
