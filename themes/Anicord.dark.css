@@ -1425,9 +1425,6 @@ body {
   background-color: var(--attachment-color) !important;
 }
 /* * *  BUTTONS * */
-.button__581d0 {
-  border-radius: var(--button-radius) !important;
-}
 .button__581d0 * {
   text-shadow: none;
 }
