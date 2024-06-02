@@ -1,7 +1,6 @@
 <!-- HEAD PAGE -->
 <div align="center">
   <img src="assets/projectbanner.png" alt="Anicord Banner" width="550">
-
   <a href="https://github.com/sang765/Anicord-Theme"><img src="assets/textdesign.png" alt="Anicord Logo" width="250"></a>
   <h3>A <strong>anime</strong> theme for Discord mod client.</h3>
   <a href="https://betterdiscord.app"><img src="assets/BetterDiscord.png" alt="BetterDiscord" width="50"></a>
@@ -15,8 +14,8 @@
 
 <p align="center">
   <a href="https://github.com/sang765/Anicord-Theme" style="pointer-events: none; cursor: default;">
-    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg" alt="CSS">
-    <img src="https://m3-markdown-badges.vercel.app/stars/7/3/sang765/Anicord-Theme" alt="Star">
+    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css2.svg" alt="CSS">
+    <img src="https://m3-markdown-badges.vercel.app/stars/8/1/sang765/Anicord-Theme" alt="Star">
   </a>
 </p>
 
@@ -45,6 +44,14 @@ User Profile Preview:
 Settings Preview:
 
 <img src="assets/settings.png" alt="Settings Preview">
+
+Some GIF Preview:
+<br>
+![Channel](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Channel.gif)
+<br>
+![Member List](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/MemberList.gif)
+<br>
+![Settings](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Settings.gif)
 
 Transparency Background Support With Transparency Option:
 
