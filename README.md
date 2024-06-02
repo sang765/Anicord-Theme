@@ -49,11 +49,11 @@ Settings Preview:
 Some GIF Preview:
 <br>
 <div align="center">
-![Channel](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Channel.gif)
+<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Channel.gif" alt="Channel">
 <br>
-![Member List](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/MemberList.gif)
+<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/MemberList.gif" alt="Member List">
 <br>
-![Settings](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Settings.gif)
+<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Settings.gif" alt="Settings">
 </div>
 <br>
 Transparency Background Support With Transparency Option:
