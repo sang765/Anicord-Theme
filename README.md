@@ -30,21 +30,21 @@
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
 
 Main Screen:
-
+<br>
 <img src="assets/main.png" alt="Main Screen">
-
+<br>
 Member Server Preview:
-
+<br>
 <img src="assets/member.png" alt="Member Server Preview">
-
+<br>
 User Profile Preview:
-
+<br>
 <img src="assets/userprofile.png" alt="User Profile">
-
+<br>
 Settings Preview:
-
+<br>
 <img src="assets/settings.png" alt="Settings Preview">
-
+<br>
 Some GIF Preview:
 <br>
 ![Channel](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Channel.gif)
@@ -52,10 +52,11 @@ Some GIF Preview:
 ![Member List](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/MemberList.gif)
 <br>
 ![Settings](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Settings.gif)
-
+<br>
 Transparency Background Support With Transparency Option:
-
+<br>
 <img src="assets/transparency.png" alt="Transparency">
+<br>
 <img src="assets/transparencypreview.png" alt="Transparency">
 
 ## ⚙️ Install Theme
