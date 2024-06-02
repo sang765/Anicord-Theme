@@ -4086,6 +4086,47 @@ body {
 .container_ed2af4 {
   box-shadow: 0px 0px 10px var(--profile-gradient-button-color);
 }
+/* * *  CLEAR VERSION V6 SETTINGS MENU * */
+.standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda.selected_a523ff {
+  background: hsla(var(--accent-hsl), 0.5);
+  color: #fff;
+  transition: all .15s ease-in-out,background .3s .2s;
+}
+.standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda {
+  position: relative;
+  padding: 8px 20px;
+  margin: 0;
+  background: rgba(0,0,0,0);
+  transition: all .15s ease-in-out;
+  cursor: pointer;
+}
+.sidebar__02e8d .item__48dda.selected_a523ff {
+  padding-left: 45px !important;
+}
+.standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda.selected_a523ff:before {
+  opacity: 1;
+  box-shadow: rbga(0,0,0,0.5);
+}
+.standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda:before {
+  opacity: 0;
+  transition: ease-in-out .25s;
+}
+.sidebar__02e8d .item__48dda.selected_a523ff:before {
+  width: 24px;
+}
+.sidebar__02e8d .item__48dda:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 24px;
+  left: 15px;
+  margin-top: -2px;
+  z-index: 999;
+  transition: all .15s ease-in-out;
+}
+.sidebar__02e8d:has(.socialLinks_dbdd6f) .side_b4b3f6 .item__48dda::after {
+  display: none;
+}
 /* USER POPOUT -> STATUS AREA */
 .menu-KSaHL1:before {
   display: none;
@@ -5186,7 +5227,7 @@ button.button_ae40a4
 }
 .side_b4b3f6 .item__48dda.selected_a523ff.themed_b957e8,
 .standardSidebarView__12528 {
-  border: 2px solid hsl(var(--accent-hsl));
+  border: 1px solid hsl(var(--accent-hsl));
 }
 #app-mount .baseLayer__2b890
 /*keep view under settings*/
