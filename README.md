@@ -48,15 +48,19 @@ Settings Preview:
 <br>
 Some GIF Preview:
 <br>
+<div align="center">
 ![Channel](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Channel.gif)
 <br>
 ![Member List](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/MemberList.gif)
 <br>
 ![Settings](https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Settings.gif)
+</div>
 <br>
 Transparency Background Support With Transparency Option:
 <br>
+<div align="center">
 <img src="assets/transparency.png" alt="Transparency">
+</div>
 <br>
 <img src="assets/transparencypreview.png" alt="Transparency">
 
