@@ -5611,3 +5611,7 @@ div[class="iconWrapper__7b0c6"] {
   font-size: 10px;
   font-weight: bold;
 }
+/* Equidcord BetterActivities */
+.custom-profile-theme .vc-bactivities-controls .dot.selected {
+  color: var(--profile-gradient-button-color);
+}
