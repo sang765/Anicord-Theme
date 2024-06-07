@@ -5612,6 +5612,6 @@ div[class="iconWrapper__7b0c6"] {
   font-weight: bold;
 }
 /* Equidcord BetterActivities */
-.custom-profile-theme .vc-bactivities-controls .dot.selected {
-  color: var(--profile-gradient-button-color);
+[class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
+  background-color: var(--profile-gradient-button-color) !important;
 }
