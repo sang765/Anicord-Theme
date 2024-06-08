@@ -5615,3 +5615,7 @@ div[class="iconWrapper__7b0c6"] {
 [class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
   background-color: var(--profile-gradient-button-color) !important;
 }
+/* fix the terrible profile overflow bug */
+[class*=userPopoutOverlayBackground] {
+  max-height: 77vh;
+}
