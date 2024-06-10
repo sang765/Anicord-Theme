@@ -3268,6 +3268,13 @@ body {
   pointer-events: none;
   z-index: -1;
 }
+[class*="emojiItemDisabled_"] {
+  transition: ease-in-out 0.5s;
+  filter: grayscale(100%);
+}
+[class*="emojiItemDisabled_"]:hover {
+  filter: grayscale(0%);
+}
 /* EMOJI PICKER -> HEADER */
 .navButton_b588d0:hover,
 .navButton__0565e:hover {
