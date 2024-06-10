@@ -808,6 +808,9 @@ body {
 .inlineCode__0cacf {
   color: var(--textarea-block-text-color);
 }
+[class*=channelTextAreaDisabled] {
+  display: none !important;
+}
 /* MAIN TEXTAREA -> SPAM FILTER */
 .spamBanner_b5e5bf {
   --textarea-alpha: 0.1;
