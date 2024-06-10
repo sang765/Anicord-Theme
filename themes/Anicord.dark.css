@@ -2811,6 +2811,9 @@ body {
 .buttonColor__8c13f {
   background-color: var(--profile-gradient-button-color) !important;
 }
+.messageInputContainer_a93946 {
+  border-radius: var(--input-radius);
+}
 /* USER PROFILE -> LISTS */
 .listRow__50619 {
   border-radius: var(--card-radius);
