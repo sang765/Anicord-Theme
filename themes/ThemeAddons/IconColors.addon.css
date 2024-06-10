@@ -66,7 +66,8 @@ button.button_coQXfM[style="background-color: var(--status-danger);"] {
     fill: var(--white-500) !important;
 }
 button.button_b82d53.buttonColor__7bad9.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeSmall_da7d10.fullWidth_fdb23d.grow__4c8a4.button_b82d53 path,
-button.button__581d0.lookFilled__950dd.cta__69e2a.addCTA_b4a3b3.sizeMin__508da.grow__4c8a4 path {
+button.button__581d0.lookFilled__950dd.cta__69e2a.addCTA_b4a3b3.sizeMin__508da.grow__4c8a4 path,
+path[class*="check__"] {
     fill: var(--white-500);
 }
 button.staticButton_e090bc.centerButton__8316e.colorable__4f530.primaryDark_ec74a7.button__581d0.lookBlank_a5b4ca.colorBrand__27d57 path,
