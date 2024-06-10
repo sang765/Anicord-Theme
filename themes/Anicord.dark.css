@@ -2814,9 +2814,9 @@ body {
 .messageInputContainer_a93946 {
   border-radius: var(--input-radius);
 }
-:not(aside):not(.customizationSection__0f57e)>.userProfileOuterThemed_a425f3,
-:not(aside):not(.customizationSection__0f57e)>.userProfileOuterUnthemed__9741c {
-  border-radius: var(--app-radius);
+[class*=userPopoutOuter_] {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
 }
 /* USER PROFILE -> LISTS */
 .listRow__50619 {
