@@ -3268,11 +3268,11 @@ body {
   pointer-events: none;
   z-index: -1;
 }
-[class*="emojiItemDisabled_"] {
+.emojiItemDisabled__843ea {
   transition: ease-in-out 0.5s;
   filter: grayscale(100%);
 }
-[class*="emojiItemDisabled_"]:hover {
+.emojiItemDisabled__843ea:hover {
   filter: grayscale(0%);
 }
 /* EMOJI PICKER -> HEADER */
