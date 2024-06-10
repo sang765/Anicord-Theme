@@ -5602,6 +5602,16 @@ h3.name__27f04.container__43554 {
 .wrapper_a62503.cozy_f5c119 {
   transition: ease-in-out 0.25s;
 }
+.timestampInline__430cf {
+  opacity: 0;
+  transition: 0.25s;
+}
+.message_ccca67:hover .timestampInline__430cf,
+.messageGroupWrapper__1fce2:hover .timestampInline__430cf,
+.messageContainer_cb3d47:hover .timestampInline__430cf,
+.message__7e601:hover .timestampInline__430cf {
+  opacity: 1;
+}
 /* Anti Image Like Video */
 div[class="iconWrapper__7b0c6"] {
   background-color: hsla(var(--accent-hsl), 0.45);
