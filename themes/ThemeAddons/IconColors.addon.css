@@ -74,7 +74,8 @@ button.staticButton_e090bc.centerButton__8316e.colorable__4f530.primaryDark_ec74
 button.button_b82d53.buttonColor__7bad9.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeSmall_da7d10.grow__4c8a4.button_b82d53 path,
 button.staticButton_e090bc.centerButton__8316e.colorable__4f530.white_ce1c7b.button__581d0.lookBlank_a5b4ca.colorBrand__27d57 path,
 .content_b28aab.content_ec8694.thin__62e51.scrollerBase__65223 .contents__322f4 svg,
-.wrapper__7f8df.biteSize__89563 path {
+.wrapper__7f8df.biteSize__89563 path,
+.root__649bb.tile_a411a4 .buttonContainer__6d76f path {
     color: var(--white-500);
 }
 .iconItem__56989.iconBase_bf11e7.iconNoChannelInfo__2e82b path,
