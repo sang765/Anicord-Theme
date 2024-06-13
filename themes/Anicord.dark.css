@@ -4171,7 +4171,7 @@ body {
   background-color: hsla(var(--accent-hsl), var(--accent-opacity));
   color: var(--accent-text-color);
 }
-.numberBadge__40d6f {
+[class*="numberBadge"] {
   background-color: hsla(var(--accent-hsl), var(--accent-opacity)) !important;
   color: var(--accent-text-color) !important;
 }
