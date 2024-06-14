@@ -5141,7 +5141,8 @@ body {
   overflow: hidden;
 }
 .newMessagesBar__8b272,
-.newTopicsBarContainer__8c1e3 {
+.newTopicsBarContainer__8c1e3,
+.topicsPillContainer__2c107 {
   top: -48px;
   height: 72px;
   transition: top 0.2s ease;
@@ -5150,7 +5151,8 @@ body {
   border-radius: 0;
 }
 .newMessagesBar__8b272::before,
-.newTopicsBarContainer__8c1e3::before {
+.newTopicsBarContainer__8c1e3::before,
+.topicsPillContainer__2c107::before {
   content: '';
   background: hsla(var(--accent-hsl), 1);
   box-shadow: var(--elevation-low);
@@ -5160,7 +5162,8 @@ body {
   border-radius: 12px;
 }
 .newMessagesBar__8b272:hover,
-.newTopicsBarContainer__8c1e3:hover {
+.newTopicsBarContainer__8c1e3:hover,
+.topicsPillContainer__2c107::before {
   top: -5px;
 }
 /*some more silly hover animations*/
