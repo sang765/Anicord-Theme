@@ -2372,19 +2372,19 @@ body {
   color: hsla(var(--accent-hsl), var(--accent-opacity));
   fill: hsla(var(--accent-hsl), var(--accent-opacity));
 }
-.repliedMessage_ec86aa:before {
+[class*=repliedMessage_]:before {
   transform: translateX(42px);
 }
-.repliedMessage_ec86aa .replyAvatar_ec86aa,
-.repliedMessage_ec86aa .replyBadge_ec86aa,
-.repliedMessage_ec86aa .executedCommandAvatar_ec86aa {
-  margin-left: 3px;
-}
-.executedCommand_ec86aa .cozy_ec86aa .repliedMessage_ec86aa img,
-.repliedMessage_ec86aa.executedCommand_ec86aa img {
+[class*=repliedMessage_] [class*=replyAvatar],
+[class*=repliedMessage_] [class*=replyBadge],
+[class*=repliedMessage_] [class*=executedCommandAvatar] {
   margin-left: 38px;
 }
-.repliedMessage_ec86aa .timestamp_ec86aa {
+[class*=executedCommand] img,
+[class*=repliedMessage_] [class*=executedCommand] img {
+  margin-left: 38px;
+}
+[class*=repliedMessage_] [class*=timestamp_] {
   margin-left: 45px;
 }
 .popoutContainer_cf58b5 {
