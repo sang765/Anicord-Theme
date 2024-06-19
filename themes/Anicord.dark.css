@@ -2821,6 +2821,9 @@ body {
   border-radius: var(--radius-sm);
   overflow: hidden;
 }
+[class*=roles] [class*=rolePill] {
+  border-radius: 10px;
+}
 /* USER PROFILE -> LISTS */
 .listRow_e4be58 {
   border-radius: var(--card-radius);
