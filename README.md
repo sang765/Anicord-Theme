@@ -26,6 +26,16 @@
 >[!WARNING]
 > If you experience crashes while using the theme (Yes, I do) then I recommend you use **[Vesktop](https://github.com/Vencord/Vesktop)** because it is well optimized and crashes are rare (unless you use devtools for too long).
 
+## 🎈 Status
+### Last updated:
+Last updated for **Theme (Dark)**: <timestamp-placeholder-1>
+<br>
+Last updated for **Addons List**: <timestamp-placeholder-2>
+<br>
+Last updated for **Clear Vesion V6 Icon (Addon)**: <timestamp-placeholder-3>
+<br>
+Last updated for **Icon Color (Addon)**: <timestamp-placeholder-4>
+
 ## 🖼️ Screenshots:
 >[!NOTE]
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
