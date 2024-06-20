@@ -15,24 +15,15 @@ jobs:
 
       - name: Update timestamps in README.md
         run: |
-          declare -A TARGET_FILES
-          TARGET_FILES=(
-            ["**Theme (Dark)**"]="themes/Ancord.dark.css"
-            ["**Addons List**"]="themes/addons.css"
-            ["**Clear Vesion V6 Icon (Addon)**"]="themes/ThemeAddons/ClearVersionV6Icon.addon.css"
-            ["**Icon Color (Addon)**"]="themes/ThemeAddons/IconColors.addon.css"
-          )
+          TARGET_FILES="themes/Ancord.dark.css:<timestamp-placeholder-1> themes/addons.css:<timestamp-placeholder-2> themes/ThemeAddons/ClearVersionV6Icon.addon.css:<timestamp-placeholder-3> themes/ThemeAddons/IconColors.addon.css:<timestamp-placeholder-4>"
 
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          for key in "${!TARGET_FILES[@]}"; do
-            FILE_PATH=${TARGET_FILES[$key]}
-            if [ -f "$FILE_PATH" ]; then
-              sed -i "s|Last updated for $key: .*|Last updated for $key: $TIMESTAMP|" README.md
-            fi
+          IFS=' ' read -r -a files <<< "$TARGET_FILES"
+          for item in "${files[@]}"; do
+            file_path="${item%%:*}"
+            sed -i "s|Last updated for **${file_path}**: .*|Last updated for **${file_path}**: ${TIMESTAMP}|" README.md
           done
 
-      - name: Commit changes
-        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md

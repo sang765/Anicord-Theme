@@ -28,13 +28,13 @@
 
 ## 🎈 Status
 ### Last updated:
-Last updated for **Theme (Dark)**: <timestamp-placeholder-1>
+Last updated for themes/Ancord.dark.css: <timestamp-placeholder-1>
 <br>
-Last updated for **Addons List**: <timestamp-placeholder-2>
+Last updated for themes/addons.css: <timestamp-placeholder-2>
 <br>
-Last updated for **Clear Vesion V6 Icon (Addon)**: <timestamp-placeholder-3>
+Last updated for themes/ThemeAddons/ClearVersionV6Icon.addon.css: <timestamp-placeholder-3>
 <br>
-Last updated for **Icon Color (Addon)**: <timestamp-placeholder-4>
+Last updated for themes/ThemeAddons/IconColors.addon.css: <timestamp-placeholder-4>
 
 ## 🖼️ Screenshots:
 >[!NOTE]
