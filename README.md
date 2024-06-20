@@ -1,5 +1,7 @@
 <!-- HEAD PAGE -->
 <div align="center">
+  <p style="color:lightgreen;">✅ Last update: <strong>19.06.2024</strong> - Update class for new Discord update</p>
+  <br>
   <img src="assets/projectbanner.png" alt="Anicord Banner" width="550">
   <br>
   <a href="https://github.com/sang765/Anicord-Theme"><img src="assets/textdesign.png" alt="Anicord Logo" width="250"></a>
