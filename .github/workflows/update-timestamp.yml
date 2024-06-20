@@ -3,7 +3,7 @@ name: Update Timestamps
 on:
   push:
     branches:
-      - main  # Thay đổi branch nếu cần
+      - main
 
 jobs:
   update-timestamps:
