@@ -1,0 +1,40 @@
+name: Update Timestamps
+
+on:
+  push:
+    branches:
+      - main  # Thay đổi branch nếu cần
+
+jobs:
+  update-timestamps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update timestamps in README.md
+        run: |
+          declare -A TARGET_FILES
+          TARGET_FILES=(
+            ["**Theme (Dark)**"]="themes/Ancord.dark.css"
+            ["**Addons List**"]="themes/addons.css"
+            ["**Clear Vesion V6 Icon (Addon)**"]="themes/ThemeAddons/ClearVersionV6Icon.addon.css"
+            ["**Icon Color (Addon)**"]="themes/ThemeAddons/IconColors.addon.css"
+          )
+
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          for key in "${!TARGET_FILES[@]}"; do
+            FILE_PATH=${TARGET_FILES[$key]}
+            if [ -f "$FILE_PATH" ]; then
+              sed -i "s|Last updated for $key: .*|Last updated for $key: $TIMESTAMP|" README.md
+            fi
+          done
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update timestamps"
+          git push
