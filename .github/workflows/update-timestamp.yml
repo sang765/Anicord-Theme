@@ -16,7 +16,7 @@ jobs:
           node-version: '20'
 
       - name: Checkout repository
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v2
 
       - name: Update timestamps in README.md
         run: |
