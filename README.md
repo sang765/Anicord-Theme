@@ -26,16 +26,6 @@
 >[!WARNING]
 > If you experience crashes while using the theme (Yes, I do) then I recommend you use **[Vesktop](https://github.com/Vencord/Vesktop)** because it is well optimized and crashes are rare (unless you use devtools for too long).
 
-## 🎈 Status
-### Last updated:
-Last updated for themes/Ancord.dark.css:<timestamp-placeholder-1>
-<br>
-Last updated for themes/addons.css:<timestamp-placeholder-2>
-<br>
-Last updated for themes/ThemeAddons/ClearVersionV6Icon.addon.css:<timestamp-placeholder-3>
-<br>
-Last updated for themes/ThemeAddons/IconColors.addon.css:<timestamp-placeholder-4>
-
 ## 🖼️ Screenshots:
 >[!NOTE]
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
