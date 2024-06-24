@@ -1,6 +1,6 @@
 <!-- HEAD PAGE -->
 <div align="center">
-  <h6 style="color:lightgreen;">✅ Last update: <strong>19.06.2024</strong> - Update class for new Discord update</h6>
+  <h6 style="color:lightgreen;">✅ Last update: <strong>24.06.2024</strong> - Fixed mention channel color</h6>
   <br>
   <img src="assets/projectbanner.png" alt="Anicord Banner" width="550">
   <br>

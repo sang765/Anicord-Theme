@@ -609,6 +609,17 @@ body {
 .barButtonBase_cf58b5 {
   color: var(--accent-text-color);
 }
+[class^=channelMention] [class*=icon],
+[class^=channelMention] [class*=name] {
+  color: hsl(var(--accent-hsl));
+  filter: brightness(1.3);
+}
+[class^=channelMention] {
+  background: hsla(var(--accent-hsl), 0.3);
+}
+.interactive:hover {
+  background-color: hsl(var(--accent-hsl));
+}
 /* * *  DIRECT MESSAGES * */
 .wrapper_d880dc.minimum_d880dc,
 .wrapper_d880dc.video_d880dc {
