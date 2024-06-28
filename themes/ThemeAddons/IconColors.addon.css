@@ -76,7 +76,9 @@ button.button_adcaac.buttonColor_adcaac.button_dd4f85.lookFilled_dd4f85.colorBra
 button.staticButton_ef18ee.centerButton_ef18ee.colorable_ef18ee.white_ef18ee.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85 path,
 .content_f9a4c9.content_fa4e6d.thin_c49869.scrollerBase_c49869 .contents_dd4f85 svg,
 .wrapper_cb78f1.biteSize_cb78f1 path,
-.root_a5ea57.tile_dc5fc4 .buttonContainer_a5ea57 path {
+.root_a5ea57.tile_dc5fc4 .buttonContainer_a5ea57 path,
+[class*=userPopoutOuter_] path,
+[class^=fullSizeOuter] path {
     color: var(--white-500);
 }
 .iconItem_f6f816.iconBase_f6f816.iconNoChannelInfo_f6f816 path,
