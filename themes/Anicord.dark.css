@@ -5663,3 +5663,9 @@ div[class="iconWrapper_b26897"] {
 [class*=userPopoutOverlayBackground] {
   max-height: 77vh;
 }
+/* Simple profile button recolor */
+[class*=userProfileOuterThemed_] [class^=wrapper_] button,
+[class*=userProfileOuterThemed_] [class*=vc-permviewer-role-button],
+[class*=userProfileOuterThemed_] [class*=lookFilled] {
+  background-color: var(--profile-gradient-button-color) !important;
+}
