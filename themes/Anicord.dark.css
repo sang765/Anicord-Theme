@@ -5677,3 +5677,6 @@ div[class="iconWrapper_b26897"] {
 [class*=SizeOuter] .wrapper_cb78f1.biteSize_cb78f1:hover {
   opacity: 1;
 }
+.colorDanger_d90b3d.focused_d90b3d {
+  background-color: var(--button-danger-background) !important;
+}
