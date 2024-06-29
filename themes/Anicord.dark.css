@@ -5680,3 +5680,6 @@ div[class="iconWrapper_b26897"] {
 .colorDanger_d90b3d.focused_d90b3d {
   background-color: var(--button-danger-background) !important;
 }
+.theme-light [class*=connectedAccountOpenIcon] {
+  filter: brightness(0);
+}
