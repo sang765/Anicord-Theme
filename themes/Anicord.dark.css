@@ -5669,3 +5669,11 @@ div[class="iconWrapper_b26897"] {
 [class*=userProfileOuterThemed_] [class*=lookFilled] {
   background-color: var(--profile-gradient-button-color) !important;
 }
+/* Banner Button Opacity */
+[class*=SizeOuter] [class^=wrapper] {
+  opacity: 0.1;
+  transition: ease-in-out 0.5s;
+}
+[class*=SizeOuter] [class^=wrapper]:hover {
+  opacity: 1;
+}
