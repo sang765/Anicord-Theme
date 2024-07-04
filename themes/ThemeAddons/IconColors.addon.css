@@ -87,3 +87,6 @@ button.staticButton_ef18ee.centerButton_ef18ee.colorable_ef18ee.white_ef18ee.but
 .iconWrapper_e44302.clickable_e44302 path {
     fill: hsl(var(--accent-hsl));
 }
+[class^=containerDefault] [class^=iconVisibility] [d^=M5],[class^=containerDefault] [class^=iconVisibility] [d^=M13] {
+    filter: brightness(1.5);
+  }
