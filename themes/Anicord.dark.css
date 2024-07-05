@@ -620,6 +620,12 @@ body {
 .interactive:hover {
   background-color: hsl(var(--accent-hsl));
 }
+.wrapper_f9f2ca.hasReply_f9f2ca .avatar_f9f2ca {
+  top: 28px;
+}
+.wrapper_f9f2ca.hasReply_f9f2ca .avatarDecoration_f9f2ca {
+  top: 26px;
+}
 /* * *  DIRECT MESSAGES * */
 .wrapper_d880dc.minimum_d880dc,
 .wrapper_d880dc.video_d880dc {
@@ -2332,7 +2338,7 @@ body {
   left: -50px;
   margin-top: 0;
 }
-.avatarDecoration_ec86aa {
+.avatarDecoration_f9f2ca {
   top: -2px;
   left: -54px;
 }
