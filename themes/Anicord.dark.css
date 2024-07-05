@@ -2295,7 +2295,7 @@ body {
   padding-right: 8px !important;
   border: 2px solid transparent;
 }
-[class^=latin24CompactTimeStamp_] {
+[class*=cozy_] .timestamp_f9f2ca.alt_f9f2ca {
   left: -62px;
 }
 .wrapper_f9f2ca.compact_ec86aa {
