@@ -308,7 +308,7 @@ body {
   margin-top: 32px;
 }
 .winButtonClose_a934d8 {
-  top: -3.5px;
+  top: 0px;
   right: 20px;
   padding: 5px;
   margin: 5px;
@@ -319,7 +319,7 @@ body {
   transition: 0.5s;
 }
 .winButtonClose_a934d8:hover {
-  top: -3.5px;
+  top: 0px;
   right: 20px;
   padding: 5px;
   margin: 5px;
@@ -331,7 +331,7 @@ body {
   backdrop-filter: none;
 }
 .winButtonMinMax_a934d8:nth-child(3) {
-  top: -3.5px;
+  top: 0px;
   right: 10px;
   padding: 5px;
   margin: 5px;
@@ -342,7 +342,7 @@ body {
   transition: 0.5s;
 }
 .winButtonMinMax_a934d8:nth-child(3):hover {
-  top: -3.5px;
+  top: 0px;
   right: 10px;
   padding: 5px;
   margin: 5px;
@@ -354,7 +354,7 @@ body {
   backdrop-filter: none;
 }
 .winButtonMinMax_a934d8:nth-child(2n) {
-  top: -3.5px;
+  top: 0px;
   right: 0px;
   padding: 5px;
   margin: 5px;
@@ -365,7 +365,7 @@ body {
   transition: 0.5s;
 }
 .winButtonMinMax_a934d8:nth-child(2n):hover {
-  top: -3.5px;
+  top: 0px;
   right: 0px;
   padding: 5px;
   margin: 5px;
