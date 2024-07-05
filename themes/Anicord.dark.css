@@ -5459,8 +5459,7 @@ div[class="iconWrapper_b26897"] {
   border: 2px solid hsl(var(--accent-hsl));
 }
 /* Timestamp bubble */
-[class*=header_] [class*=timestampInline_],
-[class*=latin24CompactTimeStamp] {
+[class*=header_] [class*=timestampInline_] {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 2px solid;
   border-radius: 7px;
@@ -5468,6 +5467,9 @@ div[class="iconWrapper_b26897"] {
   font-size: 10px;
   font-weight: bold;
   color: white;
+}
+[class*=latin24CompactTimeStamp] {
+  display: none;
 }
 /* Equidcord BetterActivities */
 [class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
