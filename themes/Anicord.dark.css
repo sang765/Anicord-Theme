@@ -2295,7 +2295,7 @@ body {
   padding-right: 8px !important;
   border: 2px solid transparent;
 }
-.wrapper_f9f2ca.cozy_ec86aa .timestamp_ec86aa.alt_ec86aa {
+[class^=latin24CompactTimeStamp_] {
   left: -62px;
 }
 .wrapper_f9f2ca.compact_ec86aa {
@@ -5459,17 +5459,15 @@ div[class="iconWrapper_b26897"] {
   border: 2px solid hsl(var(--accent-hsl));
 }
 /* Timestamp bubble */
-[class*=header_] [class*=timestampInline_] {
+[class*=header_] [class*=timestampInline_],
+[class^=latin24CompactTimeStamp_] {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 2px solid;
   border-radius: 7px;
   font-family: 'Lexend Deca';
   font-size: 10px;
   font-weight: bold;
-  color: white;
-}
-[class*=latin24CompactTimeStamp] {
-  display: none;
+  color: var(--text-normal);
 }
 /* Equidcord BetterActivities */
 [class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
