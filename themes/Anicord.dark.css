@@ -5460,7 +5460,7 @@ div[class="iconWrapper_b26897"] {
 }
 /* Timestamp bubble */
 [class*=header_] [class*=timestampInline_],
-[class*=repliedMessage_] [class*=CompactTimeStamp] {
+[class*=latin24CompactTimeStamp] {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 2px solid;
   border-radius: 7px;
