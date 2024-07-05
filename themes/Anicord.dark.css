@@ -5043,7 +5043,7 @@ button.button_f67531
   transform: unset !important;
 }
 /* Username Background */
-.username_ec86aa::before {
+.username_f9f2ca::before {
   content: '';
   width: calc(100% + 0px);
   height: 100%;
@@ -5055,7 +5055,7 @@ button.button_f67531
   z-index: -1;
   margin-left: -3px;
 }
-.headerText_ec86aa>span {
+.headerText_f9f2ca>span {
   margin-left: 3px;
 }
 /* Jump To Present Bar Revamp */
@@ -5439,14 +5439,14 @@ h3.name_a08117.container_cc72c1 {
 .wrapper_f9f2ca.cozy_ec86aa {
   transition: ease-in-out 0.25s;
 }
-.timestampInline_ec86aa {
+[class*=timestampInline_] {
   opacity: 0;
   transition: 0.25s;
 }
-.message_d5deea:hover .timestampInline_ec86aa,
-.messageGroupWrapper_ac90a2:hover .timestampInline_ec86aa,
-.messageContainer_ddb5b4:hover .timestampInline_ec86aa,
-.message_ddc613:hover .timestampInline_ec86aa {
+[class*=message_]:hover [class*=timestampInline_],
+[class*=messageGroupWrapper_]:hover [class*=timestampInline_],
+[class*=messageContainer_]:hover [class*=timestampInline_],
+[class*=message_]:hover [class*=timestampInline_] {
   opacity: 1;
 }
 /* Anti Image Like Video */
@@ -5459,14 +5459,15 @@ div[class="iconWrapper_b26897"] {
   border: 2px solid hsl(var(--accent-hsl));
 }
 /* Timestamp bubble */
-.header_ec86aa .timestamp_ec86aa.timestampInline_ec86aa,
-.repliedMessage_ec86aa .c98-reply-timestamp.latin24CompactTimeStamp_ec86aa.timestamp_ec86aa {
+[class*=header_] [class*=timestampInline_],
+[class*=repliedMessage_] [class*=CompactTimeStamp] {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 2px solid;
   border-radius: 7px;
   font-family: 'Lexend Deca';
   font-size: 10px;
   font-weight: bold;
+  color: white;
 }
 /* Equidcord BetterActivities */
 [class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
