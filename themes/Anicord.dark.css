@@ -5497,3 +5497,7 @@ div[class="iconWrapper_b26897"] {
 .theme-light [class*=connectedAccountOpenIcon] {
   filter: brightness(0);
 }
+/* VC Review */
+.vc-rdb-view .avatar_f9f2ca {
+  left: -52px !important;
+}
