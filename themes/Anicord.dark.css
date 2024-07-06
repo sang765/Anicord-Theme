@@ -3890,6 +3890,32 @@ body {
     -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
     mask: linear-gradient(to bottom, #000 50%, transparent)
 }
+
+.userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b {
+  background: rgba(0, 0, 0, 0)
+}
+
+.userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b .userPopoutInner_c69a7b {
+  background: var(--user-popout-overlay)
+}
+
+.userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b .userPopoutOverlayBackground_c69a7b {
+  background-color: rgba(0, 0, 0, .4)
+}
+
+.userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--user-popout-image) var(--user-popout-position)/var(--user-popout-size) var(--user-popout-repeat) var(--user-popout-attachment);
+  filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
+  width: 100%;
+  height: 100%;
+  z-index: -1
+}
 /* * *  CLEAR VERSION V6 SETTINGS MENU * */
 .standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0.selected_a0 {
   background: hsla(var(--accent-hsl), 0.5);
