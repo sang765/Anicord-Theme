@@ -5527,3 +5527,25 @@ div[class="iconWrapper_b26897"] {
 .vc-rdb-view .avatar_f9f2ca {
   left: -52px !important;
 }
+/* Fixed Mention */
+.wrapper_f9f2ca.mentioned_d5deea {
+  border-color: hsla(var(--accent-hsl), 1);
+  box-shadow: inset 0px 0px 10px 3px hsla(var(--accent-hsl), 1), 0px 0px 13px 4px hsla(var(--accent-hsl), 1);
+}
+.markup_f8f345 .wrapper_bf1b19,
+.executedCommand_f9f2ca .appLauncherOnboardingCommandName_f9f2ca {
+  background-color: hsla(var(--accent-hsl), 0.25);
+  color: hsl(var(--accent-hsl));
+}
+.executedCommand_f9f2ca .appLauncherOnboardingCommandName_f9f2ca:hover {
+  background-color: hsla(var(--accent-hsl), 0.25);
+  color: hsl(var(--accent-hsl));
+  filter: brightness(2);
+}
+.hasReply_ec86aa.mentioned_d5deea:not(:has([class*="ention"])):before, .mentioned_d5deea .mention:before, .mentioned_d5deea .roleMention_d6076c:before {
+  background-color: hsla(var(--accent-hsl), 1);
+  border-radius: var(--app-radius);
+}
+div[id^=message-content] {
+  display: contents;
+}
