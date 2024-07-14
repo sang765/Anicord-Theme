@@ -5549,3 +5549,6 @@ div[class="iconWrapper_b26897"] {
 div[id^=message-content] {
   display: contents;
 }
+.font-size-16 .cozy_f9f2ca.hasThread_f9f2ca:after {
+  left:-2.5rem;
+}
