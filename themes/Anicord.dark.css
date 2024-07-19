@@ -1118,3 +1118,13 @@ div[id^=message-content] {
 .font-size-16 .cozy_f9f2ca.hasThread_f9f2ca:after {
   left:-2.5rem;
 }
+/*Textbox Text (CHILLAX)*/
+.placeholder_a552a6 {
+  visibility: hidden !important;
+}
+.placeholder_a552a6::before {
+  content: "No Chat? Don't worry, just chill ☕";
+  color: var(--textarea-placeholder-color);
+  font-size: 13px;
+  visibility: visible !important;
+}
