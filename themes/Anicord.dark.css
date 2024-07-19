@@ -745,7 +745,13 @@ div[class="iconWrapper_b26897"] {
   font-size: 10px;
   font-weight: bold;
   color: var(--text-normal);
+}
+[class*=header_] [class*=timestampInline_] {
   padding: 0 5px;
+}
+[class^=latin24CompactTimeStamp_] {
+  left: -68px;
+  padding-right: 5px;
 }
 /* Equidcord BetterActivities */
 [class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
