@@ -1131,3 +1131,16 @@ div[id^=message-content] {
 [class^=contentColumn] [class^=accountProfileCard] {
   border: 2px solid hsl(var(--accent-hsl));
 }
+.attachment_b52bef {
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px dashed hsl(var(--accent-hsl));
+  box-shadow: 0px 0px 0px none;
+  transition: all 1s;
+  scale: 1;
+}
+.attachment_b52bef:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid hsl(var(--accent-hsl));
+  box-shadow: 0px 0px 10px hsla(var(--accent-hsl));
+  scale: 1.01;
+}
