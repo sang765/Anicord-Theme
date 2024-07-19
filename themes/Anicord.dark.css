@@ -1128,3 +1128,6 @@ div[id^=message-content] {
   font-size: 13px;
   visibility: visible !important;
 }
+[class^=contentColumn] [class^=accountProfileCard] {
+  border: 2px solid hsl(var(--accent-hsl));
+}
