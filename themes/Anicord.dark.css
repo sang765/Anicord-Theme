@@ -1151,3 +1151,6 @@ div[id^=message-content] {
   box-shadow: 0px 0px 10px hsla(var(--accent-hsl));
   scale: 1.01;
 }
+.vc-plugins-restart-card {
+  border: 1px solid #dea42e !important;
+}
