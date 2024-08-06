@@ -1154,3 +1154,30 @@ div[id^=message-content] {
 .vc-plugins-restart-card {
   border: 1px solid #dea42e !important;
 }
+/* Brighter Status Text for Custom Profiles */
+.custom-profile-theme [class^=statusBubble_] [class^=defaultColor_] {
+  color: var(--white-500);
+}
+/* Match Status Bubble Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=statusBubble_],
+.custom-profile-theme [class^=statusBubbleOuter_]:before,
+.custom-profile-theme [class^=statusBubbleOuter_]:after {
+  background-color: var(--profile-gradient-button-color);
+}
+#vc-indicators-indicator-items {
+  background-color: hsl(var(--accent-hsl));
+}
+[class^=biteSizeOuter] [class^=container],
+[class^=fullSizeOuter] [class^=container]:has([class^=usernameRow]),
+[class^=biteSizeOuter] [class*=maxBioHeight],
+[class^=biteSizeOuter] [style="position: relative;"],
+[class^=biteSizeOuter] [style^=gap] {
+  background-color: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5));
+  border-radius: calc(var(--popout-radius) / 1.25);
+  padding: 7px;
+}
+[class*=userProfileOuterThemed_] [class^=wrapper_] button,
+[class*=userProfileOuterThemed_] [class*=vc-permviewer-role-button],
+[class*=userProfileOuterThemed_] [class*=lookFilled] {
+  background-color: var(--profile-gradient-button-color) !important;
+}
