@@ -1,6 +1,6 @@
 <!-- HEAD PAGE -->
 <div align="center">
-  <h6 style="color:lightgreen;">✅ Last update: <strong>05.07.2024</strong> - Fixed Translucence Chat</h6>
+  <h6 style="color:lightgreen;">✅ Last update: <strong>09.08.2024</strong> - Remake Icon Color Addon</h6>
   <br>
   <img src="assets/projectbanner.png" alt="Anicord Banner" width="550">
   <br>
