@@ -1171,7 +1171,9 @@ div[id^=message-content] {
 [class^=fullSizeOuter] [class^=container]:has([class^=usernameRow]),
 [class^=biteSizeOuter] [class*=maxBioHeight],
 [class^=biteSizeOuter] [style="position: relative;"],
-[class^=biteSizeOuter] [style^=gap] {
+[class^=biteSizeOuter] [style^=gap],
+[class^=biteSizeOuter] [class^=descriptionClamp],
+[class^=biteSizeOuter] [class^=mutuals] {
   background-color: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5));
   border-radius: calc(var(--popout-radius) / 1.25);
   padding: 7px;
