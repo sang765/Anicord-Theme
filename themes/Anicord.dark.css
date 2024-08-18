@@ -1180,6 +1180,7 @@ div[id^=message-content] {
 }
 [class*=userProfileOuterThemed_] [class^=wrapper_] button,
 [class*=userProfileOuterThemed_] [class*=vc-permviewer-role-button],
-[class*=userProfileOuterThemed_] [class*=lookFilled] {
+[class*=userProfileOuterThemed_] [class*=lookFilled],
+[class^=biteSizeOuter] [class^=botTag] {
   background-color: var(--profile-gradient-button-color) !important;
 }
