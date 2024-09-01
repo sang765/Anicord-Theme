@@ -1186,3 +1186,7 @@ div[id^=message-content] {
 [class*=userProfileOuterThemed] [class*=botTag] {
   background: radial-gradient(circle, var(--profile-gradient-button-color) 0%, var(--profile-gradient-primary-color) 50%, var(--profile-gradient-secondary-color) 100%);
 }
+
+[class*=unreadMentionsBar] {
+  background-color: hsl(var(--accent-hsl));
+}
