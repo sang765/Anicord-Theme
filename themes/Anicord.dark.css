@@ -1155,6 +1155,6 @@ div[id^=message-content] {
 [class*=unreadMentionsBar] {
   background-color: hsl(var(--accent-hsl));
 }
-.vc-uvs-icon-live {
+[class*=userPopoutOuter] .vc-uvs-icon-live {
   margin-top: 8px;
 }
