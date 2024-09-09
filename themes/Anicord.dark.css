@@ -737,7 +737,8 @@ div[class="iconWrapper_b26897"] {
 }
 /* Timestamp bubble */
 [class*=header_] [class*=timestampInline_],
-[class^=latin24CompactTimeStamp_] {
+[class^=latin24CompactTimeStamp_],
+.vc-reply-timestamp {
   background-color: var(--message-color);
   border: hsl(var(--accent-hsl)) 3px solid;
   border-radius: 7px;
