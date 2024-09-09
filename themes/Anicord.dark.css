@@ -810,9 +810,6 @@ div[id^=message-content] {
 .font-size-16 .cozy_f9f2ca.hasThread_f9f2ca:after {
   left:-2.5rem;
 }
-[class*=botTag] {
-  background: hsl(var(--accent-hsl));
-}
 [class^=userPopoutOuter] [class*=botTag] {
   background: var(--profile-gradient-button-color);
 }
