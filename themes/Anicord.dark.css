@@ -1096,7 +1096,7 @@ div[id^=message-content] {
   visibility: hidden !important;
 }
 .placeholder_a552a6::before {
-  content: "No Chat? Don't worry, just chill ☕";
+  content: "No Chat? Don't worry, just chill.";
   color: var(--textarea-placeholder-color);
   font-size: 13px;
   visibility: visible !important;
