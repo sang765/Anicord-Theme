@@ -1139,7 +1139,8 @@ div[id^=message-content] {
 [class^=biteSizeOuter] [style="position: relative;"],
 [class^=biteSizeOuter] [style^=gap],
 [class^=biteSizeOuter] [class^=descriptionClamp],
-[class^=biteSizeOuter] [class^=mutuals] {
+[class^=biteSizeOuter] [class^=mutuals],
+[class^=biteSizeOuter] [data-list-id^=roles] {
   background-color: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5));
   border-radius: calc(var(--popout-radius) / 1.25);
   padding: 7px;
@@ -1152,7 +1153,6 @@ div[id^=message-content] {
 [class*=userProfileOuterThemed] [class*=botTag] {
   background: radial-gradient(circle, var(--profile-gradient-button-color) 0%, var(--profile-gradient-primary-color) 50%, var(--profile-gradient-secondary-color) 100%);
 }
-
 [class*=unreadMentionsBar] {
   background-color: hsl(var(--accent-hsl));
 }
