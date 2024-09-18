@@ -1,7 +1,5 @@
 <!-- HEAD PAGE -->
 <div align="center">
-  <h6 style="color:lightgreen;">✅ Last update: <strong>09.08.2024</strong> - Remake Icon Color Addon</h6>
-  <br>
   <img src="assets/projectbanner.png" alt="Anicord Banner" width="550">
   <br>
   <a href="https://github.com/sang765/Anicord-Theme"><img src="assets/textdesign.png" alt="Anicord Logo" width="250"></a>
@@ -19,6 +17,8 @@
   <a href="https://github.com/sang765/Anicord-Theme" style="pointer-events: none; cursor: default;">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css2.svg" alt="CSS">
     <img src="https://m3-markdown-badges.vercel.app/stars/8/1/sang765/Anicord-Theme" alt="Star">
+	<br>
+	<a href="https://github.com/sang765/Anicord-Theme/commits/main/"><img src="https://img.shields.io/github/last-commit/sang765/Anicord-Theme?&style=for-the-badge&color=FFFFFF&logoColor=D9E0EE&labelColor=42A5F5"width="170"></a>
   </a>
 </p>
 
@@ -151,9 +151,9 @@ Theme config/settings if you use **Quick CSS Import**:
 
 <a href="https://betterdiscord.app/theme/Chillax"><img src="https://images-ext-2.discordapp.net/external/q2ARW13l3EG6jb0QG14VynEwVvenrLEcflM6ReyLQT0/https/betterdiscord.app/Image/1393?" alt="Chillax" width="500"></a>
 
-- **[ClearVersion V6](https://betterdiscord.app/theme/ClearVision)**
+- **[ClearVision](https://betterdiscord.app/theme/ClearVision)**
 
-<a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/44ab5aedbf3ae7480f9399532db59dba35c01c4cda5201d1ac84e2de8151257e/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVersion" width="500"></a>
+<a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/44ab5aedbf3ae7480f9399532db59dba35c01c4cda5201d1ac84e2de8151257e/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVision" width="500"></a>
 
 - CSS Snippet from **[Better Discord Server](https://discord.gg/0Tmfo5ZbORCRqbAd)** and **[Vencord Discord Server](https://discord.gg/vencord)**
 
