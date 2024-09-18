@@ -1159,3 +1159,9 @@ div[id^=message-content] {
 [class*=userPopoutOuter] .vc-uvs-icon-live {
   margin-top: 8px;
 }
+[class^="videoControls"] [class^=mediaBarP],
+[class^="videoControls"] [class*=fakeEdges]::before,
+[class^="videoControls"] [class*=fakeEdges]::after,
+[class^="videoControls"] [class^=mediaBarGrabber] {
+    background-color: hsl(var(--accent-hsl)) !important;
+}
