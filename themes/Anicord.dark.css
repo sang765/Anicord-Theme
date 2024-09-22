@@ -1165,3 +1165,6 @@ div[id^=message-content] {
 [class^="videoControls"] [class^=mediaBarGrabber] {
     background-color: hsl(var(--accent-hsl)) !important;
 }
+[class^=fullSizeOuter] [class^=tabBar] {
+  gap: 0px;
+}
