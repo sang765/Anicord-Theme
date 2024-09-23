@@ -1168,6 +1168,3 @@ div[id^=message-content] {
 [class^=fullSizeOuter] [class^=tabBar] {
   gap: 0px;
 }
-[class^=gridContainer] {
-  min-width: 516px;
-}
