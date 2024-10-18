@@ -1034,7 +1034,7 @@ div[id^=message-content] {
   letter-spacing: 4px;
   color: white;
 }
-/* Equidcord BetterActivities */
+/* Equicord BetterActivities */
 [class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
   background-color: var(--profile-gradient-button-color) !important;
 }
