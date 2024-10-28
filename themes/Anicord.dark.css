@@ -755,10 +755,6 @@ div[class="iconWrapper_b26897"] {
   left: -68px;
   padding-right: 5px;
 }
-/* Equidcord BetterActivities */
-[class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
-  background-color: var(--profile-gradient-button-color) !important;
-}
 /* fix the terrible profile overflow bug */
 [class*=userPopoutOverlayBackground] {
   max-height: 77vh;
