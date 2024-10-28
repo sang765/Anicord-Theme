@@ -388,11 +388,12 @@ button.button_f67531
   transition: 0.3s ease-in-out;
   height: 0px !important;
   margin-top: -25px;
-  text-align: center;
+  margin-left: 100px;
 }
 .container_cbd271:hover .membersGroup_cbd271 {
   height: unset !important;
   margin-top: unset !important;
+  margin-left: unset !important;
 }
 .container_cbd271:hover {
   margin-right: unset !important;
