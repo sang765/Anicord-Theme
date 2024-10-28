@@ -151,9 +151,9 @@ Theme config/settings if you use **Quick CSS Import**:
 
 <a href="https://betterdiscord.app/theme/Chillax"><img src="https://images-ext-2.discordapp.net/external/q2ARW13l3EG6jb0QG14VynEwVvenrLEcflM6ReyLQT0/https/betterdiscord.app/Image/1393?" alt="Chillax" width="500"></a>
 
-- **[ClearVision](https://betterdiscord.app/theme/ClearVision)**
+- **[ClearVision V6](https://betterdiscord.app/theme/ClearVision)**
 
-<a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/44ab5aedbf3ae7480f9399532db59dba35c01c4cda5201d1ac84e2de8151257e/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVision" width="500"></a>
+<a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/4b8f7f153203d3c84aac1ffb2df8f2846bb2be087d3dc3e122030297f1449603/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVision" width="500"></a>
 
 - CSS Snippet from **[Better Discord Server](https://discord.gg/0Tmfo5ZbORCRqbAd)** and **[Vencord Discord Server](https://discord.gg/vencord)**
 
