@@ -847,31 +847,6 @@ div[id^=message-content] {
 .addButtonIcon_a08117 {
   margin: auto;
 }
-/* * *  CLEAR VERSION V6 USER PROFILE POPUP AND PROFILE * */
-.userProfileModalInner_c69a7b .banner_d5fdb1 {
-  -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
-  mask: linear-gradient(to bottom, #000, transparent 93%)
-}
-.userProfileModalInner_c69a7b [style*=background-image].banner_d5fdb1 {
-  -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
-  mask: linear-gradient(to bottom, #000 50%, transparent)
-}
-.userProfileInner_c69a7b .banner_a823cd {
-  -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
-  mask: linear-gradient(to bottom, #000, transparent 93%)
-}
-.userProfileInner_c69a7b [style*=background-image].banner_a823cd {
-  -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
-  mask: linear-gradient(to bottom, #000 50%, transparent)
-}
-.userPopoutOuter_c69a7b .banner_d5fdb1:not(.bannerPremium_c3e427) {
-    -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
-    mask: linear-gradient(to bottom, #000, transparent 93%)
-}
-.userPopoutOuter_c69a7b .bannerPremium_c3e427 {
-    -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
-    mask: linear-gradient(to bottom, #000 50%, transparent)
-}
 /* * *  CLEAR VERSION V6 SETTINGS MENU * */
 .standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0.selected_a0 {
   background: hsla(var(--accent-hsl), 0.5);
