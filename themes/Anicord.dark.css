@@ -1140,3 +1140,12 @@ div[id^=message-content] {
 [class^=fullSizeOuter] [class^=tabBar] {
   gap: 0px;
 }
+/* CLEARVISION V6 PROFILE FADE */
+.outer_c69a7b .banner_d5fdb1:not(.bannerPremium_c3e427) {
+    -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
+    mask: linear-gradient(to bottom, #000, transparent 93%)
+}
+.outer_c69a7b .bannerPremium_c3e427 {
+    -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
+    mask: linear-gradient(to bottom, #000 50%, transparent)
+}
