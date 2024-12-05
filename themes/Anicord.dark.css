@@ -1148,6 +1148,21 @@ div[id^=message-content] {
 [class^=avatar_] {
     border-radius: 50px !important;
 }
+[class^=container] [class^=members] [class^=member_] [class^=activityText] strong {
+	color: hsl(var(--accent-hsl));
+	font-weight: 700;
+}
+[class^=container] [data-list-id^=forum-channel-list] [class^=pill],
+[class^=container] [data-list-id^=forum-channel-list] [class^=card] [class*=mainCard] {
+	border: 2px solid hsl(var(--accent-hsl)) !important;
+}
+[class^=container] [class^=voiceChannelsButton]:hover {
+	transition: all .5s;
+	border: 2px solid hsl(var(--accent-hsl));
+}
+[class^=container] [class^=voiceChannelsButton] {
+	transition: all .5s;
+}
 /* CLEARVISION V6 PROFILE FADE */
 .outer_c69a7b .banner_d5fdb1:not(.bannerPremium_c3e427) {
     -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
