@@ -23,10 +23,13 @@ form [clip-path^="url(#__lottie_element"],
 [class^="panels"] [class^="flex"] path,
 /*Channel Icon*/
 [class^="scroller"] [class^=icon] path {
-  color: hsl(var(--accent-hsl));
+  	color: hsl(var(--accent-hsl));
 }
 .vc-trans-auto-translate {
-    color: var(--green-360) !important;
+    	color: var(--green-360) !important;
+}
+[class^=menu] [d="M9.58473 14.8636L6.04944 11.4051L4.50003 12.9978L9.58473 18L19.5 8.26174L17.9656 6.64795L9.58473 14.8636Z"] {
+	color: white !important;
 }
 /*FILL COLOR*/
 /*Message Box*/
@@ -35,7 +38,7 @@ form [fill="var(--interactive-normal)"],
 form [class="vc-more-stickers-icon"],
 /*Channel Icon*/
 [class^="scroller"] [class^="actionIcon"] path {
-  fill: hsl(var(--accent-hsl));
+  	fill: hsl(var(--accent-hsl));
 }
 form [class*="spriteGreyscale"] {
 	background-color: hsl(var(--accent-hsl));
