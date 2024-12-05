@@ -1138,12 +1138,15 @@ div[id^=message-content] {
     background-color: hsl(var(--accent-hsl)) !important;
 }
 [class^=fullSizeOuter] [class^=tabBar] {
-  gap: 0px;
+    gap: 0px;
 }
 [class^=avatar] foreignObject[mask*="url(#"],
 [class^=mask] foreignObject[mask*="url(#"],
 [class^=avatar] foreignObject[mask*="url(#"] circle {
     mask: none;
+}
+[class^=avatar_] {
+    border-radius: 50px !important;
 }
 /* CLEARVISION V6 PROFILE FADE */
 .outer_c69a7b .banner_d5fdb1:not(.bannerPremium_c3e427) {
