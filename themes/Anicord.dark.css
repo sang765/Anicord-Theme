@@ -99,7 +99,7 @@
   --embed-line-width: 300px;
   --windows-title: 'Anicord';
   --version: '1.5.8';
-/* ClearVersion V6 Tag */
+/* ClearVision V6 Tag */
   --background-shading: 100%;
   --background-overlay: rgba(0, 0, 0, 0.6);
   --background-image: var(--app-bg);
@@ -1140,6 +1140,11 @@ div[id^=message-content] {
 [class^=fullSizeOuter] [class^=tabBar] {
   gap: 0px;
 }
+[class^=avatar] foreignObject[mask*="url(#"],
+[class^=mask] foreignObject[mask*="url(#"],
+[class^=avatar] foreignObject[mask*="url(#"] circle {
+    mask: none;
+}
 /* CLEARVISION V6 PROFILE FADE */
 .outer_c69a7b .banner_d5fdb1:not(.bannerPremium_c3e427) {
     -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
@@ -1148,4 +1153,26 @@ div[id^=message-content] {
 .outer_c69a7b .bannerPremium_c3e427 {
     -webkit-mask: linear-gradient(to bottom, #000 50%, transparent);
     mask: linear-gradient(to bottom, #000 50%, transparent)
+}
+.outer_c69a7b:not(.custom-profile-theme, .container_f4c122) .inner_c69a7b.biteSize_c69a7b::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--user-popout-image) var(--user-popout-position)/var(--user-popout-size) var(--user-popout-repeat) var(--user-popout-attachment);
+    filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
+    z-index: -1
+}
+.outer_c69a7b:not(.custom-profile-theme, .container_f4c122) .inner_c69a7b.fullSize_c69a7b::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--user-modal-image) var(--user-modal-position)/var(--user-modal-size) var(--user-modal-repeat) var(--user-modal-attachment);
+    filter: grayscale(var(--user-modal-grayscale)) sepia(var(--user-modal-sepia)) invert(var(--user-modal-invert)) brightness(var(--user-modal-brightness)) contrast(var(--user-modal-contrast)) saturate(var(--user-modal-saturation)) blur(var(--user-modal-blur));
+    z-index: -1
 }
