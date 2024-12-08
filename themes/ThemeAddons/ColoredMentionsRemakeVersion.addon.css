@@ -1,0 +1,62 @@
+/*
+CREDIT ORIGINAL: https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css
+*/
+
+.mentioned_d5deea {
+  background: none;
+  z-index: 0;
+}
+.message_d5deea:hover, .message_d5deea.selected_d5deea {
+  background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
+}
+.messageContent_f9f2ca, .compact_f9f2ca .contents_f9f2ca {
+  position: unset !important;
+}
+.mention, .roleMention_f8f345 {
+  position: unset;
+  filter: none;
+}
+.hasReply_f9f2ca.mentioned_d5deea:not(:has([class*="ention"])):before,
+.mentioned_d5deea .mention:before,
+.mentioned_d5deea .roleMention_f8f345:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: hsl(var(--accent-hsl));
+  filter: saturate(var(--saturation-factor,1));
+  pointer-events: none;
+  border-radius: var(--app-radius) 0% 0% var(--app-radius);
+}
+.hasReply_f9f2ca.mentioned_d5deea:not(:has([class*="ention"])):after,
+.mentioned_d5deea .mention:after,
+.mentioned_d5deea .roleMention_f8f345:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: hsla(var(--accent-hsl), .1);
+  z-index: -1;
+  filter: saturate(var(--saturation-factor,1));
+  pointer-events: none;
+}
+.roleMention_f8f345[style]:before {
+  background-color: currentColor;
+}
+.roleMention_f8f345[style]:after {
+  background: currentColor;
+  opacity: 0.1;
+}
+.mentioned_d5deea:before,
+.mentioned_d5deea:after,
+.repliedMessage_f9f2ca [class*="ention"]:before,
+.repliedMessage_f9f2ca [class*="ention"]:after,
+.mention ~ [class*="ention"]:before,
+.mention ~ [class*="ention"]:after,
+.roleMention_f8f345 ~ [class*="ention"]:before,
+.roleMention_f8f345 ~ [class*="ention"]:after,
+.mentioned_d5deea:before,
+.mentioned_d5deea:after {
+  content: unset;
+}
