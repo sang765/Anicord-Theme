@@ -1134,11 +1134,6 @@ div[class="iconWrapper_b26897"] {
 [class^=fullSizeOuter] [class^=tabBar] {
     gap: 0px;
 }
-[class^=avatar] foreignObject[mask*="url(#"],
-[class^=mask] foreignObject[mask*="url(#"],
-[class^=avatar] foreignObject[mask*="url(#"] circle {
-    mask: none;
-}
 [class^=avatar_] {
     border-radius: 50px !important;
 }
