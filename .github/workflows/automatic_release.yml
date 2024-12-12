@@ -3,7 +3,7 @@ name: Create Release
 on:
   push:
     branches:
-      - main
+      - main # Theo dõi branch chính hoặc branch cụ thể
 
 jobs:
   create-release:
@@ -22,14 +22,25 @@ jobs:
 
       # Create a release
       - name: Create GitHub Release
+        id: create_release # Đặt ID để dùng sau
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: r.${{ github.run_number }}
+          tag_name: v1.0.${{ github.run_number }}
           release_name: Release ${{ github.run_number }}
           body: |
             Changes in this release:
             - ${{ env.commit_message }}
           draft: false
           prerelease: false
+
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          asset_path: ./Anicord.theme.css
+          asset_name: Anicord.theme.css              
+          asset_content_type: application/file
