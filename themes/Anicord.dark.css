@@ -1134,9 +1134,6 @@ div[class="iconWrapper_b26897"] {
 [class^=fullSizeOuter] [class^=tabBar] {
     gap: 0px;
 }
-[class^=avatar_] {
-    border-radius: 50px !important;
-}
 [class^=container] [class^=members] [class^=member_] [class^=activityText] strong {
 	color: hsl(var(--accent-hsl));
 	font-weight: 700;
