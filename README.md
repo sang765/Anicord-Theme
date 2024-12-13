@@ -24,10 +24,6 @@
 
 <!-- BODY -->
 
-## ⚠️ Before use the theme:
->[!WARNING]
-> If you experience crashes while using the theme (Yes, I do) then I recommend you use **[Vesktop](https://github.com/Vencord/Vesktop)** because it is well optimized and crashes are rare (unless you use devtools for too long).
-
 ## 🖼️ Screenshots:
 >[!NOTE]
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
