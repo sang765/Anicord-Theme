@@ -22,7 +22,10 @@ form [clip-path^="url(#__lottie_element"],
 /*User Area*/
 [class^="panels"] [class^="flex"] path,
 /*Channel Icon*/
-[class^="scroller"] [class^=icon] path {
+[class^="scroller"] [class^=icon] path,
+[class^=buttonContainer] [class^=buttonsInner] [class*=button_] [class^=vc-] path,
+[class^=buttonContainer] [class^=buttonsInner] [class*=button_] [fill="currentColor"] path,
+[class^=buttonContainer] [class^=buttonsInner] [class*=button_] [class^=eq-] path {
   	color: hsl(var(--accent-hsl));
 }
 .vc-trans-auto-translate {
@@ -30,6 +33,13 @@ form [clip-path^="url(#__lottie_element"],
 }
 [class^=menu] [d="M9.58473 14.8636L6.04944 11.4051L4.50003 12.9978L9.58473 18L19.5 8.26174L17.9656 6.64795L9.58473 14.8636Z"] {
 	color: white !important;
+}
+[class^="scroller"] [class*=colorDanger_] path,
+[class^=buttonContainer] [class^=buttonsInner] [class*=dangerous_] path {
+	color: var(--status-danger);
+}
+[class^=buttonContainer] [class^=buttonsInner] [class*=button_] path[stroke] {
+	stroke: hsl(var(--accent-hsl));
 }
 /*FILL COLOR*/
 /*Message Box*/
