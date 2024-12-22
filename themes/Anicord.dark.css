@@ -805,8 +805,8 @@ div[class="iconWrapper_b26897"] {
 .font-size-16 .cozy_f9f2ca.hasThread_f9f2ca:after {
   left:-2.5rem;
 }
-[class^=userPopoutOuter] [class*=botTag] {
-  background: var(--profile-gradient-button-color);
+[class*="custom-profile-theme"] [class*="botTag_"] {
+  background-color: var(--profile-gradient-button-color);
 }
 .containerDefault_a08117 {
   color: var(--accent-text-color) !important;
