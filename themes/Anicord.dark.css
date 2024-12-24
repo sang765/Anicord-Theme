@@ -1180,7 +1180,6 @@ div[class="iconWrapper_b26897"] {
     filter: grayscale(var(--user-modal-grayscale)) sepia(var(--user-modal-sepia)) invert(var(--user-modal-invert)) brightness(var(--user-modal-brightness)) contrast(var(--user-modal-contrast)) saturate(var(--user-modal-saturation)) blur(var(--user-modal-blur));
     z-index: -1
 }
-
 [id^=chat-messages] [class^="nonVisualMediaItemContainer_"] [class^="file_"] {
 	background-color: rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 0px 0px hsl(var(--accent-hsl));
@@ -1192,10 +1191,16 @@ div[class="iconWrapper_b26897"] {
 	box-shadow: 0px 0px 5px hsl(var(--accent-hsl));
 	border: solid 2px hsla(var(--accent-hsl), 1);
 }
-
 [class^=tabBar][class*=top] {
 	gap: 0px;
 }
 [class^=tabBar][class*=top] [class^=tabBarItem]:hover {
 	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+[class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention] {
+	background-color: hsla(var(--accent-hsl), .3);
+	--mention-foreground: color-mix(in oklab, hsl(var(--accent-hsl)) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
+}
+[class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
+	background-color: hsla(var(--accent-hsl), 1);
 }
