@@ -1,27 +1,39 @@
-name: Create Release
+name: Release and Update CSS Version
 
 on:
   push:
     branches:
       - main
+    tags:
+      - 'v*'
 
 jobs:
-  create-release:
-    name: Create Release
+  release-and-update:
     runs-on: ubuntu-latest
-
     steps:
       # Check out the repository code
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Get the latest commit message
+      # Determine if the trigger is from a tag or branch push
+      - name: Determine trigger
+        id: trigger
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            echo "trigger_type=tag" >> $GITHUB_ENV
+          else
+            echo "trigger_type=branch" >> $GITHUB_ENV
+          fi
+          echo "ref_name=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+      # Step for branch pushes (Create Release)
       - name: Get the commit message
+        if: env.trigger_type == 'branch'
         id: get_commit_message
         run: echo "commit_message=$(git log -1 --pretty=format:'%s')" >> $GITHUB_ENV
 
-      # Create a release
       - name: Create GitHub Release
+        if: env.trigger_type == 'branch'
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -36,11 +48,27 @@ jobs:
           prerelease: false
 
       - name: Upload release asset
+        if: env.trigger_type == 'branch'
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Anicord.theme.css
           asset_name: Anicord.theme.css              
           asset_content_type: application/file
+
+      # Step for tag pushes (Update CSS Version)
+      - name: Update CSS file
+        if: env.trigger_type == 'tag'
+        run: |
+          sed -i '101s/--version: .*/--version: '\'''"${env.ref_name}"'\'';/' ./themes/Anicord.dark.css
+
+      - name: Commit and push changes
+        if: env.trigger_type == 'tag'
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add ./themes/Anicord.dark.css
+          git commit -m "Update version to ${env.ref_name}"
+          git push
