@@ -303,7 +303,7 @@ button.button_f67531
   transform: rotate(360deg);
 }
 .side_a0 .item_a0.selected_a0.themed_a0,
-.standardSidebarView_c25c6d {
+[class^=appMount_] [class^=layers_] [class^=layer_]:has([class^=standardSidebarView_]) {
   border: 1px solid hsl(var(--accent-hsl));
 }
 /* Username Background */
