@@ -1,0 +1,34 @@
+name: Update CSS Version
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  update-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Get the release tag
+        run: |
+          echo "RELEASE_VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+      - name: Update CSS file
+        run: |
+          sed -i '101s/--version: .*/--version: '\'''"${RELEASE_VERSION}"'\'';/' path/to/your.css
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add ./themes/Anicord.dark.css
+          git commit -m "Update version to ${RELEASE_VERSION}"
+          git push
