@@ -1194,11 +1194,12 @@ html.theme-light .panels_a4d4d9 {
     background: rgba(228, 228, 228, .5) !important;
     box-shadow: 0 5px 8px #d6d6d657;
     border-radius: 20px;
+    border: 1px solid hsl(var(--accent-hsl));
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-	backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .container_b2ca13 {
     background: transparent !important;
@@ -1263,11 +1264,12 @@ html.theme-dark .panels_a4d4d9 {
     background: rgba(24, 26, 29, 0.5) !important;
     box-shadow: 0 5px 8px #15171a;
     border-radius: 20px;
+    border: 1px solid hsl(var(--accent-hsl));
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-	backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .container_b2ca13 {
     background: transparent !important;
