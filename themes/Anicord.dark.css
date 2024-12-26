@@ -152,6 +152,11 @@
   --user-modal-grayscale: var(--background-grayscale);
   --user-modal-sepia: var(--background-sepia);
   --user-modal-blur: calc(var(--background-blur) + 3px);
+  /* settings modal root (from CHILLAX) */
+  --themelightsettingsmodalbackground: rgba(223, 223, 223, 0.4);
+  --themedarksettingsmodalbackground: rgba(51, 49, 53, 0.4);
+  --settingsmodalwidth: 960px;
+  --settingsmodalheight: 80vh;
 }
 /* CUSTOM PART */
 body {
@@ -297,28 +302,9 @@ button.button_f67531
 .closeButton_df5532:hover {
   transform: rotate(360deg);
 }
-/**Modal settings window**/
-.standardSidebarView_c25c6d {
-  top: 0 !important;
-}
-.layer_d4b6c5+.layer_d4b6c5 {
-  border-radius: 10px !important;
-  background-color: rgba(0, 0, 0, 0.685);
-  border: 1px solid var(--border-strong);
-  width: 1100px !important;
-  height: 80vh !important;
-  margin: auto !important;
-  padding: 0 !important;
-}
 .side_a0 .item_a0.selected_a0.themed_a0,
 .standardSidebarView_c25c6d {
   border: 1px solid hsl(var(--accent-hsl));
-}
-#app-mount .baseLayer_d4b6c5
-/*keep view under settings*/
-  {
-  opacity: 1 !important;
-  transform: unset !important;
 }
 /* Username Background */
 .username_f9f2ca::before {
