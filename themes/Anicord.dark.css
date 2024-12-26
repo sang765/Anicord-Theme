@@ -1359,5 +1359,8 @@ html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disabl
 }
 /* End of CHILLAX part*/
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
-	background-color: hsla(var(--accent-hsl), 1);
+    background-color: hsla(var(--accent-hsl), 1);
+}
+[class^=outer] [class^=menus_]:has(button) button {
+    padding: 0;
 }
