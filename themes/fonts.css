@@ -4,25 +4,25 @@
 
 @font-face {
     font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme@latest/assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Italic.ttf?cache-bust=1') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme@latest/assets/fonts/JetBrainsMonoNerdFont-Bold.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Italic.ttf?cache-bust=1') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme@latest/assets/fonts/JetBrainsMonoNerdFont-BoldItalic.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Italic.ttf?cache-bust=1') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme@latest/assets/fonts/JetBrainsMonoNerdFont-Italic.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Italic.ttf?cache-bust=1') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
