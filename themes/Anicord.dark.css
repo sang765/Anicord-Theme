@@ -5,6 +5,8 @@
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
+  --main-font: 'Tilt Neon', 'JetBrainsMono Nerd Font';
+  --code-font: 'Lexend Deca', 'JetBrainsMono Nerd Font';
   --main-rgb: 0,0,0;
   --main-content-opacity: 0.2;
   --sidebar-opacity: 0.4;
@@ -158,11 +160,11 @@
   --settingsbackground: transparent;
 }
 /* CUSTOM PART */
-html {
-  font-family: 'Tilt Neon', 'JetBrainsMono Nerd Font';
+* {
+  font-family: var(--main-font);
 }
 code {
-  font-family: 'Lexend Deca', 'JetBrainsMono Nerd Font';
+  font-family: var(--code-font);
 }
 body:before {
   content: "Thanks for using " var(--windows-title)"!";
