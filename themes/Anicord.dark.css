@@ -281,24 +281,14 @@ button.button_f67531
   {
   border-radius: 50%;
 }
-.button_f67531:last-child
-/* settings button */
-,
-.attachButton_f298d4 .attachButtonInner_f298d4
-/* upload button */
-,
-.emojiButton_d0696b .contents_dd4f85
-/* emoji button */
-,
-.closeButton_df5532
-/* settings exit button */
-  {
+.button_f67531:last-child /* settings button */,
+.attachButton_f298d4 .attachButtonInner_f298d4 /* upload button */,
+.emojiButton_d0696b .contents_dd4f85 /* emoji button */ {
   transition: transform 1s ease;
 }
 .button_f67531:last-child:hover,
 .attachButton_f298d4:hover .attachButtonInner_f298d4,
-.emojiButton_d0696b:hover .contents_dd4f85,
-.closeButton_df5532:hover {
+.emojiButton_d0696b:hover .contents_dd4f85 {
   transform: rotate(360deg);
 }
 .side_a0 .item_a0.selected_a0.themed_a0,
