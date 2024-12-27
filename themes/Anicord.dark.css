@@ -1353,3 +1353,6 @@ html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disabl
 [class^=outer] [class^=menus_]:has(button) button {
     padding: 0;
 }
+.sidebar_a4d4d9 .container_ee69e0 {
+  background-color: rgba(0, 0, 0, .4);
+}
