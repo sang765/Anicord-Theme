@@ -152,11 +152,10 @@
   --user-modal-grayscale: var(--background-grayscale);
   --user-modal-sepia: var(--background-sepia);
   --user-modal-blur: calc(var(--background-blur) + 3px);
-  /* settings modal root (from CHILLAX) */
-  --themelightsettingsmodalbackground: rgba(223, 223, 223, 0.4);
-  --themedarksettingsmodalbackground: rgba(51, 49, 53, 0.4);
-  --settingsmodalwidth: 960px;
-  --settingsmodalheight: 80vh;
+  /* SETTING MODAL */
+  --settingswidth: 960;
+  --settingsheight: 80;
+  --settingsbackground: transparent;
 }
 /* CUSTOM PART */
 body {
