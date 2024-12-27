@@ -73,6 +73,11 @@
 
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
+
+	  /* SETTING MODAL */
+  	--settingswidth: 960;
+  	--settingsheight: 80;
+  	--settingsbackground: transparent;
 }
 
 /*credits*/
