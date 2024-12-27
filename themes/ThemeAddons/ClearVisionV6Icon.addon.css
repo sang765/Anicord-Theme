@@ -1,3 +1,33 @@
+:not(.embedWrapper_b558d0)>[title=unknown].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_upload.svg)
+}
+[title=document].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_document.svg)
+}
+[title=archive].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_archive.svg)
+}
+[title=code].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_code.svg)
+}
+[title=webcode].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_webcode.svg)
+}
+[title=ai].icon_b52bef,
+[title=ps].icon_b52bef,
+[title=photoshop].icon_b52bef,
+[title=sketch].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_image.svg)
+}
+[title=ae].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_video.svg)
+}
+[title=spreadsheet].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_table.svg)
+}
+[title=acrobat].icon_b52bef {
+    background-image: url(https://clearvision.github.io/icons/file_pdf.svg)
+}
 .sidebar_c25c6d [aria-controls=my-account-tab].item_a0:before {
     background-image: url(https://clearvision.github.io/icons/person.svg)
 }
@@ -195,23 +225,4 @@
 }
 .sidebar_c25c6d .bd-themes-tab.item_a0:before {
     background-image: url(https://clearvision.github.io/icons/palette.svg)
-}
-.sidebar_c25c6d [aria-controls="content-&-social-tab"].item_a0:before {
-    background-image: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/refs/heads/main/assets/icons/star-shine-svgrepo-com.svg)
-}
-.sidebar_c25c6d [aria-controls="data-&-privacy-tab"].item_a0:before {
-	background-image: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/refs/heads/main/assets/icons/shield-bolt-svgrepo-com.svg)
-}
-.sidebar_c25c6d [aria-controls="equicordpatchhelper-tab"].item_a0:before,
-.sidebar_c25c6d [aria-controls="vencordpatchhelper-tab"].item_a0:before {
-	background-image: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/refs/heads/main/assets/icons/patch-svgrepo-com.svg)
-}
-.sidebar_c25c6d [aria-controls="themelibrary-tab"].item_a0:before {
-	background-image: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/refs/heads/main/assets/icons/book-bookmark-minimalistic-svgrepo-com.svg)
-}
-.sidebar_c25c6d [aria-controls="iremeberyou.display-data-tab"].item_a0:before {
-	background-image: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/refs/heads/main/assets/icons/brain-svgrepo-com.svg)
-}
-.sidebar_c25c6d [aria-controls="experiments-tab"].item_a0:before {
-	background-image: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/refs/heads/main/assets/icons/bug-svgrepo-com.svg)
 }
