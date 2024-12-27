@@ -60,7 +60,7 @@ Transparency Background Support With Transparency Option:
 <img src="assets/screenshots/transparency.png" alt="Transparency">
 </div>
 <br>
-<img src="assets/screenshots/transparencypreview.png" alt="Transparency">
+<img src="https://easyfiles.cc/2024/12/b9759327-deda-4ff1-bf3a-136fc7714aba/BoR1wI4YUS.jpg" alt="Transparency">
 
 ## ⚙️ Install Theme
 ### Online Import (Vencord)
