@@ -1321,3 +1321,8 @@ html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disabl
 [class^=outer] [class^=menus_]:has(button) button {
     padding: 0;
 }
+.titleContainer_e87574:before,
+.header_bd05f1:before {
+  background-image: none;
+  box-shadow: none;
+}
