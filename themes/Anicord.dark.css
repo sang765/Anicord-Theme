@@ -1177,9 +1177,62 @@ div[class="iconWrapper_b26897"] {
 	background-color: hsla(var(--accent-hsl), .3);
 	--mention-foreground: color-mix(in oklab, hsl(var(--accent-hsl)) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
 }
+/* CHILLAX User Panel REMAKE */
+/*floating user controls*/
+html.theme-light .panels_a4d4d9 {
+  background: rgba(228, 228, 228, .5) !important;
+  box-shadow: 0 5px 8px #d6d6d657;
+  border-radius: 20px;
+  border: 1px solid hsl(var(--accent-hsl));
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  backdrop-filter: blur(5px);
+}
+html.theme-light .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
+  opacity: 30% !important;
+  inline-size: 50px;
+  transition: all 0.3s;
+}
+html.theme-light .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
+  opacity: 100% !important;
+  inline-size: 40px;
+}
+html.theme-light .button_adca65[aria-label="User Settings"] {
+  margin-inline-start: 10px;
+}
+.container-6sXIoE .alignStretch_ec1a20.flex_ec1a20 {
+  max-inline-size: 190px;
+  min-inline-size: 190px;
+}
+.details-ntX2k5 {
+  max-inline-size: 805px !important;
+  min-inline-size: 805px !important;
+}
+.maximized-vv2Wr0 .details-ntX2k5 {
+  max-inline-size: 190px !important;
+  min-inline-size: 190px !important;
+  position: relative;
+  display: block;
+  inset-inline-start: 0px;
+}
+.maximized-vv2Wr0 .cover-SwJ-ck {
+  border-radius: 8px 8px 0px 0px;
+}
+.avatarWrapper_b2ca13 {
+  max-inline-size: 36px;
+  min-inline-size: 36px;
+  transition: 0.3s;
+}
+.avatarWrapper_b2ca13:hover {
+  max-inline-size: 207px;
+  min-inline-size: 207px;
+  transition: 0.3s;
+}
 /*floating user controls*/
 html.theme-dark .panels_a4d4d9 {
-  background: rgba(24, 26, 29, 0.5) !important;
+  background: rgb(0 0 0 / 50%) !important;
   box-shadow: 0 5px 8px #15171a;
   border-radius: 20px;
   border: 1px solid hsl(var(--accent-hsl));
