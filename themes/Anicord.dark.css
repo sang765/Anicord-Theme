@@ -158,7 +158,7 @@
   --settingsbackground: transparent;
 }
 /* CUSTOM PART */
-body {
+html {
   font-family: 'Tilt Neon', 'JetBrainsMono Nerd Font';
 }
 code {
