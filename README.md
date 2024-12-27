@@ -24,43 +24,43 @@
 
 <!-- BODY -->
 
-## 🖼️ Screenshots:
+## 🖼️ Screenshots: (Old "Update soon")
 >[!NOTE]
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
 
 Main Screen:
 <br>
-<img src="assets/main.png" alt="Main Screen">
+<img src="assets/screenshots/main.png" alt="Main Screen">
 <br>
 Member Server Preview:
 <br>
-<img src="assets/member.png" alt="Member Server Preview">
+<img src="assets/screenshots/member.png" alt="Member Server Preview">
 <br>
 User Profile Preview:
 <br>
-<img src="assets/userprofile.png" alt="User Profile">
+<img src="assets/screenshots/userprofile.png" alt="User Profile">
 <br>
 Settings Preview:
 <br>
-<img src="assets/settings.png" alt="Settings Preview">
+<img src="assets/screenshots/settings.png" alt="Settings Preview">
 <br>
 Some GIF Preview:
 <br>
 <div align="center">
-<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Channel.gif" alt="Channel">
+<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/screenshots/Channel.gif" alt="Channel">
 <br>
-<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/MemberList.gif" alt="Member List">
+<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/screenshots/MemberList.gif" alt="Member List">
 <br>
-<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/Settings.gif" alt="Settings">
+<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/screenshots/Settings.gif" alt="Settings">
 </div>
 <br>
 Transparency Background Support With Transparency Option:
 <br>
 <div align="center">
-<img src="assets/transparency.png" alt="Transparency">
+<img src="assets/screenshots/transparency.png" alt="Transparency">
 </div>
 <br>
-<img src="assets/transparencypreview.png" alt="Transparency">
+<img src="assets/screenshots/transparencypreview.png" alt="Transparency">
 
 ## ⚙️ Install Theme
 ### Online Import (Vencord)

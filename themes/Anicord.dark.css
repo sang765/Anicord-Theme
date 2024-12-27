@@ -159,10 +159,10 @@
 }
 /* CUSTOM PART */
 body {
-  font-family: "Tilt Neon";
+  font-family: 'Tilt Neon', 'JetBrainsMono Nerd Font';
 }
 code {
-  font-family: 'Lexend Deca';
+  font-family: 'Lexend Deca', 'JetBrainsMono Nerd Font';
 }
 body:before {
   content: "Thanks for using " var(--windows-title)"!";
