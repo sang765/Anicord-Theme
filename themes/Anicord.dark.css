@@ -1180,7 +1180,6 @@ div[class="iconWrapper_b26897"] {
 	--mention-foreground: color-mix(in oklab, hsl(var(--accent-hsl)) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
 }
 /* CHILLAX User Panel REMAKE */
-/*floating user controls*/
 html .sidebar_a4d4d9 .content_eed6a8:after {
   content: 'this big gap is for the floating user controls, so sry if it looks ugly';
   font-size: 13px;
@@ -1191,6 +1190,7 @@ html .sidebar_a4d4d9 .content_eed6a8:after {
   block-size: 150px;
   display: block;
 }
+/*floating user controls*/
 html.theme-light .panels_a4d4d9 {
   background: rgba(228, 228, 228, .5) !important;
   box-shadow: 0 5px 8px #d6d6d657;
