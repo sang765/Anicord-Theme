@@ -1,7 +1,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 :root {
 /* Transluent tag */
-  --app-bg: url(https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/themeimage.png);
+  --app-bg: url(https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/themeimage.png);
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;

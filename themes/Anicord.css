@@ -11,9 +11,9 @@
 /* I add info theme for Vencord online theme. Please don't care it */
 
 /* FONT IMPORT */
-@import url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/main/themes/fonts.css');
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/fonts.css');
 /* ADDONS IMPORT */
-@import url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/main/themes/addons.css');
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/addons.css');
 /* THEME IMPORT */
 /*dark mode*/
-@import url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/main/themes/Anicord.dark.css');
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.dark.css');
