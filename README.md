@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.css
 
 ```css
 /* Theme Import */
-@import url('https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/themes/Anicord.css');
+@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.css');
 /* CSS You Can Custom */
 :root {
 	--app-bg: url(https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/themeimage.png); /* background */
