@@ -409,7 +409,7 @@ button.button_f67531
   background: var(--textarea-block-color);
   border: 1px solid var(--button-outline-primary-border-hover);
 }
-#vc-spotify-player {
+html .panels_a4d4d9:not(:has([d=" M9.335000038146973,-1.8179999589920044 C4.184999942779541,-6.9670000076293945 -4.164000034332275,-6.9670000076293945 -9.312999725341797,-1.8179999589920044 C-11.690999984741211,0.5609999895095825 -11.35099983215332,3.6040000915527344 -9.555999755859375,5.39900016784668 C-9.300999641418457,5.6539998054504395 -8.909000396728516,5.7129998207092285 -8.59000015258789,5.544000148773193 C-8.59000015258789,5.544000148773193 -4.269999980926514,3.256999969482422 -4.269999980926514,3.256999969482422 C-3.871000051498413,3.0460000038146973 -3.683000087738037,2.5769999027252197 -3.8259999752044678,2.1489999294281006 C-3.8259999752044678,2.1489999294281006 -4.558000087738037,-0.04600000008940697 -4.558000087738037,-0.04600000008940697 C-1.8250000476837158,-1.9980000257492065 1.8459999561309814,-1.9980000257492065 4.578999996185303,-0.04600000008940697 C4.578999996185303,-0.04600000008940697 3.815000057220459,2.757999897003174 3.815000057220459,2.757999897003174 C3.693000078201294,3.2070000171661377 3.9240000247955322,3.677000045776367 4.354000091552734,3.8540000915527344 C4.354000091552734,3.8540000915527344 8.63599967956543,5.617000102996826 8.63599967956543,5.617000102996826 C8.946000099182129,5.744999885559082 9.303000450134277,5.672999858856201 9.539999961853027,5.435999870300293 C11.331999778747559,3.6440000534057617 11.708999633789062,0.5559999942779541 9.335000038146973,-1.8179999589920044z"])) #vc-spotify-player {
   border-start-start-radius: var(--app-radius);
   border-start-end-radius: var(--app-radius);
 }
@@ -1195,17 +1195,15 @@ html .sidebar_a4d4d9:has([id="vc-spotify-player"]):not(:has([d=" M9.335000038146
   transition: block-size .15s;
 }
 /* BetterDiscord Spotify Player Soon... */
-/*floating user controls*/
+/*floating user controls DARK*/
 html .panels_a4d4d9 {
   background: rgba(0,0,0,0.4) !important;
-  box-shadow: 0 5px 8px #15171a;
+  box-shadow: 0 5px 8px rgba(21, 23, 26, 50%);
   border-radius: var(--app-radius);
   border: 1px solid hsl(var(--accent-hsl));
   margin: 10px 10px 7px;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  backdrop-filter: blur(5px);
 }
 .container_b2ca13 {
   background: transparent !important;
@@ -1216,9 +1214,9 @@ html .panels_a4d4d9 {
   overflow: hidden;
 }
 .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
-  opacity: 0% !important;
+  opacity: 30% !important;
   width: 50px;
-  transition: all 0.3s;
+  transition: all .3s;
 }
 html.theme-dark .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
   opacity: 100% !important;
@@ -1228,25 +1226,27 @@ html.theme-dark .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:la
 html.theme-dark .button_adca65[aria-label="User Settings"] {
   margin-left: 10px;
 }
+html.theme-light .button_adca65[aria-label="User Settings"] {
+  margin-left: 10px;
+}
 .container-6sXIoE .alignStretch_ec1a20.flex_ec1a20 {
   max-width: 190px;
   min-width: 190px;
 }
 .details-ntX2k5 {
-    max-width: 805px !important;
-    min-width: 805px !important;
+  max-width: 805px !important;
+  min-width: 805px !important;
 }
 .maximized-vv2Wr0 .details-ntX2k5 {
-    max-width: 190px !important;
-    min-width: 190px !important;
-    position: relative;
-    display: block;
-    left: 0px;
+  max-width: 190px !important;
+  min-width: 190px !important;
+  position: relative;
+  display: block;
+  left: 0px;
 }
 .maximized-vv2Wr0 .cover-SwJ-ck {
-    border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
 }
-
 /* Avatar in bottom left */
 .avatarWrapper_b2ca13 {
   max-width: 36px;
@@ -1258,11 +1258,30 @@ html.theme-dark .button_adca65[aria-label="User Settings"] {
   min-width: 207px;
   transition: 0.3s;
 }
-
+/*floating user controls LIGHT*/
+html.theme-light .panels_a4d4d9 {
+    background: rgba(228, 228, 228, 0.4) !important;
+    box-shadow: 0 5px 8px rgba(214, 214, 214, .5);
+    border-radius: 12px;
+    margin: 10px 10px 7px;
+    position: absolute;
+}
+html.theme-light .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
+    opacity: 30% !important;
+    width: 50px;
+    transition: all 0.3s;
+}
+html.theme-light .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
+    opacity: 100% !important;
+    width: 40px;
+    margin-left: 10px;
+}
+html.theme-light .button_adca65[aria-label="User Settings"] {
+    margin-left: 10px;
+}
 /* Fix for Vencord Game Activity Toggle Plugin */
 /* Duplicate Stuff */
 /* We should have a common file and then import them there instead of duplicating them */
-
 .container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child {
   min-width: 36px !important;
 }
@@ -1286,6 +1305,12 @@ html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable
 }
 html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
   margin-left: 0px !important;
+}
+html.theme-light .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+    margin-left: 0px !important;
+}
+html.theme-light .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+    margin-left: 0px !important;
 }
 /* End of CHILLAX part*/
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
