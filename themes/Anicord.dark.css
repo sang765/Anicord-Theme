@@ -1233,7 +1233,18 @@ html.theme-light .button_adca65[aria-label="User Settings"] {
   transition: 0.3s;
 }
 /*floating user controls*/
-html.theme-dark .panels_a4d4d9 {
+html .sidebar_a4d4d9 .content_eed6a8:after {
+  content: 'this big gap is for the floating user controls, so sry if it looks ugly';
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.24);
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+  margin-block-start: 50px;
+  block-size: 160px;
+  display: block;
+}
+
+html .panels_a4d4d9 {
   background: rgb(0 0 0 / 50%) !important;
   box-shadow: 0 5px 8px #15171a;
   border-radius: 20px;
@@ -1253,11 +1264,11 @@ html.theme-dark .panels_a4d4d9 {
   inline-size: 50px;
   transition: all 0.3s;
 }
-html.theme-dark .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
+html .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
   opacity: 100% !important;
   inline-size: 40px;
 }
-html.theme-dark .button_adca65[aria-label="User Settings"] {
+html .button_adca65[aria-label="User Settings"] {
   margin-inline-start: 10px;
 }
 .container-6sXIoE .alignStretch_ec1a20.flex_ec1a20 {
@@ -1301,7 +1312,7 @@ html.theme-dark .button_adca65[aria-label="User Settings"] {
 .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_dc333f > :not(:last-child) {
   inline-size: 38px !important;
 }
-html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+html .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
   margin-inline-start: 0px !important;
 }
 .container_b2ca13:has(button[aria-label='Disable Game Activity']) > :first-child {
@@ -1313,7 +1324,7 @@ html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable
 .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_dc333f > :not(:last-child) {
   inline-size: 45px !important;
 }
-html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+html .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
   margin-inline-start: 0px !important;
 }
 /* End of CHILLAX part*/
