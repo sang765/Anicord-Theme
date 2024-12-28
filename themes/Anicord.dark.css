@@ -1196,7 +1196,7 @@ html .sidebar_a4d4d9:has([id="vc-spotify-player"]):not(:has([d=" M9.335000038146
 }
 /* BetterDiscord Spotify Player Soon... */
 /*floating user controls DARK*/
-html .panels_a4d4d9 {
+html.theme-dark .panels_a4d4d9 {
   background: rgba(0,0,0,0.4) !important;
   box-shadow: 0 5px 8px rgba(21, 23, 26, 50%);
   border-radius: var(--app-radius);
@@ -1204,6 +1204,9 @@ html .panels_a4d4d9 {
   margin: 10px 10px 7px;
   position: absolute;
   backdrop-filter: blur(5px);
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .container_b2ca13 {
   background: transparent !important;
@@ -1260,21 +1263,24 @@ html.theme-light .button_adca65[aria-label="User Settings"] {
 }
 /*floating user controls LIGHT*/
 html.theme-light .panels_a4d4d9 {
-    background: rgba(228, 228, 228, 0.4) !important;
-    box-shadow: 0 5px 8px rgba(214, 214, 214, .5);
-    border-radius: 12px;
-    margin: 10px 10px 7px;
-    position: absolute;
+  background: rgba(228, 228, 228, 0.4) !important;
+  box-shadow: 0 5px 8px rgba(214, 214, 214, .5);
+  border-radius: 12px;
+  margin: 10px 10px 7px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 html.theme-light .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
-    opacity: 30% !important;
-    width: 50px;
-    transition: all 0.3s;
+  opacity: 30% !important;
+  width: 50px;
+  transition: all 0.3s;
 }
 html.theme-light .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
-    opacity: 100% !important;
-    width: 40px;
-    margin-left: 10px;
+  opacity: 100% !important;
+  width: 40px;
+  margin-left: 10px;
 }
 html.theme-light .button_adca65[aria-label="User Settings"] {
     margin-left: 10px;
