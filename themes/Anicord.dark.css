@@ -1214,6 +1214,7 @@ html.theme-dark .panels_a4d4d9 {
   left: 0;
   right: 0;
   bottom: 0;
+  transition: margin .15s;
 }
 .container_b2ca13 {
   background: transparent !important;
@@ -1278,6 +1279,7 @@ html.theme-light .panels_a4d4d9 {
   left: 0;
   right: 0;
   bottom: 0;
+  transition: margin .15s;
 }
 html.theme-light .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
   opacity: 30% !important;
@@ -1326,6 +1328,9 @@ html.theme-light .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disab
   margin-left: 0px !important;
 }
 /* End of CHILLAX part*/
+html .sidebar_a4d4d9:has([class*=bottom] [class*=mentionsBar_]) .panels_a4d4d9 {
+  margin: 10px 10px 33px;
+}
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
   background-color: hsla(var(--accent-hsl), 1);
 }
