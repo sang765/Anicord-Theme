@@ -1243,7 +1243,7 @@ html.theme-light .button_adca65[aria-label="User Settings"] {
   transition: 0.3s;
 }
 /*floating user controls*/
-html .panels_a4d4d9 {
+html.theme-dark .panels_a4d4d9 {
   background: rgb(0 0 0 / 50%) !important;
   box-shadow: 0 5px 8px #15171a;
   border-radius: 20px;
