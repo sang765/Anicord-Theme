@@ -66,17 +66,17 @@ Transparency Background Support With Transparency Option:
 ### Online Import (Vencord)
 
 ```
-https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.css
+https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 ```
 
 ### Quick CSS Import
 
 ```css
 /* Theme Import */
-@import url('https://raw.githubusercontent.com/sang765/Anicord-Theme/main/themes/Anicord.css');
+@import url('https://sang765.github.io/Anicord-Theme/themes/Anicord.css');
 /* CSS You Can Custom */
 :root {
-	--app-bg: url(https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/themeimage.png); /* background */
+	--app-bg: url('https://sang765.github.io/Anicord-Theme/assets/themeimage.png'); /* background */
 	/* 📄 NOTE: If you want the background to be transparent then you can remove the `url(imageurl)` and then change the attribute to `transparent`
            Requirements: Please enable "Windows Transparent" in your client mod make sure that work. You aslo can use Mica For Everyone to have a transparent backgound with Mica blur effect */
 	--app-blur: 5px;
