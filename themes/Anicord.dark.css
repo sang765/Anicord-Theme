@@ -1,7 +1,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 :root {
 /* Transluent tag */
-  --app-bg: url(https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/assets/themeimage.png);
+  --app-bg: url(https://cdn.jsdelivr.net/gh/sang765/Anicord-Theme/main/assets/themeimage.png);
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -1181,6 +1181,16 @@ div[class="iconWrapper_b26897"] {
 }
 /* CHILLAX User Panel REMAKE */
 /*floating user controls*/
+html .sidebar_a4d4d9 .content_eed6a8:after {
+  content: 'this big gap is for the floating user controls, so sry if it looks ugly';
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.03);
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+  margin-block-start: 50px;
+  block-size: 150px;
+  display: block;
+}
 html.theme-light .panels_a4d4d9 {
   background: rgba(228, 228, 228, .5) !important;
   box-shadow: 0 5px 8px #d6d6d657;
