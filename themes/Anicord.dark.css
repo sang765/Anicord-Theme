@@ -409,25 +409,9 @@ button.button_f67531
   background: var(--textarea-block-color);
   border: 1px solid var(--button-outline-primary-border-hover);
 }
-/* Rounded User Panel */
-[class^="sidebar_"] [class^="panels_"] {
-  margin-inline-end: 5px;
-  margin-block-end: 5px;
-  margin-inline-start: 5px;
-  border: 1px solid var(--background-modifier-accent);
-  border-radius: 20px;
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
-}
-[class^="sidebar_"] [class^="panels_"] [class^="container_"],
-[class^="sidebar_"] [class^="panels_"] [class^="panel_"] {
-  background-color: transparent !important;
-}
-[class^="sidebar_"] [class^="panels_"] [class^="container_"] [class^="avatarWrapper_"]+[class^="flex_"] {
-  margin-inline-start: -10px;
-}
 #vc-spotify-player {
-  border-start-start-radius: 20px;
-  border-start-end-radius: 20px;
+  border-start-start-radius: var(--app-radius);
+  border-start-end-radius: var(--app-radius);
 }
 /* Emoji Auto-Fill Animation */
 .base_f23da8 {
@@ -1212,147 +1196,103 @@ html .sidebar_a4d4d9:has([id="vc-spotify-player"]):not(:has([d=" M9.335000038146
 }
 /* BetterDiscord Spotify Player Soon... */
 /*floating user controls*/
-html.theme-light .panels_a4d4d9 {
-  background: rgba(228, 228, 228, .5) !important;
-  box-shadow: 0 5px 8px #d6d6d657;
-  border-radius: 20px;
-  border: 1px solid hsl(var(--accent-hsl));
-  position: absolute;
-  inset-block-end: 0;
-  inset-inline-start: 0;
-  inset-inline-end: 0;
-  backdrop-filter: blur(5px);
-}
-html.theme-light .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
-  opacity: 30% !important;
-  inline-size: 50px;
-  transition: all 0.3s;
-}
-html.theme-light .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
-  opacity: 100% !important;
-  inline-size: 40px;
-}
-html.theme-light .button_adca65[aria-label="User Settings"] {
-  margin-inline-start: 10px;
-}
-.container-6sXIoE .alignStretch_ec1a20.flex_ec1a20 {
-  max-inline-size: 190px;
-  min-inline-size: 190px;
-}
-.details-ntX2k5 {
-  max-inline-size: 805px !important;
-  min-inline-size: 805px !important;
-}
-.maximized-vv2Wr0 .details-ntX2k5 {
-  max-inline-size: 190px !important;
-  min-inline-size: 190px !important;
-  position: relative;
-  display: block;
-  inset-inline-start: 0px;
-}
-.maximized-vv2Wr0 .cover-SwJ-ck {
-  border-radius: 8px 8px 0px 0px;
-}
-.avatarWrapper_b2ca13 {
-  max-inline-size: 36px;
-  min-inline-size: 36px;
-  transition: 0.3s;
-}
-.avatarWrapper_b2ca13:hover {
-  max-inline-size: 207px;
-  min-inline-size: 207px;
-  transition: 0.3s;
-}
-/*floating user controls*/
-html.theme-dark .panels_a4d4d9 {
-  background: rgb(0 0 0 / 50%) !important;
+html .panels_a4d4d9 {
+  background: rgba(0,0,0,0.4) !important;
   box-shadow: 0 5px 8px #15171a;
-  border-radius: 20px;
+  border-radius: var(--app-radius);
   border: 1px solid hsl(var(--accent-hsl));
+  margin: 10px 10px 7px;
   position: absolute;
-  inset-block-end: 0;
-  inset-inline-start: 0;
-  inset-inline-end: 0;
-  backdrop-filter: blur(5px);
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.container_b2ca13 {
+  background: transparent !important;
 }
 .sidebar_a4d4d9 {
+  background-color: transparent;
   position: relative;
   overflow: hidden;
 }
 .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
-  opacity: 30% !important;
-  inline-size: 50px;
+  opacity: 0% !important;
+  width: 50px;
   transition: all 0.3s;
 }
 html.theme-dark .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
   opacity: 100% !important;
-  inline-size: 40px;
+  width: 40px;
+  margin-left: 10px;
 }
 html.theme-dark .button_adca65[aria-label="User Settings"] {
-  margin-inline-start: 10px;
+  margin-left: 10px;
 }
 .container-6sXIoE .alignStretch_ec1a20.flex_ec1a20 {
-  max-inline-size: 190px;
-  min-inline-size: 190px;
+  max-width: 190px;
+  min-width: 190px;
 }
 .details-ntX2k5 {
-  max-inline-size: 805px !important;
-  min-inline-size: 805px !important;
+    max-width: 805px !important;
+    min-width: 805px !important;
 }
 .maximized-vv2Wr0 .details-ntX2k5 {
-  max-inline-size: 190px !important;
-  min-inline-size: 190px !important;
-  position: relative;
-  display: block;
-  inset-inline-start: 0px;
+    max-width: 190px !important;
+    min-width: 190px !important;
+    position: relative;
+    display: block;
+    left: 0px;
 }
 .maximized-vv2Wr0 .cover-SwJ-ck {
-  border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
 }
+
 /* Avatar in bottom left */
 .avatarWrapper_b2ca13 {
-  max-inline-size: 36px;
-  min-inline-size: 36px;
+  max-width: 36px;
+  min-width: 36px;
   transition: 0.3s;
 }
 .avatarWrapper_b2ca13:hover {
-  max-inline-size: 207px;
-  min-inline-size: 207px;
+  max-width: 207px;
+  min-width: 207px;
   transition: 0.3s;
 }
+
 /* Fix for Vencord Game Activity Toggle Plugin */
 /* Duplicate Stuff */
 /* We should have a common file and then import them there instead of duplicating them */
+
 .container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child {
-  min-inline-size: 36px !important;
+  min-width: 36px !important;
 }
 .container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child:hover {
-  min-inline-size: 207px !important;
+  min-width: 207px !important;
 }
 .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_dc333f > :not(:last-child) {
-  inline-size: 38px !important;
+  width: 38px !important;
 }
 html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
-  margin-inline-start: 0px !important;
+  margin-left: 0px !important;
 }
 .container_b2ca13:has(button[aria-label='Disable Game Activity']) > :first-child {
-  min-inline-size: 36px !important;
+  min-width: 36px !important;
 }
 .container_b2ca13:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
-  min-inline-size: 214.5px !important;
+  min-width: 207px !important;
 }
 .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_dc333f > :not(:last-child) {
-  inline-size: 45px !important;
+  width: 38px !important;
 }
 html.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
-  margin-inline-start: 0px !important;
+  margin-left: 0px !important;
 }
 /* End of CHILLAX part*/
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
-    background-color: hsla(var(--accent-hsl), 1);
+  background-color: hsla(var(--accent-hsl), 1);
 }
 [class^=outer] [class^=menus_]:has(button) button {
-    padding: 0;
+  padding: 0;
 }
 .titleContainer_e87574:before,
 .header_bd05f1:before {
