@@ -444,9 +444,6 @@ html .panels_a4d4d9:not(:has([d=" M9.335000038146973,-1.8179999589920044 C4.1849
 [href*="discord.com/channels/"] {
   color: #7289da !important;
 }
-[href*="discord.com/channels/"]::before {
-  color: #603cff;
-}
 [href*="betterdiscord.app/"],
 [href*="discord.gg/"],
 [href*="dsc.gg/"],
@@ -459,8 +456,15 @@ html .panels_a4d4d9:not(:has([d=" M9.335000038146973,-1.8179999589920044 C4.1849
 [href*="twitter.com/"] {
   color: #00acee !important;
 }
+/* X */
+[href*="x.com/"] {
+  color: #ffffff !important;
+}
 /* GitHub */
-[href*="github.com"] {
+[href*="github.com"],
+[href*="raw.githubusercontent.com"],
+[href*="gist.github.com"],
+[href*=".github.io"] {
   color: #b4b4b4 !important;
 }
 /* Imgur */
@@ -516,6 +520,14 @@ html .panels_a4d4d9:not(:has([d=" M9.335000038146973,-1.8179999589920044 C4.1849
 /* DevaviantArt */
 [href*="deviantart.com"] {
   color: #00e59b !important;
+}
+/* iHenTai */
+[href*="ihentai"] {
+  color: #000000 !important;
+}
+/* Pixiv */
+[href*="pixiv.net"] {
+  color: #0096fa !important;
 }
 /*user popout animation*/
 #app-mount [class*="userPopout"][aria-modal="true"] {
