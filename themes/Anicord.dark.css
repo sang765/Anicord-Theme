@@ -1202,14 +1202,14 @@ html .sidebar_a4d4d9:has([class*=withTimeline_]) .content_eed6a8:after {
   display: block;
   transition: block-size .15s;
 }
-html .sidebar_a4d4d9:has([class^="icon_"]) .content_eed6a8:after {
+html .sidebar_a4d4d9:has([class*="activityPanel_"]) .content_eed6a8:after {
   content: '';
   margin-block-start: 50px;
-  block-size: 200px;
+  block-size: 190px;
   display: block;
   transition: block-size .15s;
 }
-html .sidebar_a4d4d9:has([class^="avatar"]) .content_eed6a8:after {
+html .sidebar_a4d4d9:has([class^="clickableAvatar_"]) .content_eed6a8:after {
   content: '';
   margin-block-start: 50px;
   block-size: 220px;
