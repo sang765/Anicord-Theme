@@ -133,7 +133,13 @@ https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sang765/Anicord-Theme&type=Date)](https://star-history.com/#sang765/Anicord-Theme&Date)
+<a href="https://star-history.com/#sang765/Anicord-Theme&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sang765/Anicord-Theme&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sang765/Anicord-Theme&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sang765/Anicord-Theme&type=Date" />
+ </picture>
+</a>
 
 ## 🖋️ CREDITS:
 - **[Translucence Theme](https://betterdiscord.app/theme/Translucence)**
