@@ -131,7 +131,9 @@ https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 - Open your theme folder and put file **Anicord.theme.css** to theme folder
 - Enable it and enjoy.
 
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=sang765/Anicord-Theme&type=Date)](https://star-history.com/#sang765/Anicord-Theme&Date)
 
 ## 🖋️ CREDITS:
 - **[Translucence Theme](https://betterdiscord.app/theme/Translucence)**
