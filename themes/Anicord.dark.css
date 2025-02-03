@@ -5,8 +5,8 @@
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
-  --main-font: 'Tilt Neon', 'JetBrainsMono Nerd Font';
-  --code-font: 'Lexend Deca', 'JetBrainsMono Nerd Font';
+  --main-font: 'Tilt Neon', 'NerdFont';
+  --code-font: 'Lexend Deca', 'NerdFont';
   --main-rgb: 0,0,0;
   --main-content-opacity: 0.2;
   --sidebar-opacity: 0.4;
@@ -159,13 +159,17 @@
   --settingsblock-size: 80;
   --settingsbackground: transparent;
 }
-/* CUSTOM PART */
+/* Custom Font */
 * {
   font-family: var(--main-font);
 }
 code {
   font-family: var(--code-font);
 }
+.container_c8ffbb .membersGroup_c8ffbb /* Fix Nerd Font On Member List */ {
+	font-family: var(--main-font), 'NerdFont';
+}
+/* CUSTOM PART */
 body:before {
   content: "Thanks for using " var(--windows-title)"!";
   z-index: 1000000000000000000000000;
