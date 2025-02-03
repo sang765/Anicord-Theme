@@ -166,6 +166,7 @@
 code {
   font-family: var(--code-font);
 }
+/* Nerd Font Fixed */
 .container_c8ffbb .membersGroup_c8ffbb, /* Members List */
 .content__99f8c .roleRow__5f97b .roleName__5f97b, /* Roles List */
 .container_e29cd7 .list_e29cd7 .lineClamp1__4bd52, /* Roles List In Edit Role */
