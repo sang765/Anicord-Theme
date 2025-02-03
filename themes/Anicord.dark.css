@@ -166,8 +166,15 @@
 code {
   font-family: var(--code-font);
 }
-.container_c8ffbb .membersGroup_c8ffbb /* Fix Nerd Font On Member List */ {
+.container_c8ffbb .membersGroup_c8ffbb, /* Members List */
+.content__99f8c .roleRow__5f97b .roleName__5f97b, /* Roles List */
+.container_e29cd7 .list_e29cd7 .lineClamp1__4bd52, /* Roles List In Edit Role */
+.contentContainer__91dc3 .titleContainer__81b3e .titleText__81b3e /* Edit Role Title */
+.contentContainer__91dc3 .inputWrapper__0f084 .input__0f084 /* Edit Role Input */ {
 	font-family: var(--main-font), 'NerdFont';
+}
+.scrollableContainer__74017 .textArea__74017 .codeLine_ada32f /* Code Blocks */ {
+	font-family: var(--code-font), 'NerdFont';
 }
 /* CUSTOM PART */
 body:before {
