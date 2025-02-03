@@ -24,6 +24,12 @@
 
 <!-- BODY -->
 
+## <img src="assets/New.png" alt="New" width="50"> New Features:
+
+- Nerd Font Support, Now you can use Nerd Font Icon with others custom font.
+
+![Nerd Font](/assets/NerdFontPreview.png)
+
 ## 🖼️ Screenshots: (Old "Update soon")
 >[!NOTE]
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
@@ -83,7 +89,7 @@ https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 	--app-margin: 24px;
 	--app-radius: 10px; /*	-	*/
 	--main-font: 'Tilt Neon';
-	--code-font: 'Lexend Deca';
+	--code-font: '';
 	--accent-hue: 204; /*	Main Color	*/
 	--accent-saturation: 80%;
 	--accent-lightness: 65%;
