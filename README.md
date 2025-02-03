@@ -82,8 +82,8 @@ https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 	--app-blur: 5px;
 	--app-margin: 24px;
 	--app-radius: 10px; /*	-	*/
-	--main-font: 'Tilt Neon', 'JetBrainsMono Nerd Font';
-	--code-font: 'Lexend Deca', 'JetBrainsMono Nerd Font';
+	--main-font: 'Tilt Neon';
+	--code-font: 'Lexend Deca';
 	--accent-hue: 204; /*	Main Color	*/
 	--accent-saturation: 80%;
 	--accent-lightness: 65%;
