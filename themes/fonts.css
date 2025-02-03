@@ -1,28 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
-
-@font-face {
-    font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://sang765.github.io/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://sang765.github.io/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://sang765.github.io/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Italic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'JetBrainsMono Nerd Font';
-    src: url('https://sang765.github.io/Anicord-Theme/assets/fonts/JetBrainsMonoNerdFont-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
+@import url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@latest/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+@import url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@latest/webfonts/JetBrainsMono-Bold.woff2') format('woff2');
+@import url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@latest/webfonts/JetBrainsMono-Italic.woff2') format('woff2');

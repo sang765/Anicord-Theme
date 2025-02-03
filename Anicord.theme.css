@@ -32,7 +32,7 @@
 	--app-margin: 24px;
 	--app-radius: 10px; /*	-	*/
 
-	--main-font: 'Tilt Neon', 'JetBrainsMono Nerd Font' !important;
+	--main-font: 'Tilt Neon', 'JetBrainsMono Nerd Font';
 	--code-font: 'Lexend Deca', 'JetBrainsMono Nerd Font';
 	
 	--accent-hue: 204; /*	Main Color	*/
