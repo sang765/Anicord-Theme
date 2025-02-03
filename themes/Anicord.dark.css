@@ -159,14 +159,8 @@
   --settingsblock-size: 80;
   --settingsbackground: transparent;
 }
-/* Custom Font */
-* {
-  font-family: var(--main-font), 'NerdFont';
-}
-code {
-  font-family: var(--code-font), 'NerdFont';
-}
 /* Nerd Font Fixed */
+*,
 .container_c8ffbb .membersGroup_c8ffbb, /* Members List */
 .content__99f8c .roleRow__5f97b .roleName__5f97b, /* Roles List */
 .container_e29cd7 .list_e29cd7 .lineClamp1__4bd52, /* Roles List In Edit Role */
@@ -175,6 +169,7 @@ code {
 .tooltip__382e7 .tooltipContent__382e7 /* Vencord Message Tooltip */ {
 	font-family: var(--main-font), 'NerdFont';
 }
+code,
 .scrollableContainer__74017 .textArea__74017 .codeLine_ada32f /* Code Blocks */ {
 	font-family: var(--code-font), 'NerdFont';
 }
