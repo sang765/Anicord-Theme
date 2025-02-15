@@ -396,7 +396,7 @@ button.button__67645
 .members_c8ffbb:hover, .membersWrap_c8ffbb:hover {
     min-width: 240px;
     width: 240px;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .5);
 	backdrop-filter: blur(10px);
 }
 .membersWrap_c8ffbb {
@@ -405,7 +405,7 @@ button.button__67645
     right: 0;
 }
 .membersWrap_c8ffbb:hover {
-    box-shadow: 0 0 20px 10px #00000044;
+    box-shadow: 0 0 20px 10px hsla(var(--accent-hsl), .5);
 }
 .container_c8ffbb .membersGroup_c8ffbb {
     transition: 0.3s ease-in-out;
@@ -416,6 +416,10 @@ button.button__67645
     margin-block-start: unset !important; margin-inline-start: unset !important; }
 .container_c8ffbb, #MemberCount, .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
     background: none !important;
+}
+.content_c48ade .panels_c48ade:hover {
+	box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
+	transition: box-shadow .5s;
 }
 /* Prettier Search bar */
 .iconContainer_fea832,
@@ -1373,4 +1377,31 @@ html .sidebar_c48ade:has(.bar__7aaec .unreadIcon__7aaec) .panels_c48ade {
 .header_c6bf1b:before {
     background-image: none;
     box-shadow: none;
+}
+/*custom anicord theme card on vencord addon card*/ /*BetterDiscord Soon...*/
+.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title {
+	font-family: "Dancing Script";
+	font-size: 23px;
+	top: -3px;
+}
+.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title::after {
+	content: " actived";
+	color: hsl(var(--accent-hsl));
+	font-family: "Dancing Script";
+	font-size: 15px;
+}
+.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-author {
+	color: hsl(var(--accent-hsl));
+}
+.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-author::before {
+	content: "@";
+	color: var(--text-normal);
+}
+.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-author::after {
+	content: " <- Yeah, this me";
+	color: var(--text-normal);
+}
+.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) {
+	background-color: hsla(var(--accent-hsl), .3) !important;
+	box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
 }
