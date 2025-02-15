@@ -15,7 +15,4 @@
 /* ADDONS IMPORT */
 @import url('https://sang765.github.io/Anicord-Theme/themes/addons.css');
 /* THEME IMPORT */
-/*dark mode*/
-@import url('https://sang765.github.io/Anicord-Theme/themes/Anicord.dark.css');
-/*light mode*/ /* BETA - STILL IN DEVELOPMENT */
-@import url('https://sang765.github.io/Anicord-Theme/themes/Anicord.light.css');
+@import url('https://sang765.github.io/Anicord-Theme/themes/main.css');
