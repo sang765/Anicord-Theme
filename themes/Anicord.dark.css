@@ -407,13 +407,19 @@ button.button__67645
 .membersWrap_c8ffbb:hover {
     box-shadow: 0 0 20px 10px hsla(var(--accent-hsl), .5);
 }
-.container_c8ffbb .membersGroup_c8ffbb {
+.container_c8ffbb .membersGroup_c8ffbb,
+.membersWrap_c8ffbb .membersGroup_c8ffbb {
     transition: 0.3s ease-in-out;
     block-size: 0px !important;
-    margin-block-start: -25px; margin-inline-start: 100px; }
-.container_c8ffbb:hover .membersGroup_c8ffbb {
+    margin-block-start: -25px;
+    margin-inline-start: 100px;
+}
+.container_c8ffbb:hover .membersGroup_c8ffbb,
+.membersWrap_c8ffbb:hover .membersGroup_c8ffbb {
     block-size: unset !important;
-    margin-block-start: unset !important; margin-inline-start: unset !important; }
+    margin-block-start: unset !important;
+    margin-inline-start: unset !important;
+}
 .container_c8ffbb, #MemberCount, .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
     background: none !important;
 }
