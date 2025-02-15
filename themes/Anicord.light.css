@@ -1,3 +1,4 @@
+/* STILL IN DEVELOPMENT - TESTING */
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 :root {
     /* Transluent tag */
@@ -1242,20 +1243,7 @@ html .sidebar_c48ade .content__99f8c:after {
 	box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
 	transition: box-shadow .5s;
 }
-/*floating user controls DARK*/
-html.theme-dark .panels_c48ade {
-    background: rgba(0, 0, 0, 0.4) !important;
-    box-shadow: 0 5px 8px rgba(21, 23, 26, 50%);
-    border-radius: var(--app-radius);
-    border: 1px solid hsl(var(--accent-hsl));
-    margin: 10px 10px 7px;
-    position: absolute;
-    backdrop-filter: blur(5px);
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transition: margin .15s;
-}
+/*floating user controls LIGHT*/
 .container__37e49 {
     background: transparent !important;
 }
@@ -1269,12 +1257,7 @@ html.theme-dark .panels_c48ade {
     width: 50px;
     transition: all .3s;
 }
-html.theme-dark .panels_c48ade>.container__37e49:hover .flex__7c0ba> :not(:last-child) {
-    opacity: 100% !important;
-    width: 40px;
-    margin-left: 10px;
-}
-html.theme-dark .button__67645[aria-label="User Settings"] {
+html.theme-light .button__67645[aria-label="User Settings"] {
     margin-left: 10px;
 }
 .container-6sXIoE .alignStretch_abf706.flex_abf706 {
@@ -1306,6 +1289,31 @@ html.theme-dark .button__67645[aria-label="User Settings"] {
     min-width: 207px;
     transition: 0.3s;
 }
+/*floating user controls LIGHT*/
+html.theme-light .panels_c48ade {
+    background: rgba(228, 228, 228, 0.4) !important;
+    box-shadow: 0 5px 8px rgba(214, 214, 214, .5);
+    border-radius: 12px;
+    margin: 10px 10px 7px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: margin .15s;
+}
+html.theme-light .panels_c48ade>.container__37e49 .flex__7c0ba> :not(:last-child) {
+    opacity: 30% !important;
+    width: 50px;
+    transition: all 0.3s;
+}
+html.theme-light .panels_c48ade>.container__37e49:hover .flex__7c0ba> :not(:last-child) {
+    opacity: 100% !important;
+    width: 40px;
+    margin-left: 10px;
+}
+html.theme-light .button__67645[aria-label="User Settings"] {
+    margin-left: 10px;
+}
 /* Fix for Vencord Game Activity Toggle Plugin */
 /* Duplicate Stuff */
 /* We should have a common file and then import them there instead of duplicating them */
@@ -1318,9 +1326,6 @@ html.theme-dark .button__67645[aria-label="User Settings"] {
 .panels_c48ade>.container__37e49:has(button[aria-label='Enable Game Activity']) .flex__7c0ba> :not(:last-child) {
     width: 38px !important;
 }
-html.theme-dark .panels_c48ade>.container__37e49:has(button[aria-label='Enable Game Activity']):hover .flex__7c0ba> :not(:last-child) {
-    margin-left: 0px !important;
-}
 .container__37e49:has(button[aria-label='Disable Game Activity'])> :first-child {
     min-width: 36px !important;
 }
@@ -1330,7 +1335,10 @@ html.theme-dark .panels_c48ade>.container__37e49:has(button[aria-label='Enable G
 .panels_c48ade>.container__37e49:has(button[aria-label='Disable Game Activity']) .flex__7c0ba> :not(:last-child) {
     width: 38px !important;
 }
-html.theme-dark .panels_c48ade>.container__37e49:has(button[aria-label='Disable Game Activity']):hover .flex__7c0ba> :not(:last-child) {
+html.theme-light .panels_c48ade>.container__37e49:has(button[aria-label='Enable Game Activity']):hover .flex__7c0ba> :not(:last-child) {
+    margin-left: 0px !important;
+}
+html.theme-light .panels_c48ade>.container__37e49:has(button[aria-label='Disable Game Activity']):hover .flex__7c0ba> :not(:last-child) {
     margin-left: 0px !important;
 }
 /* End of CHILLAX part*/
