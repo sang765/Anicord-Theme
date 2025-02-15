@@ -417,10 +417,6 @@ button.button__67645
 .container_c8ffbb, #MemberCount, .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
     background: none !important;
 }
-.content_c48ade .panels_c48ade:hover {
-	box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
-	transition: box-shadow .5s;
-}
 /* Prettier Search bar */
 .iconContainer_fea832,
 .icon_fea832 {
@@ -1227,7 +1223,6 @@ div[class="iconWrapper__6eb54"] {
 }
 /* CHILLAX User Panel REMAKE */
 /* Better Channel List Bottom Gap */
-/* Support Vencord Spotify Player */
 html .sidebar_c48ade .content__99f8c:after {
     content: 'Sorry for big gap but we need this for user panel';
     text-align: center;
@@ -1236,6 +1231,10 @@ html .sidebar_c48ade .content__99f8c:after {
     margin-block-start: 50px;
     block-size: 288px;
     display: block;
+}
+.content_c48ade .panels_c48ade:hover {
+	box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
+	transition: box-shadow .5s;
 }
 /*floating user controls DARK*/
 html.theme-dark .panels_c48ade {
