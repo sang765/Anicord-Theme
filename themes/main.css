@@ -425,59 +425,53 @@ button.button__67645
     margin-inline-start: -6px;
 }
 /*Small Member list*/
-.theme-light .members_c8ffbb, .membersWrap_c8ffbb, .container_c8ffbb {
-    min-width: 60px;
-    transition-duration: 500ms;
-    transition-property: box-shadow, min-width, width, background;
-    border-radius: var(--app-radius) 0 0 var(--app-radius);
-    width: 60px;
-    z-index: 10;
-    background: rgba(255, 255, 255, 0.1);
+.theme-light .container_c8ffbb {
+    transition: 0.5s ease-in-out;
+    background: rgba(255, 255, 255, .05);
+    margin-inline-end: -180px;
+    border-radius: 0;
 }
-.theme-dark .members_c8ffbb, .membersWrap_c8ffbb, .container_c8ffbb {
-    min-width: 60px;
-    transition-duration: 500ms;
-    transition-property: box-shadow, min-width, width, background;
-    border-radius: var(--app-radius) 0 0 var(--app-radius);
-    width: 60px;
-    z-index: 10;
-    background: rgba(0, 0, 0, .1);
+.theme-dark .container_c8ffbb {
+    transition: 0.5s ease-in-out;
+    background: rgba(0, 0, 0, .05);
+    margin-inline-end: -180px;
+    border-radius: 0;
 }
-.theme-light .members_c8ffbb:hover, .membersWrap_c8ffbb:hover {
-    min-width: 240px;
-    width: 240px;
-    background: rgba(255, 255, 255, 0.5);
-	backdrop-filter: blur(10px);
-}
-.theme-dark .members_c8ffbb:hover, .membersWrap_c8ffbb:hover {
-    min-width: 240px;
-    width: 240px;
-    background: rgba(0, 0, 0, .5);
-	backdrop-filter: blur(10px);
-}
-.membersWrap_c8ffbb {
-    height: 100%;
-    position: absolute;
-    right: 0;
-}
-.membersWrap_c8ffbb:hover {
-    box-shadow: 0 0 20px 10px hsla(var(--accent-hsl), .5);
-}
-.container_c8ffbb .membersGroup_c8ffbb,
-.membersWrap_c8ffbb .membersGroup_c8ffbb {
-    transition: 0.3s ease-in-out;
+.container_c8ffbb .membersGroup_c8ffbb {
+    transition: 0.5s ease-in-out;
     block-size: 0px !important;
     margin-block-start: -25px;
     margin-inline-start: 100px;
 }
-.container_c8ffbb:hover .membersGroup_c8ffbb,
-.membersWrap_c8ffbb:hover .membersGroup_c8ffbb {
+.container_c8ffbb:hover .membersGroup_c8ffbb {
     block-size: unset !important;
     margin-block-start: unset !important;
     margin-inline-start: unset !important;
+    text-align: center;
 }
-.container_c8ffbb, #MemberCount, .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
-    background: none !important;
+.theme-light .container_c8ffbb:hover {
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 0 0 20px 10px hsla(var(--accent-hsl), 1);
+    border-radius: var(--app-radius) 0 0 var(--app-radius);
+    margin-inline-end: unset !important;
+}
+.theme-dark .container_c8ffbb:hover {
+    background: rgba(0, 0, 0, .7);
+    box-shadow: 0 0 20px 10px hsla(var(--accent-hsl), 1);
+    border-radius: var(--app-radius) 0 0 var(--app-radius);
+    margin-inline-end: unset !important;
+}
+.container_c8ffbb .vc-membercount-member-list {
+    transition: 0.5s ease-in-out;
+    block-size: 0px !important;
+    margin-block-start: 15px;
+    margin-inline-start: 100px;
+}
+.container_c8ffbb:hover .vc-membercount-member-list {
+    justify-content: center;
+    margin-top: 1em;
+    padding-inline: 1em;
+    margin-inline-start: 0px;
 }
 /* Prettier Search bar */
 .iconContainer_fea832,
