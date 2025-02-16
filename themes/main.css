@@ -1455,7 +1455,8 @@ div[class="iconWrapper__6eb54"] {
 }
 /* End of CHILLAX part*/
 .sidebar_c48ade:has([class*=bottom] [class*=mentionsBar_]) .panels_c48ade,
-.sidebar_c48ade:has(.bar__7aaec [d="M5.3 9.3a1 1 0 0 1 1.4 0l5.3 5.29 5.3-5.3a1 1 0 1 1 1.4 1.42l-6 6a1 1 0 0 1-1.4 0l-6-6a1 1 0 0 1 0-1.42Z"]) .panels_c48ade {
+.sidebar_c48ade:has(.bar__7aaec [d="M5.3 9.3a1 1 0 0 1 1.4 0l5.3 5.29 5.3-5.3a1 1 0 1 1 1.4 1.42l-6 6a1 1 0 0 1-1.4 0l-6-6a1 1 0 0 1 0-1.42Z"]) .panels_c48ade,
+.sidebar_c48ade:has(.bar__7aaec.voiceBar__7aaec) .panels_c48ade {
     margin: 10px 10px 33px;
 }
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
