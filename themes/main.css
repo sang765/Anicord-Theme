@@ -1537,3 +1537,7 @@ div[class="iconWrapper__6eb54"] {
 	background-color: hsla(var(--accent-hsl), .3) !important;
 	box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
 }
+/* Theard Suggestions */
+.threadSuggestionBar__841c8 {
+    background: transparent;
+}
