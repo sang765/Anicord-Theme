@@ -1483,7 +1483,7 @@ div[class="iconWrapper__6eb54"] {
 	top: -3px;
 }
 .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title::after {
-	content: " actived";
+	content: " activated";
 	color: hsl(var(--accent-hsl));
 	font-family: "Dancing Script";
 	font-size: 15px;
@@ -1518,7 +1518,7 @@ div[class="iconWrapper__6eb54"] {
 	font-size: 50px;
 }
 #Anicord-card:has([href="https://github.com/sang765/Anicord-Theme"]) .bd-name::after {
-	content: "actived";
+	content: "activated";
 	color: hsl(var(--accent-hsl));
 	font-family: "NerdFont";
     font-size: 20px;
