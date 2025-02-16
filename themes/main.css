@@ -1471,6 +1471,12 @@ div[class="iconWrapper__6eb54"] {
     box-shadow: none;
 }
 /*custom anicord theme card on vencord addon card*/ /*BetterDiscord Soon...*/
+.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title::before {
+	content: " ";
+	color: hsl(var(--accent-hsl));
+	font-family: "NerdFont";
+	font-size: 23px;
+}
 .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title {
 	font-family: "Dancing Script";
 	font-size: 23px;
