@@ -1541,3 +1541,8 @@ div[class="iconWrapper__6eb54"] {
 .threadSuggestionBar__841c8 {
     background: transparent;
 }
+/* Center Timestamp */
+.cozy_c19a55 .repliedMessage_c19a55,
+.wrapper_c19a55.cozy_c19a55 .timestamp_c19a55.alt_c19a55 {
+    text-align: center;
+}
