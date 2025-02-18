@@ -1549,3 +1549,9 @@ div[class="iconWrapper__6eb54"] {
 .wrapper_c19a55.cozy_c19a55 .timestamp_c19a55.alt_c19a55 {
     left: -70px;
 }
+/* Sumary */
+.topicsDropdown__0f481 .topicsDropdownHeading__0f481,
+.topicsDropdown__0f481 .topicsScroller__0f481 {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(var(--app-blur));
+}
