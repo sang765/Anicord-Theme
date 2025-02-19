@@ -1,4 +1,4 @@
-name: Release and Update CSS Version
+name: Auto release (Anicord.theme.css update)
 
 on:
   push:
@@ -6,6 +6,8 @@ on:
       - main
     tags:
       - 'v*'
+    paths:
+      - 'Anicord.theme.css'
 
 jobs:
   release-and-update:
