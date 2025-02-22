@@ -1,0 +1,116 @@
+/* ORIGINAL BY: [https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css] and [https://clearvision.github.io/ClearVision-v6/main.css] */
+
+:root {
+	--settingsicons_v: var(--settingsicons_s, var(--settingsicons, 1));
+	--use-settingsicons: calc(var(--settingsicons_v) / (var(--settingsicons_v) + 0.00000000000000000000001));
+	--settingsicons-size: 18px;
+	--settingsicons-gap: 14px;
+}
+
+body #app-mount .sidebarRegion__23e6b {
+	flex-basis: calc(218px + (var(--use-settingsicons) * (var(--settingsicons-size) + var(--settingsicons-gap)))) !important;
+}
+body #app-mount .sidebar__23e6b,
+body #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebar__23e6b {
+	width: calc(218px + (var(--use-settingsicons) * (var(--settingsicons-size) + var(--settingsicons-gap)))) !important;
+}
+.sidebar__23e6b .side_b3f026 .item_b3f026 {
+	--settingsicons-icon: var(--settingsicons-default);
+	display: flex;
+	align-items: center;
+}
+.sidebar__23e6b .side_b3f026 .item_b3f026 > div {
+	flex: 1 1 auto;
+}
+.sidebar__23e6b .side_b3f026 .item_b3f026::before {
+	content: "";
+	flex: 0 0 auto;
+	width: calc(var(--use-settingsicons) * var(--settingsicons-size));
+	height: calc(var(--use-settingsicons) * var(--settingsicons-size));
+	margin-right: calc(var(--use-settingsicons) * var(--settingsicons-size)/2);
+}
+.sidebar__23e6b .side_b3f026 .item_b3f026::before {
+	background: currentColor;
+	z-index: 2;
+	-webkit-mask: var(--settingsicons-icon) center/contain no-repeat;
+}
+.sidebar__23e6b .side_b3f026 .item_b3f026::after {
+	position: absolute;
+	z-index: 1;
+	background: var(--settingsicons-icon) center/contain no-repeat;
+}
+.sidebar__23e6b [aria-controls=overview-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/info.svg)
+}
+.sidebar__23e6b [aria-controls=roles-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/flag.svg)
+}
+.sidebar__23e6b [aria-controls=emoji-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/emoji.svg)
+}
+.sidebar__23e6b [aria-controls=stickers-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/sticker.svg)
+}
+.sidebar__23e6b [aria-controls=soundboard-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/music.svg)
+}
+.sidebar__23e6b [aria-controls=widget-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/widgets.svg)
+}
+.sidebar__23e6b [aria-controls=guild_templates-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/website.svg)
+}
+.sidebar__23e6b [aria-controls=vanity_url-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/link_plus.svg)
+}
+.sidebar__23e6b [aria-controls=integrations-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/puzzle.svg)
+}
+.sidebar__23e6b [aria-controls=moderation-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/security.svg)
+}
+.sidebar__23e6b [aria-controls=safety-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/security.svg)
+}
+.sidebar__23e6b [aria-controls=guild_automod-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/robot.svg)
+}
+.sidebar__23e6b [aria-controls=audit_log-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/list.svg)
+}
+.sidebar__23e6b [aria-controls=bans-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/hammer.svg)
+}
+.sidebar__23e6b [aria-controls=community-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/people.svg)
+}
+.sidebar__23e6b [aria-controls=onboarding-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/rocket_launch.svg)
+}
+.sidebar__23e6b [aria-controls=analytics-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/insights.svg)
+}
+.sidebar__23e6b [aria-controls=partner-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/handshake.svg)
+}
+.sidebar__23e6b [aria-controls=discovery-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/explore.svg)
+}
+.sidebar__23e6b [aria-controls=community_welcome-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/waving_hand.svg)
+}
+.sidebar__23e6b [aria-controls=guild_premium-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/server_boost.svg)
+}
+.sidebar__23e6b [aria-controls=role_subscriptions-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/subscriptions.svg)
+}
+.sidebar__23e6b [aria-controls=members-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/group.svg)
+}
+.sidebar__23e6b [aria-controls=instant_invites-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/person_add.svg)
+}
+.sidebar__23e6b [aria-controls=permissions-tab].item_b3f026:before {
+    --settingsicons-icon: url(https://clearvision.github.io/icons/rule.svg)
+}

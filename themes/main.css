@@ -1585,3 +1585,12 @@ div[class="iconWrapper__6eb54"] {
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(var(--app-blur));
 }
+.vc-ranb-button {
+	height: 40px;
+	width: 40px;
+	margin-inline-start: 15px;
+}
+.vc-ranb-button > .contents__201d5 {
+	content: url("https://www.svgrepo.com/show/530391/reminder-alert.svg");
+	width: 27px;
+}
