@@ -1410,13 +1410,13 @@ div[class="iconWrapper__6eb54"] {
 }
 /* Avatar in bottom left */
 .avatarWrapper__37e49 {
-    max-width: 36px;
-    min-width: 36px;
+    max-width: 36px !important;
+    min-width: 36px !important;
     transition: 0.3s;
 }
 .avatarWrapper__37e49:hover {
-    max-width: 207px;
-    min-width: 207px;
+    max-width: 207px !important;
+    min-width: 207px !important;
     transition: 0.3s;
 }
 /* Fix for Vencord Game Activity Toggle Plugin */
