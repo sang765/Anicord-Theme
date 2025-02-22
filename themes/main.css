@@ -1488,8 +1488,26 @@ div[class="iconWrapper__6eb54"] {
 	font-size: 23px;
 	top: -3px;
 }
-.vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title::after {
-	content: " activated";
+.contentTransitionWrap__23e6b:has(.vc-settings-quickActions-card) .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]):not(:has([checked])) .vc-addon-title::after {
+	content: " active Online";
+	color: hsl(var(--accent-hsl));
+	font-family: "Dancing Script";
+	font-size: 15px;
+}
+.contentTransitionWrap__23e6b:has(.vc-settings-quickActions-card) .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]):has([checked]) .vc-addon-title::after {
+	content: " active Local";
+	color: hsl(var(--accent-hsl));
+	font-family: "Dancing Script";
+	font-size: 15px;
+}
+.contentTransitionWrap__23e6b:not(:has(.vc-settings-quickActions-card)) .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]):not(:has([checked])) .vc-addon-title::after {
+	content: " active Local";
+	color: hsl(var(--accent-hsl));
+	font-family: "Dancing Script";
+	font-size: 15px;
+}
+.contentTransitionWrap__23e6b:not(:has(.vc-settings-quickActions-card)) .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]):has([checked]) .vc-addon-title::after {
+	content: " active Online";
 	color: hsl(var(--accent-hsl));
 	font-family: "Dancing Script";
 	font-size: 15px;
