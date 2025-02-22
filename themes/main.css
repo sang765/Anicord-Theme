@@ -461,6 +461,7 @@ button.button__67645
     border-radius: var(--app-radius) 0 0 var(--app-radius);
     margin-inline-end: unset !important;
 }
+/* > Vencord Member Count */
 .container_c8ffbb .vc-membercount-member-list {
     transition: 0.5s ease-in-out;
     block-size: 0px !important;
@@ -472,6 +473,18 @@ button.button__67645
     margin-top: 1em;
     padding-inline: 1em;
     margin-inline-start: 0px;
+}
+/* > BetterDiscord Member Count */
+.container_c8ffbb .members_c8ffbb > div:has(.member_counter_wrapper) {
+	transition: 0.5s ease-in-out;
+	block-size: 0px;
+	margin-block-start: 15px;
+	margin-inline-start: 100px;
+}
+.container_c8ffbb:hover .members_c8ffbb > div:has(.member_counter_wrapper) {
+	block-size: unset !important;
+    margin-block-start: unset !important;
+    margin-inline-start: unset !important;
 }
 /* Prettier Search bar */
 .iconContainer_fea832,
