@@ -1591,6 +1591,16 @@ div[class="iconWrapper__6eb54"] {
 	margin-inline-start: 15px;
 }
 .vc-ranb-button > .contents__201d5 {
-	content: url("https://www.svgrepo.com/show/530391/reminder-alert.svg");
-	width: 27px;
+    content: url("https://www.svgrepo.com/show/530391/reminder-alert.svg");
+    width: 27px;
+}
+.vc-ranb-button:active > .contents__201d5 {
+    animation: shake 0.5s ease;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
 }
