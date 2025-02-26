@@ -30,12 +30,12 @@ jobs:
 
       # Step for branch pushes (Create Release)
       - name: Get the commit message
-        if: env.trigger_type == 'branch'
+        if: ${{ steps.trigger.outputs.trigger_type }} == 'branch'
         id: get_commit_message
         run: echo "commit_message=$(git log -1 --pretty=format:'%s')" >> $GITHUB_ENV
 
       - name: Create GitHub Release
-        if: env.trigger_type == 'branch'
+        if: ${{ steps.trigger.outputs.trigger_type }} == 'branch'
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -45,12 +45,12 @@ jobs:
           release_name: Release ${{ github.run_number }}
           body: |
             Changes in this release:
-            - ${{ env.commit_message }}
+            - ${{ steps.get_commit_message.outputs.commit_message }}
           draft: false
           prerelease: false
 
       - name: Upload release asset
-        if: env.trigger_type == 'branch'
+        if: ${{ steps.trigger.outputs.trigger_type }} == 'branch'
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,15 +62,15 @@ jobs:
 
       # Step for tag pushes (Update CSS Version)
       - name: Update CSS file
-        if: env.trigger_type == 'tag'
+        if: github.ref_type == 'tag'
         run: |
-          sed -i '101s/--version: .*/--version: '\'''"${env.ref_name}"'\'';/' ./themes/Anicord.dark.css
+          sed -i '101s/--version: .*/--version: '\'''"${GITHUB_REF##*/}"'\'';/' ./themes/main.css
 
       - name: Commit and push changes
-        if: env.trigger_type == 'tag'
+        if: github.ref_type == 'tag'
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add ./themes/Anicord.dark.css
-          git commit -m "Update version to ${env.ref_name}"
+          git add ./themes/main.css
+          git commit -m "Update version to ${GITHUB_REF##*/}"
           git push
