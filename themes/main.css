@@ -651,12 +651,19 @@ button.button__67645
     content: "";
     border-radius: 10px;
     background: currentColor;
-    inline-size: 100%;
+    inline-size: 1000%;
     block-size: 100%;
     position: absolute;
     opacity: 0.11;
-    inset-inline-start: 0;
+    inset-inline-start: -9px;
     inset-block-start: 0;
+    transition: opacity .2s ease;
+}
+.member__5d473 {
+    border-radius: 10px;
+}
+.member__5d473:hover span.username__703b9::after {
+    opacity: 0.3;
 }
 /*Remove the Avatar Decorations Banner in user profile popups*/
 .containerWrapper_e18107 {
