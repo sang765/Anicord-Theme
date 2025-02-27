@@ -29,7 +29,7 @@ form [clip-path^="url(#__lottie_element"],
   	color: hsl(var(--accent-hsl));
 }
 .vc-trans-auto-translate {
-    	color: var(--green-360) !important;
+    color: var(--green-360) !important;
 }
 [class^=menu] [d="M9.58473 14.8636L6.04944 11.4051L4.50003 12.9978L9.58473 18L19.5 8.26174L17.9656 6.64795L9.58473 14.8636Z"] {
 	color: white !important;
@@ -40,6 +40,10 @@ form [clip-path^="url(#__lottie_element"],
 }
 [class^=buttonContainer] [class^=buttonsInner] [class*=button_] path[stroke] {
 	stroke: hsl(var(--accent-hsl));
+}
+/* User Panel */
+[class^=panels_] [class^=buttons__] path {
+	color: hsl(var(--accent-hsl));
 }
 /*FILL COLOR*/
 /*Message Box*/
@@ -52,4 +56,8 @@ form [class="vc-more-stickers-icon"],
 }
 form [class*="spriteGreyscale"] {
 	background-color: hsl(var(--accent-hsl));
+}
+/* User Panel */
+[class^=panels_] [class^=lottieIcon__] :not(defs *)[fill][fill-opacity] {
+	fill: hsl(var(--accent-hsl));
 }
