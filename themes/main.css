@@ -1349,7 +1349,7 @@ div[class="iconWrapper__6eb54"] {
 }
 /* CHILLAX User Panel REMAKE */
 /* Better Channel List Bottom Gap */
- .sidebar_c48ade .content__99f8c:after {
+.sidebar_c48ade .content__99f8c:after {
     content: 'Sorry for big gap but we need this for user panel';
     text-align: center;
     color: hsla(var(--accent-hsl), .15);
@@ -1397,18 +1397,18 @@ div[class="iconWrapper__6eb54"] {
     position: relative;
     overflow: hidden;
 }
-.panels_c48ade>.container__37e49 .flex__7c0ba> :not(:last-child) {
-    opacity: 30% !important;
-    width: 50px;
+.panels_c48ade>.container__37e49 .buttons__37e49> :not(:last-child) {
+    opacity: 0% !important;
+    width: 40px;
     transition: all .3s;
 }
-.panels_c48ade>.container__37e49:hover .flex__7c0ba> :not(:last-child) {
+.panels_c48ade>.container__37e49:hover .buttons__37e49> :not(:last-child) {
     opacity: 100% !important;
-    width: 40px;
+    width: 30px;
     margin-left: 10px;
 }
 .button__67645[aria-label="User Settings"] {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .container-6sXIoE .alignStretch_abf706.flex_abf706 {
     max-width: 190px;
