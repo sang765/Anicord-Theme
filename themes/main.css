@@ -1589,8 +1589,8 @@ div[class="iconWrapper__6eb54"] {
 /* Sumary */
 .topicsDropdown__0f481 .topicsDropdownHeading__0f481,
 .topicsDropdown__0f481 .topicsScroller__0f481 {
-  background: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(var(--app-blur));
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(var(--app-blur));
 }
 .vc-ranb-button {
 	height: 40px;
