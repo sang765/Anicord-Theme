@@ -1611,3 +1611,7 @@ div[class="iconWrapper__6eb54"] {
     75% { transform: translateX(-5px); }
     100% { transform: translateX(0); }
 }
+/* Spinner Loading... */
+.spinner__0b5bb .spinningCircleInner__0b5bb .circular__0b5bb circle {
+    stroke: hsl(var(--accent-hsl));
+}
