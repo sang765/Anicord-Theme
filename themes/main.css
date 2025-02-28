@@ -308,23 +308,14 @@ span:not(.spinner-item) {
     inset-block-start: -5px;
 }
 /*some more silly hover animations*/
-button.button__67645
-/* make user panel buttons round */
-    {
+button.button__67645 {
     border-radius: 50%;
 }
-.button__67645:last-child
-/* settings button */
-,
-.attachButton__0923f .attachButtonInner__0923f
-/* upload button */
-,
-.emojiButton_d0696b .contents__201d5
-/* emoji button */
-    {
+.button__67645:last-child,
+.attachButton__0923f .attachButtonInner__0923f,
+.emojiButton_d0696b .contents__201d5 {
     transition: transform 1s ease;
 }
-.button__67645:last-child:hover,
 .attachButton__0923f:hover .attachButtonInner__0923f,
 .emojiButton_d0696b:hover .contents__201d5 {
     transform: rotate(360deg);
