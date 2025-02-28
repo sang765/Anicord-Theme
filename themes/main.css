@@ -651,7 +651,8 @@ button.button__67645
     content: "";
     border-radius: 10px;
     background: currentColor;
-    inline-size: 1000%;
+    min-width: 224px;
+    inline-size: 100%;
     block-size: 100%;
     position: absolute;
     opacity: 0.11;
