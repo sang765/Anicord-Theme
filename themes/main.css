@@ -1377,13 +1377,13 @@ div[class="iconWrapper__6eb54"] {
     position: relative;
     overflow: hidden;
 }
-.panels_c48ade>.container__37e49 [aria-label="Disable Game Activity"],
+.panels_c48ade>.container__37e49 [aria-label*="Game Activity"],
 .panels_c48ade>.container__37e49 .buttons__37e49> :not(:last-child) {
     opacity: 0% !important;
     width: 40px;
     transition: all .3s;
 }
-.panels_c48ade>.container__37e49:hover [aria-label="Disable Game Activity"],
+.panels_c48ade>.container__37e49:hover [aria-label*="Game Activity"],
 .panels_c48ade>.container__37e49:hover .buttons__37e49> :not(:last-child) {
     opacity: 100% !important;
     width: 30px;
