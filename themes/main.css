@@ -243,18 +243,10 @@ span:not(.spinner-item) {
     }
 }
 /*some simple channel/settings/dms/member list hover animations*/
-.wrapper__2ea32 .link__2ea32
-/* channels */
-,
-.container__91a9d
-/* members */
-,
-.channel__972a0
-/* dms */
-,
-.side_b3f026 .item_b3f026
-/* settings */
-    {
+.wrapper__2ea32 .link__2ea32, /* channels */
+.container__91a9d, /* members */
+.channel__972a0, /* dms */
+.side_b3f026 .item_b3f026 /* settings */{
     transition: margin-left 0.2s ease;
 }
 .wrapper__2ea32:hover .link__2ea32,
@@ -1070,14 +1062,14 @@ div[class="iconWrapper__6eb54"] {
     border-radius: var(--app-radius);
     padding: 7px 11px 7px 7px;
     margin-inline-start: 14px;
-    margin-block-start: 1px;
+    margin-block-start: 3px;
     pointer-events: all;
     transition: all 0.5s ease-in-out;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px hsla(var(--accent-hsl));
 }
 .theme-dark .wordmark__421ed:hover:before {
-    content: var(--version);
+    content: var(--windows-title);
     text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
     box-shadow: 0px 0px 5px hsla(var(--accent-hsl), .45);
     font-family: "Tilt Neon";
@@ -1085,7 +1077,7 @@ div[class="iconWrapper__6eb54"] {
     color: rgb(255, 255, 255);
 }
 .theme-light .wordmark__421ed:hover:before {
-    content: var(--version);
+    content: var(--windows-title);
     text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
     box-shadow: 0px 0px 5px hsla(var(--accent-hsl), .45);
     font-family: "Tilt Neon";
@@ -1596,4 +1588,22 @@ div[class="iconWrapper__6eb54"] {
 /* Spinner Loading... */
 .spinner__0b5bb .spinningCircleInner__0b5bb .circular__0b5bb circle {
     stroke: hsl(var(--accent-hsl));
+}
+/* Keyboard... COMBOS? */
+.noBackground_f061f6 .keyboardShortcutsModal_f061f6 {
+    background: center / cover no-repeat var(--app-bg);
+    border: 2px solid hsl(var(--accent-hsl));
+    box-shadow: 0px 0px 0px hsl(var(--accent-hsl));
+    transition: box-shadow .3s ease-in-out;
+}
+.noBackground_f061f6 .keyboardShortcutsModal_f061f6:hover {
+    box-shadow: 0px 0px 20px hsl(var(--accent-hsl));
+}
+.keyboardShortcutListGroup_f061f6 .keybindGroup_f061f6 {
+    backdrop-filter: blur(var(--app-blur));
+    box-shadow: 0px 0px 0px none;
+    transition: box-shadow .3s ease-in-out;
+}
+.keyboardShortcutListGroup_f061f6 .keybindGroup_f061f6:hover {
+    box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
 }
