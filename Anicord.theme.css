@@ -52,7 +52,7 @@
 	--message-padding-top: 8px;
 	--message-padding-side: 8px; /*	-	*/
 	/* Reply */
-	--reply-hue: 226;
+	--reply-hue: var(--accent-hue);
 	--reply-saturation: 77.4%;
 	--reply-lightness: 61.8%;
 	--reply-opacity: 1; /*	-	*/
