@@ -1607,3 +1607,19 @@ div[class="iconWrapper__6eb54"] {
 .keyboardShortcutListGroup_f061f6 .keybindGroup_f061f6:hover {
     box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
 }
+/* ACCOUNT SWITCHER -> ADD ACCOUNT */
+.authBox__921c5, .navRow__86e92 {
+    background-color: transparent !important;
+}
+/* THE POPUP HOVER */
+.focusLock__49fc1 {
+    box-shadow: 0px 0px 0px hsl(var(--accent-hsl));
+    transition: box-shadow .3s ease-in-out;
+}
+.focusLock__49fc1:hover {
+    box-shadow: 0px 0px 20px hsl(var(--accent-hsl));
+}
+/* SETTING MODAL */
+#app-mount .layer__960e4 ~ .layer__960e4 > div, #app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b {
+    backdrop-filter: blur(var(--app-blur));
+}
