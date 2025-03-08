@@ -1611,3 +1611,15 @@ div[class="iconWrapper__6eb54"] {
 .authBox__921c5, .navRow__86e92 {
     background-color: transparent !important;
 }
+/* IMAGE VIEWER */
+[aria-label="Media Viewer Modal"] .carouselModal_d3a6f0 .topBar__6088c {
+    grid-row: 3;
+}
+[aria-label="Media Viewer Modal"] .carouselModal_d3a6f0 .topBar__6088c .author__6088c {
+    width: max-content;
+    flex-direction: row;
+}
+[aria-label="Media Viewer Modal"] .carouselModal_d3a6f0 .topBar__6088c .actionButtons_cc1819,
+[aria-label="Media Viewer Modal"] .carouselModal_d3a6f0 .topBar__6088c .closeButton__6088c {
+    background: var(--message-color);
+}
