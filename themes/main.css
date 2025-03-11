@@ -305,7 +305,7 @@ button.button__67645 {
     border: 1px solid hsl(var(--accent-hsl));
 }
 /* Username Background */
-.username_c19a55::before {
+.headerText_c19a55:not(:has(.roleDot_c19a55)) .username_c19a55::before {
     content: '';
     inline-size: calc(100% + 0px);
     block-size: 100%;
@@ -313,9 +313,22 @@ button.button__67645 {
     background-color: currentColor;
     opacity: 0.3;
     position: absolute;
-    margin-block-start: 0px;
+    margin-block-start: 1px;
     z-index: -1;
     margin-inline-start: -3px;
+}
+.headerText_c19a55:has(.roleDot_c19a55) .username_c19a55::before {
+    content: '';
+    inline-size: calc(100% + 29px);
+    block-size: 100%;
+    border-radius: 5px;
+    background-color: currentColor;
+    opacity: 0.3;
+    position: absolute;
+    margin-block-start: 1px;
+    padding: 1;
+    z-index: -1;
+    margin-inline-start: -27px;
 }
 .headerText_c19a55>span {
     margin-inline-start: 3px;
