@@ -755,9 +755,8 @@ button.button__67645 {
 }
 /*server banner design*/
 .animatedContainer_f37cb1 {
-    transform: scale(0.9) !important;
-    border-radius: 8px;
-    box-shadow: 0 0 15px;
+    border-bottom-left-radius: var(--app-radius);
+	border-bottom-right-radius: var(--app-radius);
 }
 /* * * POLL THEME * */
 /* badge icon */
@@ -971,131 +970,61 @@ div[class="iconWrapper__6eb54"] {
     display: none;
 }
 /* * *  TITLE BAR * */
-.titleBar__421ed {
-    block-size: 24px;
+.trailing_c38106, .winButtons_c38106 {
+	margin-bottom: 2px;
 }
-.titleBar__421ed.withFrame__421ed {
-    margin-block-start: 0;
-}
-.titleBar__421ed.typeMacOS__421ed {
-    inset-block-start: var(--app-margin);
-    inset-inline-start: var(--app-margin);
-}
-.platform-osx .wrapper_ef3116 {
-    margin-block-start: 0;
-    padding-block-start: 35px;
-}
-.platform-osx .tree_ef3116 {
-    margin-block-start: 32px;
-}
-.winButtonClose__421ed {
-    inset-block-start: 0px;
-    inset-inline-end: 20px;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 0px 5px 5px 0px;
+.winButtonClose_c38106 {
     color: hsla(var(--accent-hsl), 1);
-    background: var(--card-color);
-    backdrop-filter: blur(var(--app-blur));
+	padding: 11px 0px;
     transition: 0.5s;
 }
-.winButtonClose__421ed:hover {
-    inset-block-start: 0px;
-    inset-inline-end: 20px;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 0px 5px 5px 0px;
+.winButtonClose_c38106:hover {
     color: red;
-    background: transparent;
-    transform: rotate(180deg) !important;
+	background: none;
     transition: 0.4s;
     backdrop-filter: none;
 }
-.winButtonMinMax__421ed:nth-child(3) {
-    inset-block-start: 0px;
-    inset-inline-end: 10px;
-    padding: 5px;
-    margin: 5px;
+.winButtonMinMax_c38106:nth-child(1) {
     border-radius: 0px;
     color: hsla(var(--accent-hsl), 1);
-    background: var(--card-color);
-    backdrop-filter: blur(var(--app-blur));
+	padding: 11px 0px;
     transition: 0.5s;
 }
-.winButtonMinMax__421ed:nth-child(3):hover {
-    inset-block-start: 0px;
-    inset-inline-end: 10px;
-    padding: 5px;
-    margin: 5px;
+.winButtonMinMax_c38106:nth-child(1):hover {
     border-radius: 0px;
-    color: green;
-    background: transparent;
-    transform: rotate(180deg) !important;
-    transition: 0.4s;
-    backdrop-filter: none;
-}
-.winButtonMinMax__421ed:nth-child(2n) {
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px 0px 0px 5px;
-    color: hsla(var(--accent-hsl), 1);
-    background: var(--card-color);
-    backdrop-filter: blur(var(--app-blur));
-    transition: 0.5s;
-}
-.winButtonMinMax__421ed:nth-child(2n):hover {
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px 0px 0px 5px;
     color: yellow;
-    background: transparent;
-    transform: rotate(180deg) !important;
     transition: 0.4s;
-    backdrop-filter: none;
+}
+.winButtonMinMax_c38106:nth-child(2n) {
+    border-radius: 5px 0px 0px 5px;
+    color: hsla(var(--accent-hsl), 1);
+	padding: 11px 0px;
+    transition: 0.5s;
+}
+.winButtonMinMax_c38106:nth-child(2n):hover {
+    border-radius: 5px 0px 0px 5px;
+    color: green;
+    transition: 0.4s;
 }
 .layers__160d8 {
     inset-block-start: 5px;
 }
 /* * * WORKMARK * * */
-.wordmark__421ed path {
-    display: none !important;
+.title_c38106 .defaultColor__4bd52::before {
+	content: var(--windows-title)": ";
+    font-size: 14px;
+	font-family: "Dancing Script";
+	color: hsla(var(--accent-hsl), 1);
 }
-.theme-dark .wordmark__421ed::before {
-    content: var(--windows-title);
-    font-size: 15px;
-    font-family: "Dancing Script";
-    position: fixed;
-    color: hsla(var(--accent-hsl), 1);
+.title_c38106 {
     background: var(--card-color);
     backdrop-filter: blur(var(--app-blur));
     border-radius: var(--app-radius);
     padding: 7px 11px 7px 7px;
-    margin-inline-start: 14px;
-    margin-block-start: 3px;
+	margin-bottom: 3px;
     pointer-events: all;
     transition: all 0.5s ease-in-out;
-    letter-spacing: 2px;
-    text-shadow: 0px 0px 0px hsla(var(--accent-hsl));
-}
-.theme-dark .wordmark__421ed:hover:before {
-    content: var(--windows-title);
-    text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
-    box-shadow: 0px 0px 5px hsla(var(--accent-hsl), .45);
-    font-family: "Tilt Neon";
-    letter-spacing: 4px;
-    color: rgb(255, 255, 255);
-}
-.theme-light .wordmark__421ed:hover:before {
-    content: var(--windows-title);
-    text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
-    box-shadow: 0px 0px 5px hsla(var(--accent-hsl), .45);
-    font-family: "Tilt Neon";
-    letter-spacing: 4px;
-    color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 0px var(--accent-hsl);
 }
 /* Equicord BetterActivities */
 [class*="custom-profile-theme"] .vc-bactivities-controls .dot.selected {
@@ -1382,18 +1311,6 @@ div[class="iconWrapper__6eb54"] {
     position: relative;
     overflow: hidden;
 }
-.panels_c48ade>.container__37e49 [aria-label*="Game Activity"],
-.panels_c48ade>.container__37e49 .buttons__37e49> :not(:last-child) {
-    opacity: 0% !important;
-    width: 40px;
-    transition: all .3s;
-}
-.panels_c48ade>.container__37e49:hover [aria-label*="Game Activity"],
-.panels_c48ade>.container__37e49:hover .buttons__37e49> :not(:last-child) {
-    opacity: 100% !important;
-    width: 30px;
-    margin-left: 10px;
-}
 .button__67645[aria-label="User Settings"] {
     margin-left: 5px;
 }
@@ -1416,48 +1333,15 @@ div[class="iconWrapper__6eb54"] {
     border-radius: 8px 8px 0px 0px;
 }
 /* Avatar in bottom left */
-.avatarWrapper__37e49 {
-    max-width: 36px !important;
-    min-width: 36px !important;
+.panels_c48ade .avatarWrapper__37e49 {
+    max-width: 340px !important;
+    min-width: 340px !important;
     transition: 0.3s;
 }
-.avatarWrapper__37e49:hover {
-    max-width: 207px !important;
-    min-width: 207px !important;
+.panels_c48ade:hover .avatarWrapper__37e49 {
+    max-width: 227px !important;
+    min-width: 227px !important;
     transition: 0.3s;
-}
-/* Fix for Vencord Game Activity Toggle Plugin */
-/* Duplicate Stuff */
-/* We should have a common file and then import them there instead of duplicating them */
-.container__37e49:has(button[aria-label='Enable Game Activity'])> :first-child {
-    min-width: 36px !important;
-}
-.container__37e49:has(button[aria-label='Enable Game Activity'])> :first-child:hover {
-    min-width: 207px !important;
-}
-.panels_c48ade>.container__37e49:has(button[aria-label='Enable Game Activity']) .flex__7c0ba> :not(:last-child) {
-    width: 38px !important;
-}
-.panels_c48ade>.container__37e49:has(button[aria-label='Enable Game Activity']):hover .flex__7c0ba> :not(:last-child) {
-    margin-left: 0px !important;
-}
-.container__37e49:has(button[aria-label='Disable Game Activity'])> :first-child {
-    min-width: 36px !important;
-}
-.container__37e49:has(button[aria-label='Disable Game Activity'])> :first-child:hover {
-    min-width: 207px !important;
-}
-.panels_c48ade>.container__37e49:has(button[aria-label='Disable Game Activity']) .flex__7c0ba> :not(:last-child) {
-    width: 38px !important;
-}
-.panels_c48ade>.container__37e49:has(button[aria-label='Disable Game Activity']):hover .flex__7c0ba> :not(:last-child) {
-    margin-left: 0px !important;
-}
-/* End of CHILLAX part*/
-.sidebar_c48ade:has([class*=bottom] [class*=mentionsBar_]) .panels_c48ade,
-.sidebar_c48ade:has(.bar__7aaec [d="M5.3 9.3a1 1 0 0 1 1.4 0l5.3 5.29 5.3-5.3a1 1 0 1 1 1.4 1.42l-6 6a1 1 0 0 1-1.4 0l-6-6a1 1 0 0 1 0-1.42Z"]) .panels_c48ade,
-.sidebar_c48ade:has(.bar__7aaec.voiceBar__7aaec) .panels_c48ade {
-    margin: 10px 10px 33px;
 }
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
     background-color: hsla(var(--accent-hsl), 1);
