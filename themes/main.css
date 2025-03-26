@@ -1306,29 +1306,6 @@ div[class="iconWrapper__6eb54"] {
 .container__37e49 {
     background: transparent !important;
 }
-.sidebar_c48ade {
-    background-color: var(--sidebar-color);
-    position: relative;
-    overflow: hidden;
-}
-.button__67645[aria-label="User Settings"] {
-    margin-left: 5px;
-}
-.container-6sXIoE .alignStretch_abf706.flex_abf706 {
-    max-width: 190px;
-    min-width: 190px;
-}
-.details-ntX2k5 {
-    max-width: 805px !important;
-    min-width: 805px !important;
-}
-.maximized-vv2Wr0 .details-ntX2k5 {
-    max-width: 190px !important;
-    min-width: 190px !important;
-    position: relative;
-    display: block;
-    left: 0px;
-}
 .maximized-vv2Wr0 .cover-SwJ-ck {
     border-radius: 8px 8px 0px 0px;
 }
@@ -1338,9 +1315,14 @@ div[class="iconWrapper__6eb54"] {
     min-width: 340px !important;
     transition: 0.3s;
 }
-.panels_c48ade:hover .avatarWrapper__37e49 {
+.panels_c48ade:not(:has([aria-label*="Game Activity"])):hover .avatarWrapper__37e49 {
     max-width: 227px !important;
     min-width: 227px !important;
+    transition: 0.3s;
+}
+.panels_c48ade:has([aria-label*="Game Activity"]):hover .avatarWrapper__37e49 {
+    max-width: 180px !important;
+    min-width: 180px !important;
     transition: 0.3s;
 }
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
