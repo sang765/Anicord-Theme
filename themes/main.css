@@ -1211,20 +1211,13 @@ div[class="iconWrapper__6eb54"] {
     border-radius: 8px 8px 0px 0px;
 }
 /* Avatar in bottom left */
-.panels_c48ade .avatarWrapper__37e49 {
-    max-width: 340px !important;
-    min-width: 340px !important;
-    transition: 0.3s;
+.panels_c48ade .buttons__37e49 {
+	opacity: 0;
+	transition: .3s;
 }
-.panels_c48ade:not(:has([aria-label*="Game Activity"])):hover .avatarWrapper__37e49 {
-    max-width: 227px !important;
-    min-width: 227px !important;
-    transition: 0.3s;
-}
-.panels_c48ade:has([aria-label*="Game Activity"]):hover .avatarWrapper__37e49 {
-    max-width: 180px !important;
-    min-width: 180px !important;
-    transition: 0.3s;
+.panels_c48ade:hover .buttons__37e49 {
+	opacity: 1;
+	transition: .3s;
 }
 [class^=container_] [class^=scroller_] [class^=containerDefault] [class^=mention]:hover {
     background-color: hsla(var(--accent-hsl), 1);
