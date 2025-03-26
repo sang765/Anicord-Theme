@@ -1400,3 +1400,10 @@ div[class="iconWrapper__6eb54"] {
 .markup__75297 a {
 	color: hsl(var(--accent-hsl));
 }
+/*Fixed Vencord PlainFolderIcon*/
+.folder__48112:has(.expandedFolderIconWrapper__48112) .closedFolderIconWrapper__48112 {
+	display: none;
+}
+.folder__48112 .expandedFolderIconWrapper__48112 {
+	transform: scale(1.5);
+}
