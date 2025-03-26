@@ -1520,3 +1520,7 @@ div[class="iconWrapper__6eb54"] {
 [aria-label="Media Viewer Modal"] .carouselModal_d3a6f0 .topBar__6088c .closeButton__6088c {
     background: var(--message-color);
 }
+/* Unknow link */
+.markup__75297 a {
+	color: hsl(var(--accent-hsl));
+}
