@@ -1417,3 +1417,7 @@ div[class="iconWrapper__6eb54"] {
 .containerDefault_c69b6d:has(.modeMuted__2ea32):hover .name__2ea32 {
 	opacity: 1;
 }
+/* Hide Vencord Spotify Lyric If Not Found */
+.vc-spotify-lyrics:has([aria-label="No synced lyrics found"]) {
+	display: none;
+}
