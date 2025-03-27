@@ -1210,6 +1210,9 @@ div[class="iconWrapper__6eb54"] {
 .maximized-vv2Wr0 .cover-SwJ-ck {
     border-radius: 8px 8px 0px 0px;
 }
+.panels_c48ade .vc-spotify-lyrics {
+	background: none;
+}
 /* Avatar in bottom left */
 .panels_c48ade .buttons__37e49 {
 	opacity: 0;
@@ -1406,4 +1409,11 @@ div[class="iconWrapper__6eb54"] {
 }
 .folder__48112 .expandedFolderIconWrapper__48112 {
 	transform: scale(1.5);
+}
+/*Mute Channel Fix*/
+.containerDefault_c69b6d:has(.modeMuted__2ea32) .name__2ea32 {
+	opacity: .5;
+}
+.containerDefault_c69b6d:has(.modeMuted__2ea32):hover .name__2ea32 {
+	opacity: 1;
 }
