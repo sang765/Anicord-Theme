@@ -37,6 +37,8 @@
 	/* Font */
 	--main-font: 'Tilt Neon';
 	--code-font: '';
+	/* Server Title */
+	--title-style: center; /* left or center*/
 	/* Color - HSLA */ /* Hex to HSL here: https://htmlcolors.com/hex-to-hsl */
 	--accent-hue: 204; /* H */
 	--accent-saturation: 80%; /* S */
