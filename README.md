@@ -155,7 +155,7 @@ https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 
 <a href="https://betterdiscord.app/theme/Chillax"><img src="https://images-ext-2.discordapp.net/external/q2ARW13l3EG6jb0QG14VynEwVvenrLEcflM6ReyLQT0/https/betterdiscord.app/Image/1393?" alt="Chillax" width="500"></a>
 
-- **[ClearVision V6](https://betterdiscord.app/theme/ClearVision)**
+- **[ClearVision V7](https://betterdiscord.app/theme/ClearVision)**
 
 <a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/4b8f7f153203d3c84aac1ffb2df8f2846bb2be087d3dc3e122030297f1449603/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVision" width="500"></a>
 
