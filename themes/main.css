@@ -1428,3 +1428,7 @@ div[class="iconWrapper__6eb54"] {
 .vc-spotify-lyrics:has([aria-label="No synced lyrics found"]) {
 	display: none;
 }
+/*Fix Status*/
+.outer_c0bea0.theme-light .statusText_ab8609 {
+    color: white;
+}
