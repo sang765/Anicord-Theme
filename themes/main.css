@@ -1242,10 +1242,10 @@ div[class="iconWrapper__6eb54"] {
 }
 /*custom anicord theme card on Vencord addon card*/
 .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title::before {
-	content: " ";
-	color: hsl(var(--accent-hsl));
-	font-family: "NerdFont";
-	font-size: 23px;
+    content: ">  ";
+    color: hsl(var(--accent-hsl));
+    font-family: "NerdFont";
+    font-size: 23px;
 }
 .vc-addon-card:has([href="https://github.com/sang765/Anicord-Theme"]) .vc-addon-title {
 	font-family: "Dancing Script";
