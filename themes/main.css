@@ -877,12 +877,12 @@ div[class="iconWrapper__6eb54"] {
 }
 .winButtonClose_c38106 {
     color: hsla(var(--accent-hsl), 1);
-	  padding: 11px 0px;
+	padding: 11px 0px;
     transition: 0.5s;
 }
 .winButtonClose_c38106:hover {
     color: red;
-	  background: none;
+    background: none;
     transition: 0.4s;
     backdrop-filter: none;
     transform: rotate(calc(180deg - 45deg));
@@ -890,12 +890,13 @@ div[class="iconWrapper__6eb54"] {
 .winButtonMinMax_c38106:nth-child(1) {
     border-radius: 0px;
     color: hsla(var(--accent-hsl), 1);
-	  padding: 11px 0px;
+	padding: 11px 0px;
     transition: 0.5s;
 }
 .winButtonMinMax_c38106:nth-child(1):hover {
     border-radius: 0px;
     color: yellow;
+    background: none;
     transition: 0.4s;
     transform: rotate(calc(180deg - 45deg));
 }
@@ -908,6 +909,7 @@ div[class="iconWrapper__6eb54"] {
 .winButtonMinMax_c38106:nth-child(2n):hover {
     border-radius: 5px 0px 0px 5px;
     color: green;
+    background: none;
     transition: 0.4s;
     transform: rotate(calc(180deg - 45deg));
 }
@@ -915,7 +917,7 @@ div[class="iconWrapper__6eb54"] {
     inset-block-start: 5px;
 }
 .bar_c38106 .title_c38106 {
-  justify-content: var(--title-style);
+    justify-content: var(--title-style);
 }
 /* * * WORKMARK * * */
 .title_c38106 .defaultColor__4bd52::before {
