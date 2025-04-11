@@ -1424,3 +1424,12 @@ div[class="iconWrapper__6eb54"] {
 .outer_c0bea0.theme-light .statusText_ab8609 {
     color: white;
 }
+
+/*Center Start Message*/
+.container__00de6 .description__00de6 {
+    text-align: center;
+}
+
+.container__00de6 .description__00de6 .container_b50d96 {
+    justify-content: center
+}
