@@ -155,10 +155,6 @@
     --user-modal-grayscale: var(--background-grayscale);
     --user-modal-sepia: var(--background-sepia);
     --user-modal-blur: calc(var(--background-blur) + 3px);
-    /* SETTING MODAL */
-    --settingsinline-size: 960;
-    --settingsblock-size: 80;
-    --settingsbackground: transparent;
 }
 .theme-dark,
 .theme-light {
