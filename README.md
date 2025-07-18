@@ -123,10 +123,6 @@ https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 	--interactive-muted: #777; /*	-	*/
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
-	  /* SETTING MODAL */
-  	--settingsinline-size: 960;
-  	--settingsblock-size: 80;
-  	--settingsbackground: transparent;
 }
 ```
 
