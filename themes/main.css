@@ -302,6 +302,7 @@ button.button__67645 {
     border: 1px solid hsl(var(--accent-hsl));
 }
 /* Username Background */
+/***
 .headerText_c19a55:not(:has(.roleDot_c19a55)) .username_c19a55::before {
     content: '';
     inline-size: calc(100% + 0px);
@@ -330,6 +331,7 @@ button.button__67645 {
 .headerText_c19a55>span {
     margin-inline-start: 3px;
 }
+***/
 /* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
     display: contents;
