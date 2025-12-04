@@ -19,7 +19,8 @@
     <img src="https://m3-markdown-badges.vercel.app/stars/8/1/sang765/Anicord-Theme" alt="Star">
 	<br>
 	<a href="https://github.com/sang765/Anicord-Theme/commits/main/"><img src="https://img.shields.io/github/last-commit/sang765/Anicord-Theme?&style=for-the-badge&color=FFFFFF&logoColor=D9E0EE&labelColor=42A5F5"width="170"></a>
-  </a>
+	<a href="https://gibbu.github.io/ThemePreview/?file=https://sang765.github.io/Anicord-Theme/Anicord.theme.css"><img src="https://img.shields.io/badge/Preview-Theme-42A5F5?style=for-the-badge&logo=discord&logoColor=white" alt="Preview Theme" width="170"></a>
+	 </a>
 </p>
 
 <!-- BODY -->
