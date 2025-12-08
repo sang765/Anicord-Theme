@@ -301,37 +301,6 @@ button.button__67645 {
 [class^=appMount_] [class^=layers_] [class^=layer_]:has([class^=standardSidebarView_]) {
     border: 1px solid hsl(var(--accent-hsl));
 }
-/* Username Background */
-/***
-.headerText_c19a55:not(:has(.roleDot_c19a55)) .username_c19a55::before {
-    content: '';
-    inline-size: calc(100% + 0px);
-    block-size: 100%;
-    border-radius: 5px;
-    background-color: currentColor;
-    opacity: 0.3;
-    position: absolute;
-    margin-block-start: 1px;
-    z-index: -1;
-    margin-inline-start: -3px;
-}
-.headerText_c19a55:has(.roleDot_c19a55) .username_c19a55::before {
-    content: '';
-    inline-size: calc(100% + 29px);
-    block-size: 100%;
-    border-radius: 5px;
-    background-color: currentColor;
-    opacity: 0.3;
-    position: absolute;
-    margin-block-start: 1px;
-    padding: 1;
-    z-index: -1;
-    margin-inline-start: -27px;
-}
-.headerText_c19a55>span {
-    margin-inline-start: 3px;
-}
-***/
 /* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
     display: contents;
@@ -530,25 +499,32 @@ button.button__67645 {
     -webkit-animation: fadeIn 0.5s ease forwards;
     animation: fadeIn 0.5s ease forwards;
 }
+/* Username Background */
+.headerText_c19a55 .username_c19a55:not([style^="--custom-gradient-color"])::before {
+    content: '';
+    inline-size: calc(100% + 0px);
+    block-size: 100%;
+    border-radius: 5px;
+    background-color: currentColor;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+}
 /*Role color background in memberlist*/
-.member__5d473 span.username__703b9::after {
+.member__5d473:not(:has([style^="--custom-gradient-color"])) span.username__703b9::after {
     content: "";
-    border-radius: 10px;
+    border-radius: 5px;
     background: currentColor;
-    min-width: 243px;
-    inline-size: 100%;
+    inline-size: calc(100% + 0px);
     block-size: 100%;
     position: absolute;
-    opacity: 0.11;
-    inset-inline-start: -9px;
+    opacity: 0.3;
+    inset-inline-start: 0px;
     inset-block-start: 0;
     transition: opacity .2s ease;
 }
 .member__5d473 {
     border-radius: 10px;
-}
-.member__5d473:hover span.username__703b9::after {
-    opacity: 0.3;
 }
 /*Remove the Avatar Decorations Banner in user profile popups*/
 .containerWrapper_e18107 {
@@ -692,16 +668,6 @@ h3.name__29444.container_cc72c1 {
 .item_b3f026.themed_b3f026,
 .wrapper_c19a55.cozy_c19a55 {
     transition: ease-in-out 0.25s;
-}
-[class*=timestampInline_] {
-    opacity: 0;
-    transition: 0.25s;
-}
-[class*=message_]:hover [class*=timestampInline_],
-[class*=messageGroupWrapper_]:hover [class*=timestampInline_],
-[class*=messageContainer_]:hover [class*=timestampInline_],
-[class*=message_]:hover [class*=timestampInline_] {
-    opacity: 1;
 }
 /* Anti Image Like Video */
 div[class="iconWrapper__6eb54"] {
