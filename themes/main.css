@@ -1425,3 +1425,18 @@ div[class="iconWrapper__6eb54"] {
 .container__00de6 .description__00de6 .container_b50d96 {
     justify-content: center
 }
+/* Fix Member List */
+[class^="members_"] [class^="content_"] [class^="container_"]:has([class^="contentImage"]) {
+    display: none;
+}
+[class^="members_"]:hover [class^="content_"] [class^="container_"]:has([class^="contentImage"]) {
+    display: flex;
+}
+[class^="content_"] [class^="container"]:not([class^="container"]:hover) [class^="membersWrap_"] {
+    --custom-member-list-width: 260px;
+}
+/* Compact Settings */
+[class^="container_"]:has([class*=compact__]) [class^="content_"],
+[class^="container_"]:has([class*=compact__]) [class^="contentHeader_"] {
+    background-color: var(--main-content-color);
+}
