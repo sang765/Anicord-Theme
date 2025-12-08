@@ -1444,3 +1444,9 @@ div[class="iconWrapper__6eb54"] {
 :is(.vc-settings-theme-grid,.vc-plugins-grid) .vc-addon-card .vc-addon-note {
     background: hsl(var(--accent-hsl));
 }
+/* Discord Embed V2 */
+[class*="isComponentsV2"] [class^="container__"] {
+    background: var(--card-color);
+    border-radius: var(--card-radius);
+    border: none;
+}
