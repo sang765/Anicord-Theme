@@ -3,7 +3,7 @@
  * @description Yes, this is another anime Discord theme. 
  * @author sangsdayy
  * @authorLink https://github.com/sang765
- * @version 1.5.8
+ * @version 1.5.9
  * @website https://github.com/sang765/Anicord-Theme
  * @source https://github.com/sang765/Anicord-Theme/blob/main/Anicord.theme.css
  * @authorId 926519119849869322
@@ -81,10 +81,6 @@
 	/* Background */
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
-	/* SETTING MODAL */
-  	--settingsinline-size: 960;
-  	--settingsblock-size: 80;
-  	--settingsbackground: transparent;
 }
 
 /*
