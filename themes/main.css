@@ -1440,3 +1440,7 @@ div[class="iconWrapper__6eb54"] {
 [class^="container_"]:has([class*=compact__]) [class^="contentHeader_"] {
     background-color: var(--main-content-color);
 }
+/* Vencord Addon Card MISSING card fix */
+:is(.vc-settings-theme-grid,.vc-plugins-grid) .vc-addon-card .vc-addon-note {
+    background: hsl(var(--accent-hsl));
+}
