@@ -1170,12 +1170,12 @@ div[class="iconWrapper__6eb54"] {
     --mention-foreground: color-mix(in oklab, hsl(var(--accent-hsl)) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
 }
 /* CHILLAX User Panel REMAKE */
-.content_c48ade .panels_c48ade:hover {
+.content_c48ade [class^="panels_"]:hover {
 	box-shadow: 0px 0px 10px hsl(var(--accent-hsl));
 	transition: box-shadow .5s;
 }
 /*floating user controls*/
-.theme-dark .panels_c48ade {
+.theme-dark [class^="panels_"] {
     background: rgba(0, 0, 0, 0.4) !important;
     box-shadow: 0 5px 8px rgba(21, 23, 26, 50%);
     border-radius: var(--app-radius);
@@ -1188,7 +1188,7 @@ div[class="iconWrapper__6eb54"] {
     bottom: 0;
     transition: margin .15s;
 }
-.theme-light .panels_c48ade {
+.theme-light [class^="panels_"] {
     background: rgba(255, 255, 255, 0.4) !important;
     box-shadow: 0 5px 8px rgba(255, 255, 255, 0.5);
     border-radius: var(--app-radius);
@@ -1201,21 +1201,21 @@ div[class="iconWrapper__6eb54"] {
     bottom: 0;
     transition: margin .15s;
 }
-.container__37e49 {
+[class^="panels_"] [class^="container__"] {
     background: transparent !important;
 }
 .maximized-vv2Wr0 .cover-SwJ-ck {
     border-radius: 8px 8px 0px 0px;
 }
-.panels_c48ade .vc-spotify-lyrics {
+[class^="panels_"] .vc-spotify-lyrics {
 	background: none;
 }
 /* Avatar in bottom left */
-.panels_c48ade .buttons__37e49 {
+[class^="panels_"] .buttons__37e49 {
 	opacity: 0;
 	transition: .3s;
 }
-.panels_c48ade:hover .buttons__37e49 {
+[class^="panels_"]:hover .buttons__37e49 {
 	opacity: 1;
 	transition: .3s;
 }
