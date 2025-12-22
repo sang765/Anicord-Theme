@@ -57,8 +57,6 @@ Some GIF Preview:
 <img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/screenshots/Channel.gif" alt="Channel">
 <br>
 <img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/screenshots/MemberList.gif" alt="Member List">
-<br>
-<img src="https://raw.githubusercontent.com/sang765/Anicord-Theme/main/assets/screenshots/Settings.gif" alt="Settings">
 </div>
 <br>
 Transparency Background Support With Transparency Option:
