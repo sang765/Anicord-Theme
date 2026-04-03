@@ -31,7 +31,7 @@
 
 ![Nerd Font](/assets/NerdFontPreview.png)
 
-## 🖼️ Screenshots:
+## 🖼️ Screenshots (Old, i will update soon if possible):
 >[!NOTE]
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
 
@@ -165,7 +165,7 @@ https://sang765.github.io/Anicord-Theme/themes/Anicord.css
 
 - **[ClearVision V7](https://betterdiscord.app/theme/ClearVision)**
 
-<a href="https://betterdiscord.app/theme/ClearVision"><img src="https://camo.githubusercontent.com/4b8f7f153203d3c84aac1ffb2df8f2846bb2be087d3dc3e122030297f1449603/68747470733a2f2f692e696d6775722e636f6d2f5537555872454e2e706e67" alt="ClearVision" width="500"></a>
+<a href="https://betterdiscord.app/theme/ClearVision"><img src="https://raw.githubusercontent.com/ClearVision/ClearVision-v7/master/screenshots/treatment-3.jpg" alt="ClearVision" width="500"></a>
 
 - CSS Snippet from **[Better Discord Server](https://discord.gg/0Tmfo5ZbORCRqbAd)** and **[Vencord Discord Server](https://discord.gg/vencord)**
 
