@@ -31,7 +31,7 @@
 
 ![Nerd Font](/assets/NerdFontPreview.png)
 
-## 🖼️ Screenshots (Old, i will update soon if possible):
+## 🖼️ Screenshots:
 >[!NOTE]
 > This screenshot was taken with ***148 Vencord plugins enabled*** so there will be some things that are different in the screenshot. Hope you understand (I'm too lazy to turn it off)
 
